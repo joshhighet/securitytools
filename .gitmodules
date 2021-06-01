@@ -1,0 +1,183 @@
+[submodule "reconnaisance/Sudomy"]
+	path = reconnaisance/Sudomy
+	url = https://github.com/Screetsec/Sudomy.git
+[submodule "discovery/httprobe"]
+	path = discovery/httprobe
+	url = https://github.com/tomnomnom/httprobe.git
+[submodule "osint/spiderfoot"]
+	path = osint/spiderfoot
+	url = https://github.com/smicallef/spiderfoot.git
+[submodule "exploitation/macOS/SwiftBelt"]
+	path = exploitation/macOS/SwiftBelt
+	url = https://github.com/cedowens/SwiftBelt.git
+[submodule "exploitation/credentials/thc-hydra"]
+	path = exploitation/credentials/thc-hydra
+	url = https://github.com/vanhauser-thc/thc-hydra.git
+[submodule "testing/atomic-red-team"]
+	path = testing/atomic-red-team
+	url = https://github.com/redcanaryco/atomic-red-team.git
+[submodule "indicators/ja3"]
+	path = indicators/ja3
+	url = https://github.com/salesforce/ja3.git
+[submodule "osint/uDork"]
+	path = osint/uDork
+	url = https://github.com/m3n0sd0n4ld/uDork.git
+[submodule "testing/joystick"]
+	path = testing/joystick
+	url = https://github.com/mitre-attack/joystick.git
+[submodule "testing/caldera"]
+	path = testing/caldera
+	url = https://github.com/mitre/caldera.git
+[submodule "analysis/malwoverview"]
+	path = analysis/malwoverview
+	url = https://github.com/alexandreborges/malwoverview.git
+[submodule "scanners/masscan"]
+	path = scanners/masscan
+	url = https://github.com/robertdavidgraham/masscan.git
+[submodule "networking/wifijammer"]
+	path = networking/wifijammer
+	url = https://github.com/DanMcInerney/wifijammer.git
+[submodule "email/checkdmarc"]
+	path = email/checkdmarc
+	url = https://github.com/domainaware/checkdmarc.git
+[submodule "indicators/yara"]
+	path = indicators/yara
+	url = https://github.com/VirusTotal/yara.git
+[submodule "networking/mitmengine"]
+	path = networking/mitmengine
+	url = https://github.com/cloudflare/mitmengine.git
+[submodule "networking/cloud-ranges"]
+	path = networking/cloud-ranges
+	url = https://github.com/pry0cc/cloud-ranges.git
+[submodule "microsoft&azure/msmailprobe"]
+	path = microsoft&azure/msmailprobe
+	url = https://github.com/busterb/msmailprobe.git
+[submodule "vulnerability-identification/nmap-vulners"]
+	path = vulnerability-identification/nmap-vulners
+	url = https://github.com/vulnersCom/nmap-vulners.git
+[submodule "reconnaisance/dnsrecon"]
+	path = reconnaisance/dnsrecon
+	url = https://github.com/darkoperator/dnsrecon.git
+[submodule "microsoft&azure/o365-attack-toolkit"]
+	path = microsoft&azure/o365-attack-toolkit
+	url = https://github.com/mdsecactivebreach/o365-attack-toolkit.git
+[submodule "activedirectory/BloodHound"]
+	path = activedirectory/BloodHound
+	url = https://github.com/BloodHoundAD/BloodHound.git
+[submodule "reconnaisance/HostHunter"]
+	path = reconnaisance/HostHunter
+	url = https://github.com/SpiderLabs/HostHunter.git
+[submodule "reconnaisance/fav-up"]
+	path = reconnaisance/fav-up
+	url = https://github.com/pielco11/fav-up.git
+[submodule "microsoft&azure/o365creeper"]
+	path = microsoft&azure/o365creeper
+	url = https://github.com/LMGsec/o365creeper.git
+[submodule "internet-scale-research/Hunting-New-Registered-Domains"]
+	path = internet-scale-research/Hunting-New-Registered-Domains
+	url = https://github.com/gfek/Hunting-New-Registered-Domains.git
+[submodule "websites/ffuf"]
+	path = websites/ffuf
+	url = https://github.com/ffuf/ffuf.git
+[submodule "reconnaisance/gau"]
+	path = reconnaisance/gau
+	url = https://github.com/lc/gau.git
+[submodule "osint/dorkScanner"]
+	path = osint/dorkScanner
+	url = https://github.com/madhavmehndiratta/dorkScanner.git
+[submodule "scanners/RustScan"]
+	path = scanners/RustScan
+	url = https://github.com/RustScan/RustScan.git
+[submodule "osint/reconspider"]
+	path = osint/reconspider
+	url = https://github.com/bhavsec/reconspider.git
+[submodule "networking/Responder"]
+	path = networking/Responder
+	url = https://github.com/lgandx/Responder
+[submodule "osint/sherlock"]
+	path = osint/sherlock
+	url = https://github.com/sherlock-project/sherlock.git
+[submodule "analysis/hstsparser"]
+	path = analysis/hstsparser
+	url = https://github.com/thebeanogamer/hstsparser.git
+[submodule "websites/dirsearch"]
+	path = websites/dirsearch
+	url = https://github.com/maurosoria/dirsearch.git
+[submodule "analysis/munin"]
+	path = analysis/munin
+	url = https://github.com/Neo23x0/munin.git
+[submodule "reconnaisance/AttackSurfaceMapper"]
+	path = reconnaisance/AttackSurfaceMapper
+	url = https://github.com/superhedgy/AttackSurfaceMapper.git
+[submodule "reconnaisance/fierce"]
+	path = reconnaisance/fierce
+	url = https://github.com/mschwager/fierce.git
+[submodule "microsoft&azure/o365recon"]
+	path = microsoft&azure/o365recon
+	url = https://github.com/nyxgeek/o365recon.git
+[submodule "vulnerability-identification/flan"]
+	path = vulnerability-identification/flan
+	url = https://github.com/cloudflare/flan.git
+[submodule "vulnerability-identification/tsunami-security-scanner"]
+	path = vulnerability-identification/tsunami-security-scanner
+	url = https://github.com/google/tsunami-security-scanner.git
+[submodule "reconnaisance/cloud_enum"]
+	path = reconnaisance/cloud_enum
+	url = https://github.com/initstring/cloud_enum.git
+[submodule "activedirectory/ADFSpoof"]
+	path = activedirectory/ADFSpoof
+	url = https://github.com/fireeye/ADFSpoof.git
+[submodule "vuln-identification/flan"]
+	path = vuln-identification/flan
+	url = https://github.com/cloudflare/flan.git
+[submodule "vuln-identification/tsunami-security-scanner"]
+	path = vuln-identification/tsunami-security-scanner
+	url = https://github.com/google/tsunami-security-scanner.git
+[submodule "vuln-identification/nmap-vulners"]
+	path = vuln-identification/nmap-vulners
+	url = https://github.com/vulnersCom/nmap-vulners.git
+[submodule "websites/CMSeeK"]
+	path = websites/CMSeeK
+	url = https://github.com/Tuhinshubhra/CMSeeK.git
+[submodule "indicators/jarm"]
+	path = indicators/jarm
+	url = https://github.com/salesforce/jarm.git
+[submodule "osint/waybackpack"]
+	path = osint/waybackpack
+	url = https://github.com/jsvine/waybackpack.git
+[submodule "internet-scale-research/nuclei"]
+	path = internet-scale-research/nuclei
+	url = https://github.com/projectdiscovery/nuclei.git
+[submodule "microsoft&azure/Sparrow"]
+	path = microsoft&azure/Sparrow
+	url = https://github.com/cisagov/Sparrow
+[submodule "microsoft&azure/Mandiant-Azure-AD-Investigator"]
+	path = microsoft&azure/Mandiant-Azure-AD-Investigator
+	url = https://github.com/fireeye/Mandiant-Azure-AD-Investigator.git
+[submodule "networking/CloudFlair"]
+	path = networking/CloudFlair
+	url = https://github.com/christophetd/CloudFlair
+[submodule "microsoft&azure/BlobHunter"]
+	path = microsoft&azure/BlobHunter
+	url = https://github.com/cyberark/BlobHunter
+[submodule "microsoft&azure/cs-suite"]
+	path = microsoft&azure/cs-suite
+	url = https://github.com/SecurityFTW/cs-suite
+[submodule "microsoft&azure/AzurePenTestScope"]
+	path = microsoft&azure/AzurePenTestScope
+	url = https://github.com/swiftsolves-msft/AzurePenTestScope
+[submodule "microsoft&azure/SkyArk"]
+	path = microsoft&azure/SkyArk
+	url = https://github.com/cyberark/SkyArk
+[submodule "microsoft&azure/MicroBurst"]
+	path = microsoft&azure/MicroBurst
+	url = https://github.com/NetSPI/MicroBurst
+[submodule "microsoft&azure/Stormspotter"]
+	path = microsoft&azure/Stormspotter
+	url = https://github.com/Azure/Stormspotter
+[submodule "microsoft&azure/azucar"]
+	path = microsoft&azure/azucar
+	url = https://github.com/nccgroup/azucar
+[submodule "microsoft&azure/CRT"]
+	path = microsoft&azure/CRT
+	url = https://github.com/CrowdStrike/CRT.git
