@@ -14,7 +14,7 @@ jobs:
       
       - name: Update Submodules
         run: |
-          git config --global user.email "githubintegration@theta.co.nz"
+          git config --global user.email "theta-bot@users.noreply.github.com"
           git config --global user.name "theta-bot"
           git submodule update --init --recursive --remote
           git commit --all --message "submodule-autoupdate" || echo "no changes to commit"
