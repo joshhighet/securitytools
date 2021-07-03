@@ -1,8 +1,6 @@
 FROM ubuntu:latest
 ################################################################################
-LABEL maintainer=josh.highet@theta.co.nz
-LABEL environment=development/test
-ARG user=theta
+ARG user=sectools
 ARG DEBIAN_FRONTEND=noninteractive
 #package installation & housekeeping
 RUN apt-get update --assume-yes
