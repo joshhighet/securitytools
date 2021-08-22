@@ -181,3 +181,6 @@
 [submodule "microsoft&azure/CRT"]
 	path = microsoft&azure/CRT
 	url = https://github.com/CrowdStrike/CRT.git
+[submodule "microsoft&azure/Cloud-Katana"]
+	path = microsoft&azure/Cloud-Katana
+	url = https://github.com/Azure/Cloud-Katana.git
