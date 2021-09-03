@@ -184,3 +184,6 @@
 [submodule "microsoft&azure/Cloud-Katana"]
 	path = microsoft&azure/Cloud-Katana
 	url = https://github.com/Azure/Cloud-Katana.git
+[submodule "websites/weird_proxies"]
+	path = websites/weird_proxies
+	url = https://github.com/GrrrDog/weird_proxies
