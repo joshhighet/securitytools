@@ -35,4 +35,5 @@ _If you have placed the reposotory into the wrong folder, follow the steps to re
   7. delete submodule files `rm -rf path_to_submodule`
 
 ---
-- 2021 <a href="https://www.theta.co.nz" target="_blank">Theta</a>.
+
+[Theta](https://theta.co.nz)
