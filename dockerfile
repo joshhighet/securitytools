@@ -1,5 +1,7 @@
 FROM ubuntu:latest
-################################################################################
+
+LABEL org.opencontainers.image.source https://github.com/thetanz/securitytools
+
 ARG user=sectools
 ARG DEBIAN_FRONTEND=noninteractive
 #package installation & housekeeping
@@ -11,14 +13,6 @@ torsocks curl  git bat nyx nano ca-certificates curl apt-transport-https gnupg \
 lsb-release
 RUN apt-get autoclean --assume-yes
 RUN apt-get autoremove --assume-yes
-#ascii banner, shown at interactive login
-RUN echo \
-'ICAgICAgICAgICAgICAgXyAgICAgICAgICAgICAgXwogX19fICBfX18gIF9fX3wgfF8gX19fICAgX1\
-9fIHwgfF9fXwovIF9ffC8gXyBcLyBfX3wgX18vIF8gXCAvIF8gXHwgLyBfX3wKXF9fIFwgIF9fLyAoX\
-198IHx8IChfKSB8IChfKSB8IFxfXyBcCnxfX18vXF9fX3xcX19ffFxfX1xfX18vIFxfX18vfF98X19f\
-LwogICAgfiDwnZqd8J2akfCdmo7wnZqd8J2aiiDwnZqc8J2ajvCdmozwnZqe8J2am/CdmpLwnZqd8J2\
-aoiDwnZqZ8J2am/CdmorwnZqM8J2anfCdmpLwnZqM8J2ajiB+Cgo=' \
-| base64 --decode | tee /etc/motd
 #set default shell to zsh for root
 RUN chsh --shell $(which zsh)
 #install azure cli
@@ -35,9 +29,6 @@ RUN chmod +x msfinstall
 #add ascii banner to rc config for zsh
 RUN echo '[ ! -z "$TERM" -a -r /etc/motd ] && cat /etc/motd' \
 | tee ~/.zshrc
-#bring down github repositories
-#RUN git clone \
-#https://${github_uname}:${github_pat}@github.com/thetanz/scripts.git
 #compile a list of paths to python requirements for submodules
 RUN find -L /home/$user/securitytools -name "requirements.txt" \
 | tee /home/$user/py.requirements

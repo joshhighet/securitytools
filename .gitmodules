@@ -7,12 +7,6 @@
 [submodule "osint/spiderfoot"]
 	path = osint/spiderfoot
 	url = https://github.com/smicallef/spiderfoot.git
-[submodule "exploitation/macOS/SwiftBelt"]
-	path = exploitation/macOS/SwiftBelt
-	url = https://github.com/cedowens/SwiftBelt.git
-[submodule "exploitation/credentials/thc-hydra"]
-	path = exploitation/credentials/thc-hydra
-	url = https://github.com/vanhauser-thc/thc-hydra.git
 [submodule "testing/atomic-red-team"]
 	path = testing/atomic-red-team
 	url = https://github.com/redcanaryco/atomic-red-team.git
