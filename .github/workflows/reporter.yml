@@ -1,0 +1,23 @@
+name: report generator
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  torsocks-job:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: checkout the repo
+        uses: actions/checkout@v2
+      - name: run report script
+        run: |
+          python3 report.py
+      - name: save changes
+        run: |
+          git config --global user.email "theta-bot@users.noreply.github.com"
+          git config --global user.name "theta-bot"
+          git commit --all --message "𝚌𝚛𝚘𝚗𝚋𝚘𝚝" || echo "no changes to commit"
+          git push
