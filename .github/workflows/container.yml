@@ -8,11 +8,14 @@ on:
 
 jobs:
   push-to-github-cr:
+    timeout-minutes: 20
     name: push image to github container registry
     runs-on: ubuntu-latest
     steps:
       - name: checkout the repo
         uses: actions/checkout@v2
+        with: 
+          submodules: true
       - name: authenticate to gh container registry 
         uses: docker/login-action@v1.10.0
         with:
