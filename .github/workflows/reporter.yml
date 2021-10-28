@@ -6,12 +6,14 @@ on:
   workflow_dispatch:
 
 jobs:
-  torsocks-job:
+  report-generator:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
       - name: checkout the repo
         uses: actions/checkout@v2
+        with: 
+          submodules: true
       - name: run report script
         run: |
           python3 report.py ${{ secrets.GITHUB_TOKEN }}
