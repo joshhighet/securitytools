@@ -19,12 +19,28 @@ github_headers = {
     }
 
 homedir = os.getcwd()
-with open(homedir + '/REPORT.md', 'w') as f:
+with open(homedir + '/README.md', 'w') as f:
+    f.write('![](https://avatars0.githubusercontent.com/u/2897191?s=95&v=4)\n')
+    f.write('# securitytools\n')
+    f.write('this repository hosts an array of GitHub projects leveraged across the security community, indexed as submodules.\n')
+    f.write('```shell\ndocker pull ghcr.io/thetanz/securitytools:latest\n```\n')
+    f.write('\n')
+    f.write('### adding submodules\n')
+    f.write('git projects can be added to this repository by navigating to an applicable folder and replacing `git clone` with `git submodule add`\n')
+    f.write('### removing submodules\n')
+    f.write('1. delete the relevant section from `.gitmodules`.\n')
+    f.write('2. stage the `.gitmodules` changes with `git add .gitmodules`\n')
+    f.write('3. delete the relevant section from `.git/config`\n')
+    f.write('4. run `git rm --cached path_to_submodule` (no trailing slash).\n')
+    f.write('5. run `rm -rf .git/modules/path_to_submodule` (no trailing slash).\n')
+    f.write('6. commit changes `git commit -m "submodule removal"`\n')
+    f.write('7. delete submodule files `rm -rf path_to_submodule`\n')
+    f.write('# projects\n')
     for folder in os.listdir('.'):
         if os.path.isdir(folder):
             if folder.startswith('.git') or folder == 'securitytools':
                 continue
-            f.write('# ' + folder + '\n')
+            f.write('## ' + folder + '\n')
             for subfolder in os.listdir(folder):
                 if subfolder.startswith('.git') or subfolder == 'securitytools':
                     continue
