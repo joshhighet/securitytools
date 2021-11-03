@@ -27,6 +27,8 @@ git projects can be added to this repository by navigating to an applicable fold
 	_Small and highly portable detection tests based on MITRE's ATT&CK._
 
 ## analysis
+* [analysis/DeepBlueCLI](https://github.com/sans-blue-team/DeepBlueCLI)
+
 * [analysis/hstsparser](https://github.com/thebeanogamer/hstsparser)
 	_A tool to parse Firefox and Chrome HSTS databases into forensic artifacts!_
 
@@ -79,6 +81,9 @@ git projects can be added to this repository by navigating to an applicable fold
 * [internet-scale-research/nuclei](https://github.com/projectdiscovery/nuclei)
 	_Fast and customizable vulnerability scanner based on simple YAML based DSL._
 
+* [internet-scale-research/phishing_catcher](https://github.com/x0rz/phishing_catcher)
+	_Phishing catcher using Certstream_
+
 ## discovery
 * [discovery/httprobe](https://github.com/tomnomnom/httprobe)
 	_Take a list of domains and probe for working HTTP and HTTPS servers_
@@ -124,6 +129,9 @@ git projects can be added to this repository by navigating to an applicable fold
 * [microsoft&azure/cs-suite](https://github.com/SecurityFTW/cs-suite)
 	_Cloud Security Suite - One stop tool for auditing the security posture of AWS/GCP/Azure infrastructure._
 
+* [microsoft&azure/Azure-Network-Security](https://github.com/Azure/Azure-Network-Security)
+	_Resources for improving Customer Experience with Azure Network Security_
+
 * [microsoft&azure/Mandiant-Azure-AD-Investigator](https://github.com/fireeye/Mandiant-Azure-AD-Investigator)
 
 * [microsoft&azure/CRT](https://github.com/CrowdStrike/CRT)
@@ -151,6 +159,9 @@ git projects can be added to this repository by navigating to an applicable fold
 	_Find exposed data in Azure with this public blob scanner_
 
 ## reconnaisance
+* [reconnaisance/SubDomainizer](https://github.com/nsonaniya2010/SubDomainizer)
+	_A tool to find subdomains and interesting things hidden inside, external Javascript files of page, folder, and Github._
+
 * [reconnaisance/Sudomy](https://github.com/Screetsec/Sudomy)
 	_Sudomy is a subdomain enumeration tool to collect subdomains and analyzing domains performing automated reconnaissance (recon) for bug hunting / pentesting_
 
