@@ -181,3 +181,15 @@
 [submodule "websites/weird_proxies"]
 	path = websites/weird_proxies
 	url = https://github.com/GrrrDog/weird_proxies
+[submodule "internet-scale-research/phishing_catcher"]
+	path = internet-scale-research/phishing_catcher
+	url = https://github.com/x0rz/phishing_catcher.git
+[submodule "reconnaisance/SubDomainizer"]
+	path = reconnaisance/SubDomainizer
+	url = https://github.com/nsonaniya2010/SubDomainizer.git
+[submodule "analysis/DeepBlueCLI"]
+	path = analysis/DeepBlueCLI
+	url = https://github.com/sans-blue-team/DeepBlueCLI.git
+[submodule "microsoft&azure/Azure-Network-Security"]
+	path = microsoft&azure/Azure-Network-Security
+	url = https://github.com/Azure/Azure-Network-Security.git
