@@ -193,3 +193,48 @@
 [submodule "microsoft&azure/Azure-Network-Security"]
 	path = microsoft&azure/Azure-Network-Security
 	url = https://github.com/Azure/Azure-Network-Security.git
+[submodule "email/espoofer"]
+	path = email/espoofer
+	url = https://github.com/chenjj/espoofer.git
+[submodule "windows/RDPassSpray"]
+	path = windows/RDPassSpray
+	url = https://github.com/xFreed0m/RDPassSpray.git
+[submodule "osint/holehe"]
+	path = osint/holehe
+	url = https://github.com/megadose/holehe.git
+[submodule "osint/CrossLinked"]
+	path = osint/CrossLinked
+	url = https://github.com/m8r0wn/CrossLinked.git
+[submodule "scanners/Striker"]
+	path = scanners/Striker
+	url = https://github.com/s0md3v/Striker.git
+[submodule "internet-scale-research/EyeWitness"]
+	path = internet-scale-research/EyeWitness
+	url = https://github.com/FortyNorthSecurity/EyeWitness.git
+[submodule "networking/bettercap"]
+	path = networking/bettercap
+	url = https://github.com/bettercap/bettercap.git
+[submodule "networking/Tunna"]
+	path = networking/Tunna
+	url = https://github.com/SECFORCE/Tunna.git
+[submodule "testing/PEASS-ng"]
+	path = testing/PEASS-ng
+	url = https://github.com/carlospolop/PEASS-ng.git
+[submodule "authentication/SAML2Spray"]
+	path = authentication/SAML2Spray
+	url = https://github.com/LuemmelSec/SAML2Spray.git
+[submodule "windows/ForgeCert"]
+	path = windows/ForgeCert
+	url = https://github.com/GhostPack/ForgeCert.git
+[submodule "windows/Certipy"]
+	path = windows/Certipy
+	url = https://github.com/ly4k/Certipy.git
+[submodule "windows/SharpHound3"]
+	path = windows/SharpHound3
+	url = https://github.com/BloodHoundAD/SharpHound3.git
+[submodule "windows/BloodHound"]
+	path = windows/BloodHound
+	url = https://github.com/BloodHoundAD/BloodHound.git
+[submodule "windows/SharpNoPSExec"]
+	path = windows/SharpNoPSExec
+	url = https://github.com/juliourena/SharpNoPSExec.git
