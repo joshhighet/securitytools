@@ -16,6 +16,10 @@ git projects can be added to this repository by navigating to an applicable fold
 6. commit changes `git commit -m "submodule removal"`
 7. delete submodule files `rm -rf path_to_submodule`
 # projects
+## authentication
+* [authentication/SAML2Spray](https://github.com/LuemmelSec/SAML2Spray)
+	_Python Script for SAML2 Authentication Passwordspray_
+
 ## internet-scale-research
 * [internet-scale-research/phishing_catcher](https://github.com/x0rz/phishing_catcher)
 	_Phishing catcher using Certstream_
@@ -23,8 +27,30 @@ git projects can be added to this repository by navigating to an applicable fold
 * [internet-scale-research/Hunting-New-Registered-Domains](https://github.com/gfek/Hunting-New-Registered-Domains)
 	_Hunting Newly Registered Domains_
 
+* [internet-scale-research/EyeWitness](https://github.com/FortyNorthSecurity/EyeWitness)
+	_EyeWitness is designed to take screenshots of websites, provide some server header info, and identify default credentials if possible._
+
 * [internet-scale-research/nuclei](https://github.com/projectdiscovery/nuclei)
 	_Fast and customizable vulnerability scanner based on simple YAML based DSL._
+
+## windows
+* [windows/SharpNoPSExec](https://github.com/juliourena/SharpNoPSExec)
+	_Get file less command execution for lateral movement._
+
+* [windows/BloodHound](https://github.com/BloodHoundAD/BloodHound)
+	_Six Degrees of Domain Admin_
+
+* [windows/RDPassSpray](https://github.com/xFreed0m/RDPassSpray)
+	_Python3 tool to perform password spraying using RDP_
+
+* [windows/Certipy](https://github.com/ly4k/Certipy)
+	_Python implementation for Active Directory certificate abuse_
+
+* [windows/ForgeCert](https://github.com/GhostPack/ForgeCert)
+	_"Golden" certificates_
+
+* [windows/SharpHound3](https://github.com/BloodHoundAD/SharpHound3)
+	_C# Data Collector for the BloodHound Project, Version 3_
 
 ## osint
 * [osint/sherlock](https://github.com/sherlock-project/sherlock)
@@ -32,6 +58,9 @@ git projects can be added to this repository by navigating to an applicable fold
 
 * [osint/reconspider](https://github.com/bhavsec/reconspider)
 	_🔎 Most Advanced Open Source Intelligence (OSINT) Framework for scanning IP Address, Emails, Websites, Organizations._
+
+* [osint/CrossLinked](https://github.com/m8r0wn/CrossLinked)
+	_LinkedIn enumeration tool to extract valid employee names from an organization through search engine scraping_
 
 * [osint/uDork](https://github.com/m3n0sd0n4ld/uDork)
 	_uDork is a script written in Bash Scripting that uses advanced Google search techniques to obtain sensitive information in files or directories, find IoT devices, detect versions of web applications, and so on._
@@ -41,6 +70,9 @@ git projects can be added to this repository by navigating to an applicable fold
 
 * [osint/dorkScanner](https://github.com/madhavmehndiratta/dorkScanner)
 	_A typical search engine dork scanner scrapes search engines with dorks that you provide in order to find vulnerable URLs._
+
+* [osint/holehe](https://github.com/megadose/holehe)
+	_holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function._
 
 * [osint/spiderfoot](https://github.com/smicallef/spiderfoot)
 	_SpiderFoot automates OSINT for threat intelligence and mapping your attack surface._
@@ -68,6 +100,9 @@ git projects can be added to this repository by navigating to an applicable fold
 * [scanners/masscan](https://github.com/robertdavidgraham/masscan)
 	_TCP port scanner, spews SYN packets asynchronously, scanning entire Internet in under 5 minutes._
 
+* [scanners/Striker](https://github.com/s0md3v/Striker)
+	_Striker is an offensive information and vulnerability scanner._
+
 ## analysis
 * [analysis/munin](https://github.com/Neo23x0/munin)
 	_Online hash checker for Virustotal and other services_
@@ -84,11 +119,17 @@ git projects can be added to this repository by navigating to an applicable fold
 * [networking/CloudFlair](https://github.com/christophetd/CloudFlair)
 	_🔎 Find origin servers of websites behind CloudFlare by using Internet-wide scan data from Censys._
 
+* [networking/Tunna](https://github.com/SECFORCE/Tunna)
+	_Tunna is a set of tools which will wrap and tunnel any TCP communication over HTTP. It can be used to bypass network restrictions in fully firewalled environments._
+
 * [networking/wifijammer](https://github.com/DanMcInerney/wifijammer)
 	_Continuously jam all wifi clients/routers_
 
 * [networking/Responder](https://github.com/lgandx/Responder)
 	_Responder is a LLMNR, NBT-NS and MDNS poisoner, with built-in HTTP/SMB/MSSQL/FTP/LDAP rogue authentication server supporting NTLMv1/NTLMv2/LMv2, Extended Security NTLMSSP and Basic HTTP authentication._
+
+* [networking/bettercap](https://github.com/bettercap/bettercap)
+	_The Swiss Army knife for 802.11, BLE, IPv4 and IPv6 networks reconnaissance and MITM attacks._
 
 * [networking/mitmengine](https://github.com/cloudflare/mitmengine)
 	_A MITM (monster-in-the-middle) detection tool. Used to build MALCOLM:_
@@ -202,9 +243,15 @@ git projects can be added to this repository by navigating to an applicable fold
 * [email/checkdmarc](https://github.com/domainaware/checkdmarc)
 	_A parser for SPF and DMARC DNS records_
 
+* [email/espoofer](https://github.com/chenjj/espoofer)
+	_An email spoofing testing tool that aims to bypass SPF/DKIM/DMARC and forge DKIM signatures.🍻_
+
 ## testing
 * [testing/joystick](https://github.com/mitre-attack/joystick)
 	_Joystick is a tool that gives you the ability to transform the ATT&CK Evaluations data into concise views that brings forward the nuances in the results._
+
+* [testing/PEASS-ng](https://github.com/carlospolop/PEASS-ng)
+	_PEASS - Privilege Escalation Awesome Scripts SUITE (with colors)_
 
 * [testing/atomic-red-team](https://github.com/redcanaryco/atomic-red-team)
 	_Small and highly portable detection tests based on MITRE's ATT&CK._
