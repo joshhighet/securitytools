@@ -229,12 +229,6 @@
 [submodule "windows/Certipy"]
 	path = windows/Certipy
 	url = https://github.com/ly4k/Certipy.git
-[submodule "windows/SharpHound3"]
-	path = windows/SharpHound3
-	url = https://github.com/BloodHoundAD/SharpHound3.git
-[submodule "windows/BloodHound"]
-	path = windows/BloodHound
-	url = https://github.com/BloodHoundAD/BloodHound.git
 [submodule "windows/SharpNoPSExec"]
 	path = windows/SharpNoPSExec
 	url = https://github.com/juliourena/SharpNoPSExec.git
