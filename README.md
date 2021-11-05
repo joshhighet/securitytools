@@ -37,9 +37,6 @@ git projects can be added to this repository by navigating to an applicable fold
 * [windows/SharpNoPSExec](https://github.com/juliourena/SharpNoPSExec)
 	_Get file less command execution for lateral movement._
 
-* [windows/BloodHound](https://github.com/BloodHoundAD/BloodHound)
-	_Six Degrees of Domain Admin_
-
 * [windows/RDPassSpray](https://github.com/xFreed0m/RDPassSpray)
 	_Python3 tool to perform password spraying using RDP_
 
@@ -48,9 +45,6 @@ git projects can be added to this repository by navigating to an applicable fold
 
 * [windows/ForgeCert](https://github.com/GhostPack/ForgeCert)
 	_"Golden" certificates_
-
-* [windows/SharpHound3](https://github.com/BloodHoundAD/SharpHound3)
-	_C# Data Collector for the BloodHound Project, Version 3_
 
 ## osint
 * [osint/sherlock](https://github.com/sherlock-project/sherlock)
