@@ -232,3 +232,6 @@
 [submodule "windows/SharpNoPSExec"]
 	path = windows/SharpNoPSExec
 	url = https://github.com/juliourena/SharpNoPSExec.git
+[submodule "activedirectory/SharpHound3"]
+	path = activedirectory/SharpHound3
+	url = https://github.com/BloodHoundAD/SharpHound3.git
