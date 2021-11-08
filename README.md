@@ -77,6 +77,9 @@ git projects can be added to this repository by navigating to an applicable fold
 
 * [activedirectory/ADFSpoof](https://github.com/fireeye/ADFSpoof)
 
+* [activedirectory/SharpHound3](https://github.com/BloodHoundAD/SharpHound3)
+	_C# Data Collector for the BloodHound Project, Version 3_
+
 ## vuln-identification
 * [vuln-identification/flan](https://github.com/cloudflare/flan)
 	_A pretty sweet vulnerability scanner_
