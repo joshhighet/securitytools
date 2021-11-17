@@ -16,7 +16,8 @@ git projects can be added to this repository by navigating to an applicable fold
 6. commit changes `git commit -m "submodule removal"`
 7. delete submodule files `rm -rf path_to_submodule`
 # projects
-[![report generator](https://github.com/thetanz/securitytools/actions/workflows/reporter.yml/badge.svg)](https://github.com/thetanz/securitytools/actions/workflows/reporter.yml) - this readme is dynamically generated based upon the contents of the submodules
+[![report generator](https://github.com/thetanz/securitytools/actions/workflows/reporter.yml/badge.svg)](https://github.com/thetanz/securitytools/actions/workflows/reporter.yml)
+this readme is dynamically generated based upon the contents of the submodules
 ## authentication
 * [authentication/SAML2Spray](https://github.com/LuemmelSec/SAML2Spray)
 	_Python Script for SAML2 Authentication Passwordspray_
