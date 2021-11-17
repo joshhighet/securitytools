@@ -36,6 +36,7 @@ with open(homedir + '/README.md', 'w') as f:
     f.write('6. commit changes `git commit -m "submodule removal"`\n')
     f.write('7. delete submodule files `rm -rf path_to_submodule`\n')
     f.write('# projects\n')
+    f.write('[![report generator](https://github.com/thetanz/securitytools/actions/workflows/reporter.yml/badge.svg)](https://github.com/thetanz/securitytools/actions/workflows/reporter.yml) - this readme is dynamically generated based upon the contents of the submodules\n')
     for folder in os.listdir('.'):
         if os.path.isdir(folder):
             if folder.startswith('.git') or folder == 'securitytools':
