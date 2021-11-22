@@ -238,3 +238,6 @@
 [submodule "networking/AutoRecon"]
 	path = networking/AutoRecon
 	url = https://github.com/Tib3rius/AutoRecon.git
+[submodule "reconnaisance/recon-ng"]
+	path = reconnaisance/recon-ng
+	url = https://github.com/lanmaster53/recon-ng.git
