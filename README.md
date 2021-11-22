@@ -23,6 +23,9 @@ this readme is dynamically generated based upon the contents of the submodules
 * [reconnaisance/AttackSurfaceMapper](https://github.com/superhedgy/AttackSurfaceMapper)
 	_AttackSurfaceMapper is a tool that aims to automate the reconnaissance process._
 
+* [reconnaisance/recon-ng](https://github.com/lanmaster53/recon-ng)
+	_Open Source Intelligence gathering tool aimed at reducing the time spent harvesting information from open sources._
+
 * [reconnaisance/fierce](https://github.com/mschwager/fierce)
 	_A DNS reconnaissance tool for locating non-contiguous IP space._
 
@@ -128,6 +131,9 @@ this readme is dynamically generated based upon the contents of the submodules
 
 * [networking/bettercap](https://github.com/bettercap/bettercap)
 	_The Swiss Army knife for 802.11, BLE, IPv4 and IPv6 networks reconnaissance and MITM attacks._
+
+* [networking/AutoRecon](https://github.com/Tib3rius/AutoRecon)
+	_AutoRecon is a multi-threaded network reconnaissance tool which performs automated enumeration of services._
 
 * [networking/wifijammer](https://github.com/DanMcInerney/wifijammer)
 	_Continuously jam all wifi clients/routers_
