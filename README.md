@@ -194,8 +194,8 @@ this readme is dynamically generated based upon the contents of the submodules
 	_Fast web fuzzer written in Go_
 
 ## vendor
-* [vendor/crowdstrike](https://github.com/thetanz/securitytools)
-	_quality community projects  👨‍👩‍👧‍👦📓🔎_
+* [vendor/rtr](https://github.com/bk-cs/rtr)
+	_Real-time Response scripts_
 
 ## reconnaisance
 * [reconnaisance/gau](https://github.com/lc/gau)
