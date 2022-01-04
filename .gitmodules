@@ -247,3 +247,6 @@
 [submodule "testing/all-about-apikey"]
 	path = testing/all-about-apikey
 	url = https://github.com/daffainfo/all-about-apikey
+[submodule "vendor/rtr"]
+	path = vendor/rtr
+	url = https://github.com/bk-cs/rtr.git
