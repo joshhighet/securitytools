@@ -244,9 +244,6 @@
 [submodule "forensics/ArtifactCollectionMatrix"]
 	path = forensics/ArtifactCollectionMatrix
 	url = https://github.com/swisscom/ArtifactCollectionMatrix.git
-[submodule "vendor/crowdstrike/rtr"]
-	path = vendor/crowdstrike/rtr
-	url = https://github.com/bk-cs/rtr.git
 [submodule "testing/all-about-apikey"]
 	path = testing/all-about-apikey
 	url = https://github.com/daffainfo/all-about-apikey
