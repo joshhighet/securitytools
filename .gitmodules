@@ -250,3 +250,15 @@
 [submodule "vendor/rtr"]
 	path = vendor/rtr
 	url = https://github.com/bk-cs/rtr.git
+[submodule "reconnaisance/opensquat"]
+	path = reconnaisance/opensquat
+	url = https://github.com/atenreiro/opensquat.git
+[submodule "testing/DeTTECT"]
+	path = testing/DeTTECT
+	url = https://github.com/rabobank-cdc/DeTTECT.git
+[submodule "incidents/Aurora-Incident-Response"]
+	path = incidents/Aurora-Incident-Response
+	url = https://github.com/cyb3rfox/Aurora-Incident-Response.git
+[submodule "indicators/intel/opencti"]
+	path = indicators/intel/opencti
+	url = https://github.com/OpenCTI-Platform/opencti.git
