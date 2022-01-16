@@ -70,6 +70,9 @@ this readme is dynamically generated based upon the contents of the submodules
 * [osint/reconspider](https://github.com/bhavsec/reconspider)
 	_🔎 Most Advanced Open Source Intelligence (OSINT) Framework for scanning IP Address, Emails, Websites, Organizations._
 
+* [osint/awesome-osint](https://github.com/jivoi/awesome-osint)
+	_:scream: A curated list of amazingly awesome OSINT_
+
 * [osint/waybackpack](https://github.com/jsvine/waybackpack)
 	_Download the entire Wayback Machine archive for a given URL._
 
