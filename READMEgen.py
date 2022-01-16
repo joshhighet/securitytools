@@ -10,7 +10,7 @@ if os.path.basename(os.getcwd()) != 'securitytools':
     exit()
 
 if len(os.sys.argv) != 2:
-    print('usage: report.py ${github_pat}')
+    print('usage: READMEgen.py ${github_pat}')
     exit()
 
 github_headers = {
