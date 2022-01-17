@@ -27,6 +27,10 @@ this readme is dynamically generated based upon the contents of the submodules
 * [forensics/ArtifactCollectionMatrix](https://github.com/swisscom/ArtifactCollectionMatrix)
 	_Forensic Artifact Collection Tool Matrix_
 
+## resources
+* [resources/the_cyber_plumbers_handbook](https://github.com/opsdisk/the_cyber_plumbers_handbook)
+	_Free copy of The Cyber Plumber's Handbook_
+
 ## incidents
 * [incidents/Aurora-Incident-Response](https://github.com/cyb3rfox/Aurora-Incident-Response)
 	_Incident Response Documentation made easy. Developed by Incident Responders for Incident Responders_
@@ -67,6 +71,9 @@ this readme is dynamically generated based upon the contents of the submodules
 * [osint/holehe](https://github.com/megadose/holehe)
 	_holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function._
 
+* [osint/OSINT](https://github.com/sinwindie/OSINT)
+	_Collections of tools and methods created to aid in OSINT collection_
+
 * [osint/reconspider](https://github.com/bhavsec/reconspider)
 	_🔎 Most Advanced Open Source Intelligence (OSINT) Framework for scanning IP Address, Emails, Websites, Organizations._
 
@@ -79,6 +86,9 @@ this readme is dynamically generated based upon the contents of the submodules
 ## email
 * [email/espoofer](https://github.com/chenjj/espoofer)
 	_An email spoofing testing tool that aims to bypass SPF/DKIM/DMARC and forge DKIM signatures.🍻_
+
+* [email/PhishMailer](https://github.com/BiZken/PhishMailer)
+	_Generate Professional Phishing Emails Fast And Easy_
 
 * [email/checkdmarc](https://github.com/domainaware/checkdmarc)
 	_A parser for SPF and DMARC DNS records_
@@ -123,6 +133,9 @@ this readme is dynamically generated based upon the contents of the submodules
 	_Tsunami is a general purpose network security scanner with an extensible plugin system for detecting high severity vulnerabilities with high confidence._
 
 ## indicators
+* [indicators/misp-warninglists](https://github.com/MISP/misp-warninglists)
+	_Warning lists to inform users of MISP about potential false-positives or other information in indicators_
+
 * [indicators/jarm](https://github.com/salesforce/jarm)
 
 * [indicators/yara](https://github.com/VirusTotal/yara)
@@ -133,6 +146,9 @@ this readme is dynamically generated based upon the contents of the submodules
 
 * [indicators/ja3](https://github.com/salesforce/ja3)
 	_JA3 is a standard for creating SSL client fingerprints in an easy to produce and shareable way._
+
+* [indicators/IoCs](https://github.com/sophoslabs/IoCs)
+	_Sophos-originated indicators-of-compromise from published reports_
 
 ## testing
 * [testing/atomic-red-team](https://github.com/redcanaryco/atomic-red-team)
@@ -285,6 +301,9 @@ this readme is dynamically generated based upon the contents of the submodules
 ## scanners
 * [scanners/masscan](https://github.com/robertdavidgraham/masscan)
 	_TCP port scanner, spews SYN packets asynchronously, scanning entire Internet in under 5 minutes._
+
+* [scanners/killshot](https://github.com/bahaabdelwahed/killshot)
+	_A Penetration Testing Framework, Information gathering tool & Website Vulnerability Scanner_
 
 * [scanners/RustScan](https://github.com/RustScan/RustScan)
 	_🤖 The Modern Port Scanner 🤖_
