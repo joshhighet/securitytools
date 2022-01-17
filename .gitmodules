@@ -265,3 +265,21 @@
 [submodule "osint/awesome-osint"]
 	path = osint/awesome-osint
 	url = https://github.com/jivoi/awesome-osint.git
+[submodule "osint/OSINT"]
+	path = osint/OSINT
+	url = https://github.com/sinwindie/OSINT.git
+[submodule "indicators/misp-warninglists"]
+	path = indicators/misp-warninglists
+	url = https://github.com/MISP/misp-warninglists.git
+[submodule "indicators/IoCs"]
+	path = indicators/IoCs
+	url = https://github.com/sophoslabs/IoCs.git
+[submodule "email/PhishMailer"]
+	path = email/PhishMailer
+	url = https://github.com/BiZken/PhishMailer.git
+[submodule "scanners/killshot"]
+	path = scanners/killshot
+	url = https://github.com/bahaabdelwahed/killshot.git
+[submodule "resources/the_cyber_plumbers_handbook"]
+	path = resources/the_cyber_plumbers_handbook
+	url = https://github.com/opsdisk/the_cyber_plumbers_handbook.git
