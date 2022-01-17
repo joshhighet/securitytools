@@ -20,6 +20,9 @@ git projects can be added to this repository by navigating to an applicable fold
 
 this readme is dynamically generated based upon the contents of the submodules
 ## vendor
+* [vendor/VxAPI](https://github.com/PayloadSecurity/VxAPI)
+	_A generic interface and CLI for all endpoints of the Falcon Sandbox API_
+
 * [vendor/rtr](https://github.com/bk-cs/rtr)
 	_Real-time Response scripts_
 
@@ -27,7 +30,22 @@ this readme is dynamically generated based upon the contents of the submodules
 * [forensics/ArtifactCollectionMatrix](https://github.com/swisscom/ArtifactCollectionMatrix)
 	_Forensic Artifact Collection Tool Matrix_
 
+* [forensics/aa-tools](https://github.com/JPCERTCC/aa-tools)
+	_Artifact analysis tools by JPCERT/CC Analysis Center_
+
 ## resources
+* [resources/RedTeam-OffensiveSecurity](https://github.com/bigb0sss/RedTeam-OffensiveSecurity)
+	_Tools & Interesting Things for RedTeam Ops_
+
+* [resources/security-cheatsheets](https://github.com/andrewjkerr/security-cheatsheets)
+	_🔒 A collection of cheatsheets for various infosec tools and topics._
+
+* [resources/awesome-api-security](https://github.com/arainho/awesome-api-security)
+	_A collection of awesome API Security tools and resources._
+
+* [resources/CloudPentestCheatsheets](https://github.com/dafthack/CloudPentestCheatsheets)
+	_This repository contains a collection of cheatsheets I have put together for tools related to pentesting organizations that leverage cloud providers._
+
 * [resources/the_cyber_plumbers_handbook](https://github.com/opsdisk/the_cyber_plumbers_handbook)
 	_Free copy of The Cyber Plumber's Handbook_
 
@@ -38,6 +56,30 @@ this readme is dynamically generated based upon the contents of the submodules
 ## discovery
 * [discovery/httprobe](https://github.com/tomnomnom/httprobe)
 	_Take a list of domains and probe for working HTTP and HTTPS servers_
+
+## assets
+* [assets/streamalert](https://github.com/airbnb/streamalert)
+	_StreamAlert is a serverless, realtime data analysis framework which empowers you to ingest, analyze, and alert on data from any environment, using datasources and alerting logic you define._
+
+* [assets/snipe-it](https://github.com/snipe/snipe-it)
+	_A free open source IT asset/license management system_
+
+* [assets/netdata](https://github.com/netdata/netdata)
+	_Real-time performance monitoring, done right! https://www.netdata.cloud_
+
+* [assets/archerysec](https://github.com/archerysec/archerysec)
+	_Centralize Vulnerability Assessment and Management for DevSecOps Team_
+
+## industrial
+* [industrial/ICS-Security-Tools](https://github.com/ITI/ICS-Security-Tools)
+	_Tools, tips, tricks, and more for exploring ICS Security._
+
+## containers
+* [containers/dockerscan](https://github.com/cr0hn/dockerscan)
+	_Docker security analysis & hacking tools_
+
+* [containers/docker-bench-security](https://github.com/docker/docker-bench-security)
+	_The Docker Bench for Security is a script that checks for dozens of common best-practices around deploying Docker containers in production._
 
 ## websites
 * [websites/dirsearch](https://github.com/maurosoria/dirsearch)
@@ -83,6 +125,9 @@ this readme is dynamically generated based upon the contents of the submodules
 * [osint/waybackpack](https://github.com/jsvine/waybackpack)
 	_Download the entire Wayback Machine archive for a given URL._
 
+* [osint/metabigor](https://github.com/j3ssie/metabigor)
+	_Intelligence tool but without API key_
+
 ## email
 * [email/espoofer](https://github.com/chenjj/espoofer)
 	_An email spoofing testing tool that aims to bypass SPF/DKIM/DMARC and forge DKIM signatures.🍻_
@@ -101,11 +146,32 @@ this readme is dynamically generated based upon the contents of the submodules
 * [networking/CloudFlair](https://github.com/christophetd/CloudFlair)
 	_🔎 Find origin servers of websites behind CloudFlare by using Internet-wide scan data from Censys._
 
+* [networking/IPRotate_Burp_Extension](https://github.com/RhinoSecurityLabs/IPRotate_Burp_Extension)
+	_Extension for Burp Suite which uses AWS API Gateway to rotate your IP on every request._
+
+* [networking/snort3](https://github.com/snort3/snort3)
+	_Snort++_
+
 * [networking/mitmengine](https://github.com/cloudflare/mitmengine)
 	_A MITM (monster-in-the-middle) detection tool. Used to build MALCOLM:_
 
 * [networking/AutoRecon](https://github.com/Tib3rius/AutoRecon)
 	_AutoRecon is a multi-threaded network reconnaissance tool which performs automated enumeration of services._
+
+* [networking/mubeng](https://github.com/kitabisa/mubeng)
+	_An incredibly fast proxy checker & IP rotator with ease._
+
+* [networking/microsocks](https://github.com/rofl0r/microsocks)
+	_tiny, portable SOCKS5 server with very moderate resource usage_
+
+* [networking/aircrack-ng](https://github.com/aircrack-ng/aircrack-ng)
+	_WiFi security auditing tools suite_
+
+* [networking/rita](https://github.com/activecm/rita)
+	_Real Intelligence Threat Analytics (RITA) is a framework for detecting command and control communication through network traffic analysis._
+
+* [networking/dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy)
+	_dnscrypt-proxy 2 - A flexible DNS proxy, with support for encrypted DNS protocols._
 
 * [networking/Responder](https://github.com/lgandx/Responder)
 	_Responder is a LLMNR, NBT-NS and MDNS poisoner, with built-in HTTP/SMB/MSSQL/FTP/LDAP rogue authentication server supporting NTLMv1/NTLMv2/LMv2, Extended Security NTLMSSP and Basic HTTP authentication._
@@ -119,6 +185,12 @@ this readme is dynamically generated based upon the contents of the submodules
 * [networking/cloud-ranges](https://github.com/pry0cc/cloud-ranges)
 	_A list of cloud ranges from different providers._
 
+* [networking/pulledpork](https://github.com/shirkdog/pulledpork)
+	_Pulled Pork for Snort and Suricata rule management (from Google code)_
+
+* [networking/justniffer](https://github.com/onotelli/justniffer)
+	_Justniffer  Just A Network TCP Packet Sniffer .Justniffer is a network protocol analyzer that captures network traffic and produces logs in a customized way, can emulate Apache web server log files, track response times and extract all "intercepted" files from the HTTP traffic_
+
 * [networking/bettercap](https://github.com/bettercap/bettercap)
 	_The Swiss Army knife for 802.11, BLE, IPv4 and IPv6 networks reconnaissance and MITM attacks._
 
@@ -131,6 +203,10 @@ this readme is dynamically generated based upon the contents of the submodules
 
 * [vuln-identification/tsunami-security-scanner](https://github.com/google/tsunami-security-scanner)
 	_Tsunami is a general purpose network security scanner with an extensible plugin system for detecting high severity vulnerabilities with high confidence._
+
+## mobile
+* [mobile/awesome-mobile-security](https://github.com/vaib25vicky/awesome-mobile-security)
+	_An effort to build a single place for all useful android and iOS security related stuff. All references and tools belong to their respective owners. I'm just maintaining it._
 
 ## indicators
 * [indicators/misp-warninglists](https://github.com/MISP/misp-warninglists)
@@ -149,6 +225,28 @@ this readme is dynamically generated based upon the contents of the submodules
 
 * [indicators/IoCs](https://github.com/sophoslabs/IoCs)
 	_Sophos-originated indicators-of-compromise from published reports_
+
+## collections
+* [collections/DefaultCreds-cheat-sheet](https://github.com/ihebski/DefaultCreds-cheat-sheet)
+	_One place for all the default credentials to assist the Blue/Red teamers activities on finding devices with default password 🛡️_
+
+* [collections/HackingTools](https://github.com/Laxa/HackingTools)
+	_Exhaustive list of hacking tools_
+
+* [collections/osx-and-ios-security-awesome](https://github.com/ashishb/osx-and-ios-security-awesome)
+	_OSX and iOS related security tools_
+
+* [collections/msticpy](https://github.com/microsoft/msticpy)
+	_Microsoft Threat Intelligence Security Tools_
+
+* [collections/security](https://github.com/mozilla/security)
+	_Repository for various tools around security_
+
+* [collections/ctf-tools](https://github.com/zardus/ctf-tools)
+	_Some setup scripts for security research tools._
+
+* [collections/tools](https://github.com/nullsecuritynet/tools)
+	_Security and Hacking Tools, Exploits, Proof of Concepts, Shellcodes, Scripts._
 
 ## testing
 * [testing/atomic-red-team](https://github.com/redcanaryco/atomic-red-team)
@@ -172,6 +270,9 @@ this readme is dynamically generated based upon the contents of the submodules
 ## analysis
 * [analysis/munin](https://github.com/Neo23x0/munin)
 	_Online hash checker for Virustotal and other services_
+
+* [analysis/fame](https://github.com/certsocietegenerale/fame)
+	_FAME Automates Malware Evaluation_
 
 * [analysis/malwoverview](https://github.com/alexandreborges/malwoverview)
 	_Malwoverview is a first response tool used for threat hunting and offers intel information from Virus Total, Hybrid Analysis, URLHaus, Polyswarm, Malshare, Alien Vault, Malpedia, ThreatCrowd, Valhalla, Malware Bazaar, ThreatFox, Triage and it is able to scan Android devices against VT and HA._
@@ -206,6 +307,9 @@ this readme is dynamically generated based upon the contents of the submodules
 * [reconnaisance/opensquat](https://github.com/atenreiro/opensquat)
 	_Detection of phishing domains and domain squatting. Supports permutations such as homograph attack, typosquatting and bitsquatting._
 
+* [reconnaisance/NameSpi](https://github.com/waffl3ss/NameSpi)
+	_Scrape LinkedIn, ZoomInfo, USStaff, and Hunter.io for usernames and employees._
+
 * [reconnaisance/SubDomainizer](https://github.com/nsonaniya2010/SubDomainizer)
 	_A tool to find subdomains and interesting things hidden inside, external Javascript files of page, folder, and Github._
 
@@ -224,9 +328,19 @@ this readme is dynamically generated based upon the contents of the submodules
 * [reconnaisance/recon-ng](https://github.com/lanmaster53/recon-ng)
 	_Open Source Intelligence gathering tool aimed at reducing the time spent harvesting information from open sources._
 
+## cloud
+* [cloud/ScoutSuite](https://github.com/nccgroup/ScoutSuite)
+	_Multi-Cloud Security Auditing Tool_
+
+* [cloud/festin](https://github.com/cr0hn/festin)
+	_FestIn - S3 Bucket Weakness Discovery_
+
 ## internet-scale-research
 * [internet-scale-research/nuclei](https://github.com/projectdiscovery/nuclei)
 	_Fast and customizable vulnerability scanner based on simple YAML based DSL._
+
+* [internet-scale-research/aquatone](https://github.com/michenriksen/aquatone)
+	_A Tool for Domain Flyovers_
 
 * [internet-scale-research/Hunting-New-Registered-Domains](https://github.com/gfek/Hunting-New-Registered-Domains)
 	_Hunting Newly Registered Domains_
@@ -238,17 +352,32 @@ this readme is dynamically generated based upon the contents of the submodules
 	_EyeWitness is designed to take screenshots of websites, provide some server header info, and identify default credentials if possible._
 
 ## windows
+* [windows/AttackSurfaceAnalyzer](https://github.com/microsoft/AttackSurfaceAnalyzer)
+	_Attack Surface Analyzer can help you analyze your operating system's security configuration for changes during software installation._
+
 * [windows/SharpNoPSExec](https://github.com/juliourena/SharpNoPSExec)
 	_Get file less command execution for lateral movement._
 
 * [windows/Certipy](https://github.com/ly4k/Certipy)
 	_Python implementation for Active Directory certificate abuse_
 
+* [windows/LiquidSnake](https://github.com/RiccardoAncarani/LiquidSnake)
+	_LiquidSnake is a tool that allows operators to perform fileless lateral movement using WMI Event Subscriptions and GadgetToJScript_
+
 * [windows/ForgeCert](https://github.com/GhostPack/ForgeCert)
 	_"Golden" certificates_
 
+* [windows/mimikatz](https://github.com/gentilkiwi/mimikatz)
+	_A little tool to play with Windows security_
+
+* [windows/nanodump](https://github.com/helpsystems/nanodump)
+	_Dump LSASS like you mean it_
+
 * [windows/RDPassSpray](https://github.com/xFreed0m/RDPassSpray)
 	_Python3 tool to perform password spraying using RDP_
+
+* [windows/SysmonSearch](https://github.com/JPCERTCC/SysmonSearch)
+	_Investigate suspicious activity by visualizing Sysmon's event log_
 
 ## microsoft&azure
 * [microsoft&azure/Azure-Network-Security](https://github.com/Azure/Azure-Network-Security)
@@ -268,6 +397,9 @@ this readme is dynamically generated based upon the contents of the submodules
 
 * [microsoft&azure/Cloud-Katana](https://github.com/Azure/Cloud-Katana)
 	_Unlocking Serverless Computing to Assess Security Controls_
+
+* [microsoft&azure/TokenTactics](https://github.com/rvrsh3ll/TokenTactics)
+	_Azure JWT Token Manipulation Toolset_
 
 * [microsoft&azure/o365-attack-toolkit](https://github.com/mdsecactivebreach/o365-attack-toolkit)
 	_A toolkit to attack Office365_
@@ -310,4 +442,13 @@ this readme is dynamically generated based upon the contents of the submodules
 
 * [scanners/Striker](https://github.com/s0md3v/Striker)
 	_Striker is an offensive information and vulnerability scanner._
+
+* [scanners/watchdog](https://github.com/flipkart-incubator/watchdog)
+	_Watchdog - A Comprehensive Security Scanning and a Vulnerability Management Tool._
+
+* [scanners/faraday](https://github.com/infobyte/faraday)
+	_Collaborative Penetration Test and Vulnerability Management Platform_
+
+* [scanners/trivy](https://github.com/aquasecurity/trivy)
+	_Scanner for vulnerabilities in container images, file systems, and Git repositories, as well as for configuration issues_
 
