@@ -283,3 +283,138 @@
 [submodule "resources/the_cyber_plumbers_handbook"]
 	path = resources/the_cyber_plumbers_handbook
 	url = https://github.com/opsdisk/the_cyber_plumbers_handbook.git
+[submodule "collections/ctf-tools"]
+	path = collections/ctf-tools
+	url = https://github.com/zardus/ctf-tools.git
+[submodule "collections/tools"]
+	path = collections/tools
+	url = https://github.com/nullsecuritynet/tools.git
+[submodule "networking/aircrack-ng"]
+	path = networking/aircrack-ng
+	url = https://github.com/aircrack-ng/aircrack-ng.git
+[submodule "industrial/ICS-Security-Tools"]
+	path = industrial/ICS-Security-Tools
+	url = https://github.com/ITI/ICS-Security-Tools.git
+[submodule "collections/security"]
+	path = collections/security
+	url = https://github.com/mozilla/security.git
+[submodule "resources/security-cheatsheets"]
+	path = resources/security-cheatsheets
+	url = https://github.com/andrewjkerr/security-cheatsheets.git
+[submodule "cloud/ScoutSuite"]
+	path = cloud/ScoutSuite
+	url = https://github.com/nccgroup/ScoutSuite.git
+[submodule "windows/mimikatz"]
+	path = windows/mimikatz
+	url = https://github.com/gentilkiwi/mimikatz.git
+[submodule "containers/dockerscan"]
+	path = containers/dockerscan
+	url = https://github.com/cr0hn/dockerscan.git
+[submodule "collections/msticpy"]
+	path = collections/msticpy
+	url = https://github.com/microsoft/msticpy.git
+[submodule "resources/awesome-api-security"]
+	path = resources/awesome-api-security
+	url = https://github.com/arainho/awesome-api-security.git
+[submodule "mobile/awesome-mobile-security"]
+	path = mobile/awesome-mobile-security
+	url = https://github.com/vaib25vicky/awesome-mobile-security.git
+[submodule "forensics/aa-tools"]
+	path = forensics/aa-tools
+	url = https://github.com/JPCERTCC/aa-tools.git
+[submodule "internet-scale-research/aquatone"]
+	path = internet-scale-research/aquatone
+	url = https://github.com/michenriksen/aquatone.git
+[submodule "collections/osx-and-ios-security-awesome"]
+	path = collections/osx-and-ios-security-awesome
+	url = https://github.com/ashishb/osx-and-ios-security-awesome.git
+[submodule "collections/HackingTools"]
+	path = collections/HackingTools
+	url = https://github.com/Laxa/HackingTools.git
+[submodule "scanners/trivy"]
+	path = scanners/trivy
+	url = https://github.com/aquasecurity/trivy.git
+[submodule "assets/snipe-it"]
+	path = assets/snipe-it
+	url = https://github.com/snipe/snipe-it.git
+[submodule "scanners/faraday"]
+	path = scanners/faraday
+	url = https://github.com/infobyte/faraday.git
+[submodule "assets/archerysec"]
+	path = assets/archerysec
+	url = https://github.com/archerysec/archerysec.git
+[submodule "scanners/watchdog"]
+	path = scanners/watchdog
+	url = https://github.com/flipkart-incubator/watchdog.git
+[submodule "windows/AttackSurfaceAnalyzer"]
+	path = windows/AttackSurfaceAnalyzer
+	url = https://github.com/microsoft/AttackSurfaceAnalyzer.git
+[submodule "containers/docker-bench-security"]
+	path = containers/docker-bench-security
+	url = https://github.com/docker/docker-bench-security.git
+[submodule "networking/dnscrypt-proxy"]
+	path = networking/dnscrypt-proxy
+	url = https://github.com/DNSCrypt/dnscrypt-proxy.git
+[submodule "networking/microsocks"]
+	path = networking/microsocks
+	url = https://github.com/rofl0r/microsocks.git
+[submodule "assets/netdata"]
+	path = assets/netdata
+	url = https://github.com/netdata/netdata.git
+[submodule "networking/pulledpork"]
+	path = networking/pulledpork
+	url = https://github.com/shirkdog/pulledpork.git
+[submodule "networking/snort3"]
+	path = networking/snort3
+	url = https://github.com/snort3/snort3.git
+[submodule "networking/justniffer"]
+	path = networking/justniffer
+	url = https://github.com/onotelli/justniffer.git
+[submodule "networking/rita"]
+	path = networking/rita
+	url = https://github.com/activecm/rita.git
+[submodule "assets/streamalert"]
+	path = assets/streamalert
+	url = https://github.com/airbnb/streamalert.git
+[submodule "windows/SysmonSearch"]
+	path = windows/SysmonSearch
+	url = https://github.com/JPCERTCC/SysmonSearch.git
+[submodule "vendor/VxAPI"]
+	path = vendor/VxAPI
+	url = https://github.com/PayloadSecurity/VxAPI.git
+[submodule "analysis/fame"]
+	path = analysis/fame
+	url = https://github.com/certsocietegenerale/fame.git
+[submodule "resources/RedTeam-OffensiveSecurity"]
+	path = resources/RedTeam-OffensiveSecurity
+	url = https://github.com/bigb0sss/RedTeam-OffensiveSecurity.git
+[submodule "osint/metabigor"]
+	path = osint/metabigor
+	url = https://github.com/j3ssie/metabigor.git
+[submodule "reconnaisance/NameSpi"]
+	path = reconnaisance/NameSpi
+	url = https://github.com/waffl3ss/NameSpi.git
+[submodule "cloud/festin"]
+	path = cloud/festin
+	url = https://github.com/cr0hn/festin.git
+[submodule "resources/CloudPentestCheatsheets"]
+	path = resources/CloudPentestCheatsheets
+	url = https://github.com/dafthack/CloudPentestCheatsheets.git
+[submodule "microsoft&azure/TokenTactics"]
+	path = microsoft&azure/TokenTactics
+	url = https://github.com/rvrsh3ll/TokenTactics.git
+[submodule "networking/IPRotate_Burp_Extension"]
+	path = networking/IPRotate_Burp_Extension
+	url = https://github.com/RhinoSecurityLabs/IPRotate_Burp_Extension.git
+[submodule "networking/mubeng"]
+	path = networking/mubeng
+	url = https://github.com/kitabisa/mubeng.git
+[submodule "collections/DefaultCreds-cheat-sheet"]
+	path = collections/DefaultCreds-cheat-sheet
+	url = https://github.com/ihebski/DefaultCreds-cheat-sheet.git
+[submodule "windows/nanodump"]
+	path = windows/nanodump
+	url = https://github.com/helpsystems/nanodump.git
+[submodule "windows/LiquidSnake"]
+	path = windows/LiquidSnake
+	url = https://github.com/RiccardoAncarani/LiquidSnake.git
