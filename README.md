@@ -352,6 +352,9 @@ this readme is dynamically generated based upon the contents of the submodules
 	_EyeWitness is designed to take screenshots of websites, provide some server header info, and identify default credentials if possible._
 
 ## windows
+* [windows/evtx2json](https://github.com/vavarachen/evtx2json)
+	_A tool to convert Windows evtx files (Windows Event Log Files) into JSON format and log to Splunk (optional) using HTTP Event Collector._
+
 * [windows/AttackSurfaceAnalyzer](https://github.com/microsoft/AttackSurfaceAnalyzer)
 	_Attack Surface Analyzer can help you analyze your operating system's security configuration for changes during software installation._
 
