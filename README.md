@@ -177,9 +177,6 @@ this readme is dynamically generated based upon the contents of the submodules
 * [indicators/misp-warninglists](https://github.com/MISP/misp-warninglists)
 	_Warning lists to inform users of MISP about potential false-positives or other information in indicators_
 
-* [indicators/intel](https://github.com/thetanz/securitytools)
-	_quality community projects  👨‍👩‍👧‍👦📓🔎_
-
 * [indicators/IoCs](https://github.com/sophoslabs/IoCs)
 	_Sophos-originated indicators-of-compromise from published reports_
 
@@ -187,6 +184,9 @@ this readme is dynamically generated based upon the contents of the submodules
 	_Clusters and elements to attach to MISP events or attributes (like threat actors)_
 
 * [indicators/jarm](https://github.com/salesforce/jarm)
+
+* [indicators/opencti](https://github.com/OpenCTI-Platform/opencti)
+	_Open Cyber Threat Intelligence Platform_
 
 * [indicators/yara](https://github.com/VirusTotal/yara)
 	_The pattern matching swiss knife_
