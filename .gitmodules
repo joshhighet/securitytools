@@ -436,3 +436,6 @@
 [submodule "scanners/StalkPhish"]
 	path = scanners/StalkPhish
 	url = https://github.com/t4d/StalkPhish.git
+[submodule "indicators/opencti"]
+	path = indicators/opencti
+	url = https://github.com/OpenCTI-Platform/opencti.git
