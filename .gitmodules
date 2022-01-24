@@ -259,9 +259,6 @@
 [submodule "incidents/Aurora-Incident-Response"]
 	path = incidents/Aurora-Incident-Response
 	url = https://github.com/cyb3rfox/Aurora-Incident-Response.git
-[submodule "indicators/intel/opencti"]
-	path = indicators/intel/opencti
-	url = https://github.com/OpenCTI-Platform/opencti.git
 [submodule "osint/awesome-osint"]
 	path = osint/awesome-osint
 	url = https://github.com/jivoi/awesome-osint.git
