@@ -421,3 +421,21 @@
 [submodule "windows/evtx2json"]
 	path = windows/evtx2json
 	url = https://github.com/vavarachen/evtx2json.git
+[submodule "resources/OSINT-Discord-resources"]
+	path = resources/OSINT-Discord-resources
+	url = https://github.com/Dutchosintguy/OSINT-Discord-resources
+[submodule "reconnaisance/Discord-History-Tracker"]
+	path = reconnaisance/Discord-History-Tracker
+	url = https://github.com/chylex/Discord-History-Tracker
+[submodule "osint/Scrummage"]
+	path = osint/Scrummage
+	url = https://github.com/matamorphosis/Scrummage.git
+[submodule "indicators/misp-galaxy"]
+	path = indicators/misp-galaxy
+	url = https://github.com/MISP/misp-galaxy.git
+[submodule "microsoft&azure/AzureADAssessment"]
+	path = microsoft&azure/AzureADAssessment
+	url = https://github.com/AzureAD/AzureADAssessment.git
+[submodule "scanners/StalkPhish"]
+	path = scanners/StalkPhish
+	url = https://github.com/t4d/StalkPhish.git
