@@ -25,6 +25,9 @@ this readme is dynamically generated based upon the contents of the submodules
 * [resources/awesome-api-security](https://github.com/arainho/awesome-api-security)
 	_A collection of awesome API Security tools and resources._
 
+* [resources/ICS-Security-Tools](https://github.com/ITI/ICS-Security-Tools)
+	_Tools, tips, tricks, and more for exploring ICS Security._
+
 * [resources/CloudPentestCheatsheets](https://github.com/dafthack/CloudPentestCheatsheets)
 	_This repository contains a collection of cheatsheets I have put together for tools related to pentesting organizations that leverage cloud providers._
 
@@ -37,12 +40,25 @@ this readme is dynamically generated based upon the contents of the submodules
 * [resources/RedTeam-OffensiveSecurity](https://github.com/bigb0sss/RedTeam-OffensiveSecurity)
 	_Tools & Interesting Things for RedTeam Ops_
 
+## socials
+* [socials/sherlock](https://github.com/sherlock-project/sherlock)
+	_🔎 Hunt down social media accounts by username across social networks_
+
+* [socials/holehe](https://github.com/megadose/holehe)
+	_holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function._
+
+* [socials/Discord-History-Tracker](https://github.com/chylex/Discord-History-Tracker)
+	_Browser script that saves Discord chat history into a file, and an offline viewer that displays the file._
+
+* [socials/NameSpi](https://github.com/waffl3ss/NameSpi)
+	_Scrape LinkedIn, ZoomInfo, USStaff, and Hunter.io for usernames and employees._
+
+* [socials/CrossLinked](https://github.com/m8r0wn/CrossLinked)
+	_LinkedIn enumeration tool to extract valid employee names from an organization through search engine scraping_
+
 ## reconnaisance
 * [reconnaisance/recon-ng](https://github.com/lanmaster53/recon-ng)
 	_Open Source Intelligence gathering tool aimed at reducing the time spent harvesting information from open sources._
-
-* [reconnaisance/opensquat](https://github.com/atenreiro/opensquat)
-	_Detection of phishing domains and domain squatting. Supports permutations such as homograph attack, typosquatting and bitsquatting._
 
 * [reconnaisance/SubDomainizer](https://github.com/nsonaniya2010/SubDomainizer)
 	_A tool to find subdomains and interesting things hidden inside, external Javascript files of page, folder, and Github._
@@ -56,9 +72,6 @@ this readme is dynamically generated based upon the contents of the submodules
 * [reconnaisance/fav-up](https://github.com/pielco11/fav-up)
 	_IP lookup by favicon using Shodan_
 
-* [reconnaisance/Discord-History-Tracker](https://github.com/chylex/Discord-History-Tracker)
-	_Browser script that saves Discord chat history into a file, and an offline viewer that displays the file._
-
 * [reconnaisance/HostHunter](https://github.com/SpiderLabs/HostHunter)
 	_HostHunter a recon tool for discovering hostnames using OSINT techniques._
 
@@ -67,9 +80,6 @@ this readme is dynamically generated based upon the contents of the submodules
 
 * [reconnaisance/AttackSurfaceMapper](https://github.com/superhedgy/AttackSurfaceMapper)
 	_AttackSurfaceMapper is a tool that aims to automate the reconnaissance process._
-
-* [reconnaisance/NameSpi](https://github.com/waffl3ss/NameSpi)
-	_Scrape LinkedIn, ZoomInfo, USStaff, and Hunter.io for usernames and employees._
 
 * [reconnaisance/Sudomy](https://github.com/Screetsec/Sudomy)
 	_Sudomy is a subdomain enumeration tool to collect subdomains and analyzing domains performing automated reconnaissance (recon) for bug hunting / pentesting_
@@ -202,10 +212,6 @@ this readme is dynamically generated based upon the contents of the submodules
 * [activedirectory/BloodHound](https://github.com/BloodHoundAD/BloodHound)
 	_Six Degrees of Domain Admin_
 
-## industrial
-* [industrial/ICS-Security-Tools](https://github.com/ITI/ICS-Security-Tools)
-	_Tools, tips, tricks, and more for exploring ICS Security._
-
 ## collections
 * [collections/ctf-tools](https://github.com/zardus/ctf-tools)
 	_Some setup scripts for security research tools._
@@ -236,6 +242,9 @@ this readme is dynamically generated based upon the contents of the submodules
 	_The Docker Bench for Security is a script that checks for dozens of common best-practices around deploying Docker containers in production._
 
 ## internet-scale-research
+* [internet-scale-research/opensquat](https://github.com/atenreiro/opensquat)
+	_Detection of phishing domains and domain squatting. Supports permutations such as homograph attack, typosquatting and bitsquatting._
+
 * [internet-scale-research/aquatone](https://github.com/michenriksen/aquatone)
 	_A Tool for Domain Flyovers_
 
@@ -250,6 +259,9 @@ this readme is dynamically generated based upon the contents of the submodules
 
 * [internet-scale-research/nuclei](https://github.com/projectdiscovery/nuclei)
 	_Fast and customizable vulnerability scanner based on simple YAML based DSL._
+
+* [internet-scale-research/httprobe](https://github.com/tomnomnom/httprobe)
+	_Take a list of domains and probe for working HTTP and HTTPS servers_
 
 ## mobile
 * [mobile/awesome-mobile-security](https://github.com/vaib25vicky/awesome-mobile-security)
@@ -366,10 +378,6 @@ this readme is dynamically generated based upon the contents of the submodules
 * [microsoft&azure/msmailprobe](https://github.com/busterb/msmailprobe)
 	_Office 365 and Exchange Enumeration_
 
-## discovery
-* [discovery/httprobe](https://github.com/tomnomnom/httprobe)
-	_Take a list of domains and probe for working HTTP and HTTPS servers_
-
 ## vuln-identification
 * [vuln-identification/nmap-vulners](https://github.com/vulnersCom/nmap-vulners)
 	_NSE script based on Vulners.com API_
@@ -393,14 +401,8 @@ this readme is dynamically generated based upon the contents of the submodules
 * [osint/dorkScanner](https://github.com/madhavmehndiratta/dorkScanner)
 	_A typical search engine dork scanner scrapes search engines with dorks that you provide in order to find vulnerable URLs._
 
-* [osint/sherlock](https://github.com/sherlock-project/sherlock)
-	_🔎 Hunt down social media accounts by username across social networks_
-
 * [osint/spiderfoot](https://github.com/smicallef/spiderfoot)
 	_SpiderFoot automates OSINT for threat intelligence and mapping your attack surface._
-
-* [osint/holehe](https://github.com/megadose/holehe)
-	_holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function._
 
 * [osint/metabigor](https://github.com/j3ssie/metabigor)
 	_Intelligence tool but without API key_
@@ -410,9 +412,6 @@ this readme is dynamically generated based upon the contents of the submodules
 
 * [osint/OSINT](https://github.com/sinwindie/OSINT)
 	_Collections of tools and methods created to aid in OSINT collection_
-
-* [osint/CrossLinked](https://github.com/m8r0wn/CrossLinked)
-	_LinkedIn enumeration tool to extract valid employee names from an organization through search engine scraping_
 
 * [osint/Scrummage](https://github.com/matamorphosis/Scrummage)
 	_The Ultimate OSINT and Threat Hunting Framework_
