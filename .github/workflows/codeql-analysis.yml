@@ -25,6 +25,8 @@ jobs:
     steps:
     - name: checkout repo
       uses: actions/checkout@v2
+      with:
+        submodules: true
 
     - name: init CodeQL
       uses: github/codeql-action/init@v1
