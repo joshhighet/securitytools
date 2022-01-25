@@ -1,23 +1,39 @@
 ![](https://avatars0.githubusercontent.com/u/2897191?s=95&v=4)
 # securitytools
+
 this repository hosts an array of GitHub projects leveraged across the security community, indexed as submodules.
+
 ```shell
 docker pull ghcr.io/thetanz/securitytools:latest
 ```
 
 ### adding submodules
+
 git projects can be added to this repository by navigating to an applicable folder and replacing `git clone` with `git submodule add`
+
 ### removing submodules
+
 _remove submodule entry from .git/config_
-```git submodule deinit -f path/to/submodule```
+
+```shell
+git submodule deinit -f path/to/submodule
+```
 _remove the submodule directory from .git/modules within the parent repo_
-```rm -rf .git/modules/path/to/submodule```
+
+```shell
+rm -rf .git/modules/path/to/submodule
+```
 _remove entry in .gitmodules & the submodule directory_
-```git rm -f path/to/submodule```
+
+```shell
+git rm -f path/to/submodule
+```
 # projects
+
 [![report generator](https://github.com/thetanz/securitytools/actions/workflows/reporter.yml/badge.svg)](https://github.com/thetanz/securitytools/actions/workflows/reporter.yml)
 
 this readme is dynamically generated based upon the contents of the submodules
+
 ## resources
 * [resources/security-cheatsheets](https://github.com/andrewjkerr/security-cheatsheets)
 	_🔒 A collection of cheatsheets for various infosec tools and topics._
