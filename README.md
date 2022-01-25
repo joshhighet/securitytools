@@ -8,13 +8,12 @@ docker pull ghcr.io/thetanz/securitytools:latest
 ### adding submodules
 git projects can be added to this repository by navigating to an applicable folder and replacing `git clone` with `git submodule add`
 ### removing submodules
-1. delete the relevant section from `.gitmodules`.
-2. stage the `.gitmodules` changes with `git add .gitmodules`
-3. delete the relevant section from `.git/config`
-4. run `git rm --cached path_to_submodule` (no trailing slash).
-5. run `rm -rf .git/modules/path_to_submodule` (no trailing slash).
-6. commit changes `git commit -m "submodule removal"`
-7. delete submodule files `rm -rf path_to_submodule`
+_remove submodule entry from .git/config_
+```git submodule deinit -f path/to/submodule```
+_remove the submodule directory from .git/modules within the parent repo_
+```rm -rf .git/modules/path/to/submodule```
+_remove entry in .gitmodules & the submodule directory_
+```git rm -f path/to/submodule```
 # projects
 [![report generator](https://github.com/thetanz/securitytools/actions/workflows/reporter.yml/badge.svg)](https://github.com/thetanz/securitytools/actions/workflows/reporter.yml)
 
