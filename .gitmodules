@@ -88,9 +88,6 @@
 [submodule "networking/Responder"]
 	path = networking/Responder
 	url = https://github.com/lgandx/Responder
-[submodule "osint/sherlock"]
-	path = osint/sherlock
-	url = https://github.com/sherlock-project/sherlock.git
 [submodule "analysis/hstsparser"]
 	path = analysis/hstsparser
 	url = https://github.com/thebeanogamer/hstsparser.git
