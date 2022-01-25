@@ -436,3 +436,6 @@
 [submodule "resources/ICS-Security-Tools"]
 	path = resources/ICS-Security-Tools
 	url = https://github.com/ITI/ICS-Security-Tools.git
+[submodule "internet-scale-research/opensquat"]
+	path = internet-scale-research/opensquat
+	url = https://github.com/atenreiro/opensquat.git
