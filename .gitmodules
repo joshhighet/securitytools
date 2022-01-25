@@ -277,9 +277,6 @@
 [submodule "networking/aircrack-ng"]
 	path = networking/aircrack-ng
 	url = https://github.com/aircrack-ng/aircrack-ng.git
-[submodule "industrial/ICS-Security-Tools"]
-	path = industrial/ICS-Security-Tools
-	url = https://github.com/ITI/ICS-Security-Tools.git
 [submodule "collections/security"]
 	path = collections/security
 	url = https://github.com/mozilla/security.git
