@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 import os
 import logging
 import subprocess
@@ -28,13 +30,12 @@ with open(homedir + '/README.md', 'w') as f:
     f.write('### adding submodules\n')
     f.write('git projects can be added to this repository by navigating to an applicable folder and replacing `git clone` with `git submodule add`\n')
     f.write('### removing submodules\n')
-    f.write('1. delete the relevant section from `.gitmodules`.\n')
-    f.write('2. stage the `.gitmodules` changes with `git add .gitmodules`\n')
-    f.write('3. delete the relevant section from `.git/config`\n')
-    f.write('4. run `git rm --cached path_to_submodule` (no trailing slash).\n')
-    f.write('5. run `rm -rf .git/modules/path_to_submodule` (no trailing slash).\n')
-    f.write('6. commit changes `git commit -m "submodule removal"`\n')
-    f.write('7. delete submodule files `rm -rf path_to_submodule`\n')
+    f.write('_remove submodule entry from .git/config_\n')
+    f.write('```git submodule deinit -f path/to/submodule```\n')
+    f.write('_remove the submodule directory from .git/modules within the parent repo_\n')
+    f.write('```rm -rf .git/modules/path/to/submodule```\n')
+    f.write('_remove entry in .gitmodules & the submodule directory_\n')
+    f.write('```git rm -f path/to/submodule```\n')
     f.write('# projects\n')
     f.write('[![report generator](https://github.com/thetanz/securitytools/actions/workflows/reporter.yml/badge.svg)](https://github.com/thetanz/securitytools/actions/workflows/reporter.yml)\n\n')
     f.write('this readme is dynamically generated based upon the contents of the submodules\n')
