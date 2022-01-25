@@ -1,9 +1,6 @@
 [submodule "reconnaisance/Sudomy"]
 	path = reconnaisance/Sudomy
 	url = https://github.com/Screetsec/Sudomy.git
-[submodule "discovery/httprobe"]
-	path = discovery/httprobe
-	url = https://github.com/tomnomnom/httprobe.git
 [submodule "osint/spiderfoot"]
 	path = osint/spiderfoot
 	url = https://github.com/smicallef/spiderfoot.git
