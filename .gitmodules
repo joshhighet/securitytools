@@ -238,9 +238,6 @@
 [submodule "vendor/rtr"]
 	path = vendor/rtr
 	url = https://github.com/bk-cs/rtr.git
-[submodule "reconnaisance/opensquat"]
-	path = reconnaisance/opensquat
-	url = https://github.com/atenreiro/opensquat.git
 [submodule "testing/DeTTECT"]
 	path = testing/DeTTECT
 	url = https://github.com/rabobank-cdc/DeTTECT.git
