@@ -487,3 +487,6 @@
 [submodule "mobile/andriller"]
 	path = mobile/andriller
 	url = https://github.com/den4uk/andriller.git
+[submodule "mobile/owasp-mstg"]
+	path = mobile/owasp-mstg
+	url = https://github.com/OWASP/owasp-mstg.git
