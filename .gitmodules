@@ -442,3 +442,6 @@
 [submodule "containers/docker-cheat-sheet"]
 	path = containers/docker-cheat-sheet
 	url = https://github.com/wsargent/docker-cheat-sheet
+[submodule "containers/dockerfiles"]
+	path = containers/dockerfiles
+	url = https://github.com/jessfraz/dockerfiles.git
