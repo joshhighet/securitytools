@@ -439,3 +439,6 @@
 [submodule "internet-scale-research/opensquat"]
 	path = internet-scale-research/opensquat
 	url = https://github.com/atenreiro/opensquat.git
+[submodule "containers/docker-cheat-sheet"]
+	path = containers/docker-cheat-sheet
+	url = https://github.com/wsargent/docker-cheat-sheet
