@@ -361,9 +361,6 @@
 [submodule "analysis/fame"]
 	path = analysis/fame
 	url = https://github.com/certsocietegenerale/fame.git
-[submodule "resources/RedTeam-OffensiveSecurity"]
-	path = resources/RedTeam-OffensiveSecurity
-	url = https://github.com/bigb0sss/RedTeam-OffensiveSecurity.git
 [submodule "osint/metabigor"]
 	path = osint/metabigor
 	url = https://github.com/j3ssie/metabigor.git
