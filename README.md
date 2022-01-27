@@ -44,6 +44,9 @@ this readme is dynamically generated based upon the contents of the submodules
 * [analysis/munin](https://github.com/Neo23x0/munin)
 	_Online hash checker for Virustotal and other services_
 
+* [analysis/radare2](https://github.com/radareorg/radare2)
+	_UNIX-like reverse engineering framework and command-line toolset_
+
 * [analysis/DeepBlueCLI](https://github.com/sans-blue-team/DeepBlueCLI)
 
 * [analysis/malwoverview](https://github.com/alexandreborges/malwoverview)
@@ -215,11 +218,32 @@ this readme is dynamically generated based upon the contents of the submodules
 	_Detect Tactics, Techniques & Combat Threats_
 
 ## mobile
+* [mobile/iLEAPP](https://github.com/abrignoni/iLEAPP)
+	_iOS Logs, Events, And Plist Parser_
+
+* [mobile/Mobile-Security-Framework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)
+	_Mobile Security Framework (MobSF) is an automated, all-in-one mobile application (Android/iOS/Windows) pen-testing, malware analysis and security assessment framework capable of performing static and dynamic analysis._
+
+* [mobile/objection](https://github.com/sensepost/objection)
+	_📱 objection - runtime mobile exploration_
+
+* [mobile/owasp-mstg](https://github.com/OWASP/owasp-mstg)
+	_The Mobile Security Testing Guide (MSTG) is a comprehensive manual for mobile app security testing and reverse engineering. It describes the technical processes for verifying the controls listed in the OWASP Mobile Application Security Verification Standard (MASVS)._
+
 * [mobile/MobileApp-Pentest-Cheatsheet](https://github.com/tanprathan/MobileApp-Pentest-Cheatsheet)
 	_The Mobile App Pentest cheat sheet was created to provide concise collection of high value information on specific mobile application penetration testing topics._
 
+* [mobile/RE-iOS-Apps](https://github.com/ivRodriguezCA/RE-iOS-Apps)
+	_A completely free, open source and online course about Reverse Engineering iOS Applications._
+
+* [mobile/andriller](https://github.com/den4uk/andriller)
+	_📱 Andriller - is software utility with a collection of forensic tools for smartphones. It performs read-only, forensically sound, non-destructive acquisition from Android devices._
+
 * [mobile/awesome-mobile-security](https://github.com/vaib25vicky/awesome-mobile-security)
 	_An effort to build a single place for all useful android and iOS security related stuff. All references and tools belong to their respective owners. I'm just maintaining it._
+
+* [mobile/ssl-kill-switch2](https://github.com/nabla-c0d3/ssl-kill-switch2)
+	_Blackbox tool to disable SSL certificate validation - including certificate pinning - within iOS and macOS applications._
 
 ## cloud
 * [cloud/festin](https://github.com/cr0hn/festin)
@@ -359,6 +383,9 @@ this readme is dynamically generated based upon the contents of the submodules
 
 * [collections/msticpy](https://github.com/microsoft/msticpy)
 	_Microsoft Threat Intelligence Security Tools_
+
+* [collections/SecurityShepherd](https://github.com/OWASP/SecurityShepherd)
+	_Web and mobile application security training platform_
 
 * [collections/H5SC](https://github.com/cure53/H5SC)
 	_HTML5 Security Cheatsheet - A collection of HTML5 related XSS attack vectors_
