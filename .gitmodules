@@ -292,9 +292,6 @@
 [submodule "collections/msticpy"]
 	path = collections/msticpy
 	url = https://github.com/microsoft/msticpy.git
-[submodule "resources/awesome-api-security"]
-	path = resources/awesome-api-security
-	url = https://github.com/arainho/awesome-api-security.git
 [submodule "mobile/awesome-mobile-security"]
 	path = mobile/awesome-mobile-security
 	url = https://github.com/vaib25vicky/awesome-mobile-security.git
