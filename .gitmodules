@@ -517,3 +517,6 @@
 [submodule "websites/slowloris"]
 	path = websites/slowloris
 	url = https://github.com/gkbrk/slowloris.git
+[submodule "industrial/isf"]
+	path = industrial/isf
+	url = https://github.com/dark-lbp/isf.git
