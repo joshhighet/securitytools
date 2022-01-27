@@ -472,3 +472,6 @@
 [submodule "microsoft&azure/azure-policy"]
 	path = microsoft&azure/azure-policy
 	url = https://github.com/Azure/azure-policy.git
+[submodule "networking/nebula"]
+	path = networking/nebula
+	url = https://github.com/slackhq/nebula.git
