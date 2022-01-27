@@ -472,3 +472,6 @@
 [submodule "networking/nebula"]
 	path = networking/nebula
 	url = https://github.com/slackhq/nebula.git
+[submodule "websites/awesome-api-security"]
+	path = websites/awesome-api-security
+	url = https://github.com/arainho/awesome-api-security.git
