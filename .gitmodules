@@ -454,3 +454,6 @@
 [submodule "resources/MobileApp-Pentest-Cheatsheet"]
 	path = resources/MobileApp-Pentest-Cheatsheet
 	url = https://github.com/tanprathan/MobileApp-Pentest-Cheatsheet.git
+[submodule "networking/clash"]
+	path = networking/clash
+	url = https://github.com/Dreamacro/clash.git
