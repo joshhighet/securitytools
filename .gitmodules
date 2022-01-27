@@ -466,3 +466,6 @@
 [submodule "sdr/gqrx"]
 	path = sdr/gqrx
 	url = https://github.com/gqrx-sdr/gqrx.git
+[submodule "sdr/gnuradio"]
+	path = sdr/gnuradio
+	url = https://github.com/gnuradio/gnuradio.git
