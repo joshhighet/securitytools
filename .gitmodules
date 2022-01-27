@@ -490,3 +490,6 @@
 [submodule "mobile/owasp-mstg"]
 	path = mobile/owasp-mstg
 	url = https://github.com/OWASP/owasp-mstg.git
+[submodule "collections/SecurityShepherd"]
+	path = collections/SecurityShepherd
+	url = https://github.com/OWASP/SecurityShepherd.git
