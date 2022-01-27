@@ -370,9 +370,6 @@
 [submodule "cloud/festin"]
 	path = cloud/festin
 	url = https://github.com/cr0hn/festin.git
-[submodule "resources/CloudPentestCheatsheets"]
-	path = resources/CloudPentestCheatsheets
-	url = https://github.com/dafthack/CloudPentestCheatsheets.git
 [submodule "microsoft&azure/TokenTactics"]
 	path = microsoft&azure/TokenTactics
 	url = https://github.com/rvrsh3ll/TokenTactics.git
