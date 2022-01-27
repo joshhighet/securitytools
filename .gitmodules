@@ -472,3 +472,6 @@
 [submodule "collections/ICS-Security-Tools"]
 	path = collections/ICS-Security-Tools
 	url = https://github.com/ITI/ICS-Security-Tools.git
+[submodule "collections/RedTeam-OffensiveSecurity"]
+	path = collections/RedTeam-OffensiveSecurity
+	url = https://github.com/bigb0sss/RedTeam-OffensiveSecurity.git
