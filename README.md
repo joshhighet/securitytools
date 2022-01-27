@@ -133,6 +133,9 @@ this readme is dynamically generated based upon the contents of the submodules
 * [networking/wifijammer](https://github.com/DanMcInerney/wifijammer)
 	_Continuously jam all wifi clients/routers_
 
+* [networking/pwnat](https://github.com/samyk/pwnat)
+	_The only tool and technique to punch holes through firewalls/NATs where both clients and server can be behind separate NATs without any 3rd party involvement. Pwnat uses a newly developed technique, exploiting a property of NAT translation tables, with no 3rd party, port forwarding, DMZ, router administrative requirements, STUN/TURN/UPnP/ICE, or spoofing required._
+
 * [networking/mubeng](https://github.com/kitabisa/mubeng)
 	_An incredibly fast proxy checker & IP rotator with ease._
 
@@ -164,6 +167,9 @@ this readme is dynamically generated based upon the contents of the submodules
 	_Extension for Burp Suite which uses AWS API Gateway to rotate your IP on every request._
 
 ## forensics
+* [forensics/sleuthkit](https://github.com/sleuthkit/sleuthkit)
+	_The Sleuth Kit® (TSK) is a library and collection of command line digital forensics tools that allow you to investigate volume and file system data. The library can be incorporated into larger digital forensics tools and the command line tools can be directly used to find evidence._
+
 * [forensics/aa-tools](https://github.com/JPCERTCC/aa-tools)
 	_Artifact analysis tools by JPCERT/CC Analysis Center_
 
@@ -217,9 +223,22 @@ this readme is dynamically generated based upon the contents of the submodules
 * [testing/DeTTECT](https://github.com/rabobank-cdc/DeTTECT)
 	_Detect Tactics, Techniques & Combat Threats_
 
+## industrial
+* [industrial/isf](https://github.com/dark-lbp/isf)
+	_ISF(Industrial Control System Exploitation Framework)，a exploitation framework based on Python_
+
+* [industrial/s7scan](https://github.com/klsecservices/s7scan)
+	_The tool for enumerating Siemens S7 PLCs through TCP/IP or LLC network_
+
+* [industrial/ICS-Security-Tools](https://github.com/ITI/ICS-Security-Tools)
+	_Tools, tips, tricks, and more for exploring ICS Security._
+
 ## mobile
 * [mobile/iLEAPP](https://github.com/abrignoni/iLEAPP)
 	_iOS Logs, Events, And Plist Parser_
+
+* [mobile/osx-and-ios-security-awesome](https://github.com/ashishb/osx-and-ios-security-awesome)
+	_OSX and iOS related security tools_
 
 * [mobile/Mobile-Security-Framework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)
 	_Mobile Security Framework (MobSF) is an automated, all-in-one mobile application (Android/iOS/Windows) pen-testing, malware analysis and security assessment framework capable of performing static and dynamic analysis._
@@ -366,9 +385,6 @@ this readme is dynamically generated based upon the contents of the submodules
 	_Attack Surface Analyzer can help you analyze your operating system's security configuration for changes during software installation._
 
 ## collections
-* [collections/osx-and-ios-security-awesome](https://github.com/ashishb/osx-and-ios-security-awesome)
-	_OSX and iOS related security tools_
-
 * [collections/tools](https://github.com/nullsecuritynet/tools)
 	_Security and Hacking Tools, Exploits, Proof of Concepts, Shellcodes, Scripts._
 
@@ -387,17 +403,11 @@ this readme is dynamically generated based upon the contents of the submodules
 * [collections/SecurityShepherd](https://github.com/OWASP/SecurityShepherd)
 	_Web and mobile application security training platform_
 
-* [collections/H5SC](https://github.com/cure53/H5SC)
-	_HTML5 Security Cheatsheet - A collection of HTML5 related XSS attack vectors_
-
 * [collections/HackingTools](https://github.com/Laxa/HackingTools)
 	_Exhaustive list of hacking tools_
 
 * [collections/the_cyber_plumbers_handbook](https://github.com/opsdisk/the_cyber_plumbers_handbook)
 	_Free copy of The Cyber Plumber's Handbook_
-
-* [collections/ICS-Security-Tools](https://github.com/ITI/ICS-Security-Tools)
-	_Tools, tips, tricks, and more for exploring ICS Security._
 
 * [collections/security-cheatsheets](https://github.com/andrewjkerr/security-cheatsheets)
 	_🔒 A collection of cheatsheets for various infosec tools and topics._
@@ -439,17 +449,29 @@ this readme is dynamically generated based upon the contents of the submodules
 * [websites/awesome-api-security](https://github.com/arainho/awesome-api-security)
 	_A collection of awesome API Security tools and resources._
 
+* [websites/sqlmap](https://github.com/sqlmapproject/sqlmap)
+	_Automatic SQL injection and database takeover tool_
+
 * [websites/dirsearch](https://github.com/maurosoria/dirsearch)
 	_Web path scanner_
 
 * [websites/CMSeeK](https://github.com/Tuhinshubhra/CMSeeK)
 	_CMS Detection and Exploitation suite - Scan WordPress, Joomla, Drupal and over 180 other CMSs_
 
+* [websites/w3af](https://github.com/andresriancho/w3af)
+	_w3af: web application attack and audit framework, the open source web vulnerability scanner._
+
 * [websites/weird_proxies](https://github.com/GrrrDog/weird_proxies)
 	_Reverse proxies cheatsheet_
 
+* [websites/H5SC](https://github.com/cure53/H5SC)
+	_HTML5 Security Cheatsheet - A collection of HTML5 related XSS attack vectors_
+
 * [websites/ffuf](https://github.com/ffuf/ffuf)
 	_Fast web fuzzer written in Go_
+
+* [websites/slowloris](https://github.com/gkbrk/slowloris)
+	_Low bandwidth DoS tool. Slowloris rewrite in Python._
 
 ## incidents
 * [incidents/Aurora-Incident-Response](https://github.com/cyb3rfox/Aurora-Incident-Response)
