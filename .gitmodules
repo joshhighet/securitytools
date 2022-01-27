@@ -472,3 +472,6 @@
 [submodule "cloud/CloudPentestCheatsheets"]
 	path = cloud/CloudPentestCheatsheets
 	url = https://github.com/dafthack/CloudPentestCheatsheets.git
+[submodule "mobile/MobileApp-Pentest-Cheatsheet"]
+	path = mobile/MobileApp-Pentest-Cheatsheet
+	url = https://github.com/tanprathan/MobileApp-Pentest-Cheatsheet.git
