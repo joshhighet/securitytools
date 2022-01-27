@@ -472,3 +472,6 @@
 [submodule "collections/RedTeam-OffensiveSecurity"]
 	path = collections/RedTeam-OffensiveSecurity
 	url = https://github.com/bigb0sss/RedTeam-OffensiveSecurity.git
+[submodule "collections/security-cheatsheets"]
+	path = collections/security-cheatsheets
+	url = https://github.com/andrewjkerr/security-cheatsheets.git
