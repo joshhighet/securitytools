@@ -277,9 +277,6 @@
 [submodule "collections/security"]
 	path = collections/security
 	url = https://github.com/mozilla/security.git
-[submodule "resources/security-cheatsheets"]
-	path = resources/security-cheatsheets
-	url = https://github.com/andrewjkerr/security-cheatsheets.git
 [submodule "cloud/ScoutSuite"]
 	path = cloud/ScoutSuite
 	url = https://github.com/nccgroup/ScoutSuite.git
