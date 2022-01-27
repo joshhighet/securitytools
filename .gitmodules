@@ -505,3 +505,6 @@
 [submodule "websites/w3af"]
 	path = websites/w3af
 	url = https://github.com/andresriancho/w3af.git
+[submodule "forensics/sleuthkit"]
+	path = forensics/sleuthkit
+	url = https://github.com/sleuthkit/sleuthkit.git
