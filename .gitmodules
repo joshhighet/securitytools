@@ -457,3 +457,6 @@
 [submodule "networking/clash"]
 	path = networking/clash
 	url = https://github.com/Dreamacro/clash.git
+[submodule "sdr/urh"]
+	path = sdr/urh
+	url = https://github.com/jopohl/urh.git
