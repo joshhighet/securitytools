@@ -343,9 +343,6 @@
 [submodule "windows/SysmonSearch"]
 	path = windows/SysmonSearch
 	url = https://github.com/JPCERTCC/SysmonSearch.git
-[submodule "vendor/VxAPI"]
-	path = vendor/VxAPI
-	url = https://github.com/PayloadSecurity/VxAPI.git
 [submodule "analysis/fame"]
 	path = analysis/fame
 	url = https://github.com/certsocietegenerale/fame.git
