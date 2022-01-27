@@ -502,3 +502,6 @@
 [submodule "mobile/ssl-kill-switch2"]
 	path = mobile/ssl-kill-switch2
 	url = https://github.com/nabla-c0d3/ssl-kill-switch2.git
+[submodule "websites/w3af"]
+	path = websites/w3af
+	url = https://github.com/andresriancho/w3af.git
