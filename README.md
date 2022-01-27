@@ -160,31 +160,6 @@ this readme is dynamically generated based upon the contents of the submodules
 * [networking/IPRotate_Burp_Extension](https://github.com/RhinoSecurityLabs/IPRotate_Burp_Extension)
 	_Extension for Burp Suite which uses AWS API Gateway to rotate your IP on every request._
 
-## resources
-* [resources/awesome-api-security](https://github.com/arainho/awesome-api-security)
-	_A collection of awesome API Security tools and resources._
-
-* [resources/OSINT-Discord-resources](https://github.com/Dutchosintguy/OSINT-Discord-resources)
-	_Some OSINT Discord resources_
-
-* [resources/MobileApp-Pentest-Cheatsheet](https://github.com/tanprathan/MobileApp-Pentest-Cheatsheet)
-	_The Mobile App Pentest cheat sheet was created to provide concise collection of high value information on specific mobile application penetration testing topics._
-
-* [resources/the_cyber_plumbers_handbook](https://github.com/opsdisk/the_cyber_plumbers_handbook)
-	_Free copy of The Cyber Plumber's Handbook_
-
-* [resources/CloudPentestCheatsheets](https://github.com/dafthack/CloudPentestCheatsheets)
-	_This repository contains a collection of cheatsheets I have put together for tools related to pentesting organizations that leverage cloud providers._
-
-* [resources/ICS-Security-Tools](https://github.com/ITI/ICS-Security-Tools)
-	_Tools, tips, tricks, and more for exploring ICS Security._
-
-* [resources/security-cheatsheets](https://github.com/andrewjkerr/security-cheatsheets)
-	_🔒 A collection of cheatsheets for various infosec tools and topics._
-
-* [resources/RedTeam-OffensiveSecurity](https://github.com/bigb0sss/RedTeam-OffensiveSecurity)
-	_Tools & Interesting Things for RedTeam Ops_
-
 ## forensics
 * [forensics/aa-tools](https://github.com/JPCERTCC/aa-tools)
 	_Artifact analysis tools by JPCERT/CC Analysis Center_
@@ -240,6 +215,9 @@ this readme is dynamically generated based upon the contents of the submodules
 	_Detect Tactics, Techniques & Combat Threats_
 
 ## mobile
+* [mobile/MobileApp-Pentest-Cheatsheet](https://github.com/tanprathan/MobileApp-Pentest-Cheatsheet)
+	_The Mobile App Pentest cheat sheet was created to provide concise collection of high value information on specific mobile application penetration testing topics._
+
 * [mobile/awesome-mobile-security](https://github.com/vaib25vicky/awesome-mobile-security)
 	_An effort to build a single place for all useful android and iOS security related stuff. All references and tools belong to their respective owners. I'm just maintaining it._
 
@@ -249,6 +227,9 @@ this readme is dynamically generated based upon the contents of the submodules
 
 * [cloud/ScoutSuite](https://github.com/nccgroup/ScoutSuite)
 	_Multi-Cloud Security Auditing Tool_
+
+* [cloud/CloudPentestCheatsheets](https://github.com/dafthack/CloudPentestCheatsheets)
+	_This repository contains a collection of cheatsheets I have put together for tools related to pentesting organizations that leverage cloud providers._
 
 ## scanners
 * [scanners/Striker](https://github.com/s0md3v/Striker)
@@ -306,6 +287,9 @@ this readme is dynamically generated based upon the contents of the submodules
 
 * [socials/NameSpi](https://github.com/waffl3ss/NameSpi)
 	_Scrape LinkedIn, ZoomInfo, USStaff, and Hunter.io for usernames and employees._
+
+* [socials/OSINT-Discord-resources](https://github.com/Dutchosintguy/OSINT-Discord-resources)
+	_Some OSINT Discord resources_
 
 * [socials/holehe](https://github.com/megadose/holehe)
 	_holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function._
@@ -382,8 +366,20 @@ this readme is dynamically generated based upon the contents of the submodules
 * [collections/HackingTools](https://github.com/Laxa/HackingTools)
 	_Exhaustive list of hacking tools_
 
+* [collections/the_cyber_plumbers_handbook](https://github.com/opsdisk/the_cyber_plumbers_handbook)
+	_Free copy of The Cyber Plumber's Handbook_
+
+* [collections/ICS-Security-Tools](https://github.com/ITI/ICS-Security-Tools)
+	_Tools, tips, tricks, and more for exploring ICS Security._
+
+* [collections/security-cheatsheets](https://github.com/andrewjkerr/security-cheatsheets)
+	_🔒 A collection of cheatsheets for various infosec tools and topics._
+
 * [collections/DefaultCreds-cheat-sheet](https://github.com/ihebski/DefaultCreds-cheat-sheet)
 	_One place for all the default credentials to assist the Blue/Red teamers activities on finding devices with default password 🛡️_
+
+* [collections/RedTeam-OffensiveSecurity](https://github.com/bigb0sss/RedTeam-OffensiveSecurity)
+	_Tools & Interesting Things for RedTeam Ops_
 
 ## assets
 * [assets/snipe-it](https://github.com/snipe/snipe-it)
@@ -413,6 +409,9 @@ this readme is dynamically generated based upon the contents of the submodules
 	_A parser for SPF and DMARC DNS records_
 
 ## websites
+* [websites/awesome-api-security](https://github.com/arainho/awesome-api-security)
+	_A collection of awesome API Security tools and resources._
+
 * [websites/dirsearch](https://github.com/maurosoria/dirsearch)
 	_Web path scanner_
 
