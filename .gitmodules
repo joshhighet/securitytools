@@ -463,3 +463,6 @@
 [submodule "sdr/srsRAN"]
 	path = sdr/srsRAN
 	url = https://github.com/srsran/srsRAN.git
+[submodule "sdr/gqrx"]
+	path = sdr/gqrx
+	url = https://github.com/gqrx-sdr/gqrx.git
