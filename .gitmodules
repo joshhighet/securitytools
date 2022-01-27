@@ -514,3 +514,6 @@
 [submodule "websites/sqlmap"]
 	path = websites/sqlmap
 	url = https://github.com/sqlmapproject/sqlmap.git
+[submodule "websites/slowloris"]
+	path = websites/slowloris
+	url = https://github.com/gkbrk/slowloris.git
