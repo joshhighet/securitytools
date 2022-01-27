@@ -508,3 +508,6 @@
 [submodule "forensics/sleuthkit"]
 	path = forensics/sleuthkit
 	url = https://github.com/sleuthkit/sleuthkit.git
+[submodule "networking/pwnat"]
+	path = networking/pwnat
+	url = https://github.com/samyk/pwnat.git
