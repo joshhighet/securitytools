@@ -520,3 +520,6 @@
 [submodule "industrial/isf"]
 	path = industrial/isf
 	url = https://github.com/dark-lbp/isf.git
+[submodule "industrial/s7scan"]
+	path = industrial/s7scan
+	url = https://github.com/klsecservices/s7scan.git
