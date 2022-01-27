@@ -493,3 +493,6 @@
 [submodule "collections/SecurityShepherd"]
 	path = collections/SecurityShepherd
 	url = https://github.com/OWASP/SecurityShepherd.git
+[submodule "analysis/radare2"]
+	path = analysis/radare2
+	url = https://github.com/radareorg/radare2.git
