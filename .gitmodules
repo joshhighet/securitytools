@@ -469,3 +469,6 @@
 [submodule "sdr/gnuradio"]
 	path = sdr/gnuradio
 	url = https://github.com/gnuradio/gnuradio.git
+[submodule "microsoft&azure/azure-policy"]
+	path = microsoft&azure/azure-policy
+	url = https://github.com/Azure/azure-policy.git
