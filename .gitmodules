@@ -445,3 +445,6 @@
 [submodule "containers/dockerfiles"]
 	path = containers/dockerfiles
 	url = https://github.com/jessfraz/dockerfiles.git
+[submodule "collections/regular-expression-cheat-sheet"]
+	path = collections/regular-expression-cheat-sheet
+	url = https://github.com/niklongstone/regular-expression-cheat-sheet.git
