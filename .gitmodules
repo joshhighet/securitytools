@@ -517,3 +517,6 @@
 [submodule "websites/H5SC"]
 	path = websites/H5SC
 	url = https://github.com/cure53/H5SC.git
+[submodule "cloud/stratus-red-team"]
+	path = cloud/stratus-red-team
+	url = https://github.com/DataDog/stratus-red-team.git
