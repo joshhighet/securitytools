@@ -208,6 +208,9 @@ this readme is dynamically generated based upon the contents of the submodules
 * [cloud/ScoutSuite](https://github.com/nccgroup/ScoutSuite)
 	_Multi-Cloud Security Auditing Tool_
 
+* [cloud/stratus-red-team](https://github.com/DataDog/stratus-red-team)
+	_:cloud: :zap: Granular, Actionable Adversary Emulation for the Cloud._
+
 * [cloud/festin](https://github.com/cr0hn/festin)
 	_FestIn - S3 Bucket Weakness Discovery_
 
