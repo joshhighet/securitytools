@@ -544,3 +544,6 @@
 [submodule "websites/AwesomeXSS"]
 	path = websites/AwesomeXSS
 	url = https://github.com/s0md3v/AwesomeXSS.git
+[submodule "websites/PayloadsAllTheThings"]
+	path = websites/PayloadsAllTheThings
+	url = https://github.com/swisskyrepo/PayloadsAllTheThings.git
