@@ -583,3 +583,6 @@
 [submodule "websites/awesome-web-security"]
 	path = websites/awesome-web-security
 	url = https://github.com/qazbnm456/awesome-web-security.git
+[submodule "collections/pentest-wiki"]
+	path = collections/pentest-wiki
+	url = https://github.com/nixawk/pentest-wiki.git
