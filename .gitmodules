@@ -589,3 +589,6 @@
 [submodule "collections/Red-Team-Infrastructure-Wiki"]
 	path = collections/Red-Team-Infrastructure-Wiki
 	url = https://github.com/bluscreenofjeff/Red-Team-Infrastructure-Wiki.git
+[submodule "indicators/awesome-yara"]
+	path = indicators/awesome-yara
+	url = https://github.com/InQuest/awesome-yara.git
