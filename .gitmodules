@@ -571,3 +571,6 @@
 [submodule "indicators/yarGen"]
 	path = indicators/yarGen
 	url = https://github.com/Neo23x0/yarGen.git
+[submodule "indicators/python-iocextract"]
+	path = indicators/python-iocextract
+	url = https://github.com/InQuest/python-iocextract.git
