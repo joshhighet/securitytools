@@ -592,3 +592,6 @@
 [submodule "indicators/awesome-yara"]
 	path = indicators/awesome-yara
 	url = https://github.com/InQuest/awesome-yara.git
+[submodule "indicators/awesome-threat-intelligence"]
+	path = indicators/awesome-threat-intelligence
+	url = https://github.com/hslatman/awesome-threat-intelligence.git
