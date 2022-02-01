@@ -556,3 +556,6 @@
 [submodule "websites/payloads"]
 	path = websites/payloads
 	url = https://github.com/foospidy/payloads.git
+[submodule "analysis/awesome-reversing"]
+	path = analysis/awesome-reversing
+	url = https://github.com/tylerha97/awesome-reversing.git
