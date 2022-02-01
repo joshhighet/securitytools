@@ -547,3 +547,6 @@
 [submodule "websites/PayloadsAllTheThings"]
 	path = websites/PayloadsAllTheThings
 	url = https://github.com/swisskyrepo/PayloadsAllTheThings.git
+[submodule "collections/Awesome-Vulnerability-Research"]
+	path = collections/Awesome-Vulnerability-Research
+	url = https://github.com/securitychampions/Awesome-Vulnerability-Research.git
