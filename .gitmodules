@@ -553,3 +553,6 @@
 [submodule "collections/awesome-devsecops"]
 	path = collections/awesome-devsecops
 	url = https://github.com/devsecops/awesome-devsecops.git
+[submodule "websites/payloads"]
+	path = websites/payloads
+	url = https://github.com/foospidy/payloads.git
