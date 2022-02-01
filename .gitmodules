@@ -586,3 +586,6 @@
 [submodule "collections/pentest-wiki"]
 	path = collections/pentest-wiki
 	url = https://github.com/nixawk/pentest-wiki.git
+[submodule "collections/Red-Team-Infrastructure-Wiki"]
+	path = collections/Red-Team-Infrastructure-Wiki
+	url = https://github.com/bluscreenofjeff/Red-Team-Infrastructure-Wiki.git
