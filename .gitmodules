@@ -574,3 +574,6 @@
 [submodule "indicators/python-iocextract"]
 	path = indicators/python-iocextract
 	url = https://github.com/InQuest/python-iocextract.git
+[submodule "indicators/iocs"]
+	path = indicators/iocs
+	url = https://github.com/pan-unit42/iocs.git
