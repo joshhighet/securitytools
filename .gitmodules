@@ -538,3 +538,6 @@
 [submodule "networking/awesome-shodan-queries"]
 	path = networking/awesome-shodan-queries
 	url = https://github.com/jakejarvis/awesome-shodan-queries.git
+[submodule "industrial/ICS_IoT_Shodan_Dorks"]
+	path = industrial/ICS_IoT_Shodan_Dorks
+	url = https://github.com/AustrianEnergyCERT/ICS_IoT_Shodan_Dorks.git
