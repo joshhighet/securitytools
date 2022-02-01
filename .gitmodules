@@ -535,6 +535,3 @@
 [submodule "indicators/vti-dorks"]
 	path = indicators/vti-dorks
 	url = https://github.com/Neo23x0/vti-dorks.git
-[submodule "networking/shodan-dorks"]
-	path = networking/shodan-dorks
-	url = https://github.com/IFLinfosec/shodan-dorks.git
