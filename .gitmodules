@@ -565,3 +565,6 @@
 [submodule "collections/blackhat-arsenal-tools"]
 	path = collections/blackhat-arsenal-tools
 	url = https://github.com/toolswatch/blackhat-arsenal-tools.git
+[submodule "osint/mitaka"]
+	path = osint/mitaka
+	url = https://github.com/ninoseki/mitaka.git
