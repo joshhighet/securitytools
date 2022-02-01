@@ -577,3 +577,6 @@
 [submodule "indicators/iocs"]
 	path = indicators/iocs
 	url = https://github.com/pan-unit42/iocs.git
+[submodule "collections/Infosec_Reference"]
+	path = collections/Infosec_Reference
+	url = https://github.com/rmusser01/Infosec_Reference.git
