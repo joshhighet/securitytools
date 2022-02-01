@@ -595,3 +595,6 @@
 [submodule "indicators/awesome-threat-intelligence"]
 	path = indicators/awesome-threat-intelligence
 	url = https://github.com/hslatman/awesome-threat-intelligence.git
+[submodule "reconnaisance/github-dorks"]
+	path = reconnaisance/github-dorks
+	url = https://github.com/techgaun/github-dorks.git
