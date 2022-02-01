@@ -541,3 +541,6 @@
 [submodule "industrial/ICS_IoT_Shodan_Dorks"]
 	path = industrial/ICS_IoT_Shodan_Dorks
 	url = https://github.com/AustrianEnergyCERT/ICS_IoT_Shodan_Dorks.git
+[submodule "websites/AwesomeXSS"]
+	path = websites/AwesomeXSS
+	url = https://github.com/s0md3v/AwesomeXSS.git
