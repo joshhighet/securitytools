@@ -568,3 +568,6 @@
 [submodule "osint/mitaka"]
 	path = osint/mitaka
 	url = https://github.com/ninoseki/mitaka.git
+[submodule "indicators/yarGen"]
+	path = indicators/yarGen
+	url = https://github.com/Neo23x0/yarGen.git
