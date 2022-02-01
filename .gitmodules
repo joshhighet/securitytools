@@ -598,3 +598,6 @@
 [submodule "reconnaisance/github-dorks"]
 	path = reconnaisance/github-dorks
 	url = https://github.com/techgaun/github-dorks.git
+[submodule "sdr/RFSec-ToolKit"]
+	path = sdr/RFSec-ToolKit
+	url = https://github.com/cn0xroot/RFSec-ToolKit.git
