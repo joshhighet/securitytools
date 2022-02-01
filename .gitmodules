@@ -535,3 +535,6 @@
 [submodule "indicators/vti-dorks"]
 	path = indicators/vti-dorks
 	url = https://github.com/Neo23x0/vti-dorks.git
+[submodule "networking/awesome-shodan-queries"]
+	path = networking/awesome-shodan-queries
+	url = https://github.com/jakejarvis/awesome-shodan-queries.git
