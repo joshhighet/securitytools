@@ -245,7 +245,7 @@ this readme is dynamically generated based upon the contents of the submodules
 	_Multi-Cloud Security Auditing Tool_
 
 * [cloud/stratus-red-team](https://github.com/DataDog/stratus-red-team)
-	_:cloud: :zap: Granular, Actionable Adversary Emulation for the Cloud._
+	_:cloud: :zap: Granular, Actionable Adversary Emulation for the Cloud_
 
 * [cloud/festin](https://github.com/cr0hn/festin)
 	_FestIn - S3 Bucket Weakness Discovery_
@@ -305,6 +305,10 @@ this readme is dynamically generated based upon the contents of the submodules
 
 * [activedirectory/BloodHound](https://github.com/BloodHoundAD/BloodHound)
 	_Six Degrees of Domain Admin_
+
+## devops
+* [devops/credential-digger](https://github.com/SAP/credential-digger)
+	_A Github scanning tool that identifies hardcoded credentials while filtering the false positive data through machine learning models :lock:_
 
 ## industrial
 * [industrial/ICS_IoT_Shodan_Dorks](https://github.com/AustrianEnergyCERT/ICS_IoT_Shodan_Dorks)
