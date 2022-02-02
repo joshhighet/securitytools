@@ -601,3 +601,6 @@
 [submodule "sdr/RFSec-ToolKit"]
 	path = sdr/RFSec-ToolKit
 	url = https://github.com/cn0xroot/RFSec-ToolKit.git
+[submodule "devops/credential-digger"]
+	path = devops/credential-digger
+	url = https://github.com/SAP/credential-digger.git
