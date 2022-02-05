@@ -604,3 +604,6 @@
 [submodule "devops/credential-digger"]
 	path = devops/credential-digger
 	url = https://github.com/SAP/credential-digger.git
+[submodule "analysis/CAPEv2"]
+	path = analysis/CAPEv2
+	url = https://github.com/kevoreilly/CAPEv2.git
