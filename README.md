@@ -74,6 +74,9 @@ this readme is dynamically generated based upon the contents of the submodules
 * [analysis/munin](https://github.com/Neo23x0/munin)
 	_Online hash checker for Virustotal and other services_
 
+* [analysis/CAPEv2](https://github.com/kevoreilly/CAPEv2)
+	_Malware Configuration And Payload Extraction_
+
 ## email
 * [email/espoofer](https://github.com/chenjj/espoofer)
 	_An email spoofing testing tool that aims to bypass SPF/DKIM/DMARC and forge DKIM signatures.🍻_
@@ -408,6 +411,9 @@ this readme is dynamically generated based upon the contents of the submodules
 
 * [socials/holehe](https://github.com/megadose/holehe)
 	_holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function._
+
+* [socials/socialscan](https://github.com/iojw/socialscan)
+	_Python library and CLI for accurately querying username and email usage on online platforms_
 
 * [socials/CrossLinked](https://github.com/m8r0wn/CrossLinked)
 	_LinkedIn enumeration tool to extract valid employee names from an organization through search engine scraping_
