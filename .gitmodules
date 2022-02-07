@@ -619,3 +619,6 @@
 [submodule "devops/osquery"]
 	path = devops/osquery
 	url = https://github.com/osquery/osquery.git
+[submodule "websites/nginxconfig.io"]
+	path = websites/nginxconfig.io
+	url = https://github.com/digitalocean/nginxconfig.io.git
