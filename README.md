@@ -235,6 +235,9 @@ this readme is dynamically generated based upon the contents of the submodules
 * [websites/payloads](https://github.com/foospidy/payloads)
 	_Git All the Payloads! A collection of web attack payloads._
 
+* [websites/nginxconfig.io](https://github.com/digitalocean/nginxconfig.io)
+	_⚙️ NGINX config generator on steroids 💉_
+
 * [websites/awesome-api-security](https://github.com/arainho/awesome-api-security)
 	_A collection of awesome API Security tools and resources._
 
@@ -322,12 +325,18 @@ this readme is dynamically generated based upon the contents of the submodules
 	_yarGen is a generator for YARA rules_
 
 ## authentication
+* [authentication/teleport](https://github.com/gravitational/teleport)
+	_Certificate authority and access plane for SSH, Kubernetes, web apps, databases and desktops_
+
 * [authentication/SAML2Spray](https://github.com/LuemmelSec/SAML2Spray)
 	_Python Script for SAML2 Authentication Passwordspray_
 
 ## mobile
 * [mobile/objection](https://github.com/sensepost/objection)
 	_📱 objection - runtime mobile exploration_
+
+* [mobile/SMSSpoof](https://github.com/vpn/SMSSpoof)
+	_Spoof who an SMS is from using an SMS API_
 
 * [mobile/osx-and-ios-security-awesome](https://github.com/ashishb/osx-and-ios-security-awesome)
 	_OSX and iOS related security tools_
@@ -513,6 +522,9 @@ this readme is dynamically generated based upon the contents of the submodules
 	_RFSec-ToolKit is a collection of Radio Frequency Communication Protocol Hacktools.无线通信协议相关的工具集，可借助SDR硬件+相关工具对无线通信进行研究。Collect with ♥ by HackSmith_
 
 ## devops
+* [devops/osquery](https://github.com/osquery/osquery)
+	_SQL powered operating system instrumentation, monitoring, and analytics._
+
 * [devops/credential-digger](https://github.com/SAP/credential-digger)
 	_A Github scanning tool that identifies hardcoded credentials while filtering the false positive data through machine learning models :lock:_
 
@@ -597,6 +609,9 @@ this readme is dynamically generated based upon the contents of the submodules
 * [collections/ctf-tools](https://github.com/zardus/ctf-tools)
 	_Some setup scripts for security research tools._
 
+* [collections/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge)
+	_A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more._
+
 * [collections/pentest-wiki](https://github.com/nixawk/pentest-wiki)
 	_PENTEST-WIKI is a free online security knowledge library for pentesters / researchers. If you have a good idea, please share it with others._
 
@@ -605,6 +620,9 @@ this readme is dynamically generated based upon the contents of the submodules
 
 * [collections/Red-Team-Infrastructure-Wiki](https://github.com/bluscreenofjeff/Red-Team-Infrastructure-Wiki)
 	_Wiki to collect Red Team infrastructure hardening resources_
+
+* [collections/macOS-Security-and-Privacy-Guide](https://github.com/drduh/macOS-Security-and-Privacy-Guide)
+	_Guide to securing and improving privacy on macOS_
 
 * [collections/Infosec_Reference](https://github.com/rmusser01/Infosec_Reference)
 	_An Information Security Reference That Doesn't Suck; https://rmusser.net/git/admin-2/Infosec_Reference for non-MS Git hosted version._
