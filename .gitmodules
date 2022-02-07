@@ -625,3 +625,6 @@
 [submodule "mobile/SMSSpoof"]
 	path = mobile/SMSSpoof
 	url = https://github.com/vpn/SMSSpoof.git
+[submodule "authentication/teleport"]
+	path = authentication/teleport
+	url = https://github.com/gravitational/teleport.git
