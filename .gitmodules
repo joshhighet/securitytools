@@ -622,3 +622,6 @@
 [submodule "websites/nginxconfig.io"]
 	path = websites/nginxconfig.io
 	url = https://github.com/digitalocean/nginxconfig.io.git
+[submodule "mobile/SMSSpoof"]
+	path = mobile/SMSSpoof
+	url = https://github.com/vpn/SMSSpoof.git
