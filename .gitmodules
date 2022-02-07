@@ -616,3 +616,6 @@
 [submodule "collections/macOS-Security-and-Privacy-Guide"]
 	path = collections/macOS-Security-and-Privacy-Guide
 	url = https://github.com/drduh/macOS-Security-and-Privacy-Guide.git
+[submodule "devops/osquery"]
+	path = devops/osquery
+	url = https://github.com/osquery/osquery.git
