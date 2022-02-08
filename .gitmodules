@@ -634,3 +634,6 @@
 [submodule "devops/auditd"]
 	path = devops/auditd
 	url = https://github.com/Neo23x0/auditd.git
+[submodule "devops/Fenrir"]
+	path = devops/Fenrir
+	url = https://github.com/Neo23x0/Fenrir.git
