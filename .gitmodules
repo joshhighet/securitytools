@@ -628,3 +628,6 @@
 [submodule "authentication/teleport"]
 	path = authentication/teleport
 	url = https://github.com/gravitational/teleport.git
+[submodule "analysis/Cyber-Search-Shortcuts"]
+	path = analysis/Cyber-Search-Shortcuts
+	url = https://github.com/Neo23x0/Cyber-Search-Shortcuts.git
