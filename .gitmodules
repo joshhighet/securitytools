@@ -631,3 +631,6 @@
 [submodule "analysis/Cyber-Search-Shortcuts"]
 	path = analysis/Cyber-Search-Shortcuts
 	url = https://github.com/Neo23x0/Cyber-Search-Shortcuts.git
+[submodule "devops/auditd"]
+	path = devops/auditd
+	url = https://github.com/Neo23x0/auditd.git
