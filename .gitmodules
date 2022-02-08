@@ -637,3 +637,6 @@
 [submodule "devops/Fenrir"]
 	path = devops/Fenrir
 	url = https://github.com/Neo23x0/Fenrir.git
+[submodule "incidents/Loki"]
+	path = incidents/Loki
+	url = https://github.com/Neo23x0/Loki.git
