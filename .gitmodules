@@ -646,3 +646,6 @@
 [submodule "incidents/alerting-detection-strategy-framework"]
 	path = incidents/alerting-detection-strategy-framework
 	url = https://github.com/palantir/alerting-detection-strategy-framework.git
+[submodule "networking/Raven-Storm"]
+	path = networking/Raven-Storm
+	url = https://github.com/Taguar258/Raven-Storm.git
