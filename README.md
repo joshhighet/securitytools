@@ -495,6 +495,9 @@ this readme is dynamically generated based upon the contents of the submodules
 	_The Swiss Army knife for 802.11, BLE, IPv4 and IPv6 networks reconnaissance and MITM attacks._
 
 ## incidents
+* [incidents/alerting-detection-strategy-framework](https://github.com/palantir/alerting-detection-strategy-framework)
+	_A framework for developing alerting and detection strategies for incident response._
+
 * [incidents/Aurora-Incident-Response](https://github.com/cyb3rfox/Aurora-Incident-Response)
 	_Incident Response Documentation made easy. Developed by Incident Responders for Incident Responders_
 
@@ -613,6 +616,10 @@ this readme is dynamically generated based upon the contents of the submodules
 
 * [osint/waybackpack](https://github.com/jsvine/waybackpack)
 	_Download the entire Wayback Machine archive for a given URL._
+
+## macOS
+* [macOS/macOS-enterprise-privileges](https://github.com/SAP/macOS-enterprise-privileges)
+	_For Mac users in an Enterprise environment, this app gives the User control over administration of their machine by elevating their level of access to Administrator privileges on macOS.  Users can set the time frame using Preferences to perform specific tasks such as install or remove an application._
 
 ## collections
 * [collections/awesome-devsecops](https://github.com/devsecops/awesome-devsecops)
