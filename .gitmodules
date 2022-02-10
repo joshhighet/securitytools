@@ -640,3 +640,6 @@
 [submodule "incidents/Loki"]
 	path = incidents/Loki
 	url = https://github.com/Neo23x0/Loki.git
+[submodule "macOS/macOS-enterprise-privileges"]
+	path = macOS/macOS-enterprise-privileges
+	url = https://github.com/SAP/macOS-enterprise-privileges.git
