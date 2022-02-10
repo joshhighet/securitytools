@@ -242,7 +242,7 @@ this readme is dynamically generated based upon the contents of the submodules
 	_⚙️ NGINX config generator on steroids 💉_
 
 * [websites/awesome-api-security](https://github.com/arainho/awesome-api-security)
-	_A collection of awesome API Security tools and resources._
+	_A collection of awesome API Security tools and resources. The focus goes to open-source tools and resources that benefit all the community._
 
 * [websites/dirsearch](https://github.com/maurosoria/dirsearch)
 	_Web path scanner_
@@ -560,7 +560,7 @@ this readme is dynamically generated based upon the contents of the submodules
 	_A little tool to play with Windows security_
 
 * [windows/Certipy](https://github.com/ly4k/Certipy)
-	_Python implementation for Active Directory certificate abuse_
+	_Tool for Active Directory Certificate Services enumeration and abuse_
 
 * [windows/LiquidSnake](https://github.com/RiccardoAncarani/LiquidSnake)
 	_LiquidSnake is a tool that allows operators to perform fileless lateral movement using WMI Event Subscriptions and GadgetToJScript_
