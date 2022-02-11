@@ -44,7 +44,7 @@ with open(homedir + '/README.md', 'w') as f:
                 continue
             f.write('## ' + folder + '\n')
             for subfolder in os.listdir(folder):
-                if subfolder.startswith('.git') or subfolder == 'securitytools':
+                if subfolder.startswith('.git') or subfolder == 'securitytools' or subfolder.endswith('.DS_Store'):
                     continue
                 directory = homedir + '/' + folder + '/' + subfolder
                 logging.debug('processing %s' % directory)
@@ -54,7 +54,8 @@ with open(homedir + '/README.md', 'w') as f:
                 ghapi = requests.get(url.replace('github.com', 'api.github.com/repos'), headers=github_headers)
                 if ghapi.status_code != 200:
                     logging.error('could not get description for %s' % ghapi.url)
-                    logging.error(ghapi.status_code + ' - ' + ghapi.text)
+                    logging.error(str(ghapi.status_code) + ' - ' + ghapi.text)
+                    logging.error(ghapi.headers)
                     exit()
                 f.write('* [%s](%s)\n' % (folder + '/' +  subfolder, url))
                 try:
