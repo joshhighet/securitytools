@@ -458,6 +458,9 @@ this readme is dynamically generated based upon the contents of the submodules
 * [networking/justniffer](https://github.com/onotelli/justniffer)
 	_Justniffer  Just A Network TCP Packet Sniffer .Justniffer is a network protocol analyzer that captures network traffic and produces logs in a customized way, can emulate Apache web server log files, track response times and extract all "intercepted" files from the HTTP traffic_
 
+* [networking/Raven-Storm](https://github.com/Taguar258/Raven-Storm)
+	_Raven-Storm is a powerful DDoS toolkit for penetration tests, including attacks for several protocols written in python. Takedown many connections using several exotic and classic protocols._
+
 * [networking/awesome-shodan-queries](https://github.com/jakejarvis/awesome-shodan-queries)
 	_🔍 A collection of interesting, funny, and depressing search queries to plug into shodan.io 👩‍💻_
 
