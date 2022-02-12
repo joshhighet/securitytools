@@ -380,6 +380,19 @@ this readme is dynamically generated based upon the contents of the submodules
 * [industrial/isf](https://github.com/dark-lbp/isf)
 	_ISF(Industrial Control System Exploitation Framework)，a exploitation framework based on Python_
 
+## blueteam
+* [blueteam/chronicle-detection-rules](https://github.com/chronicle/detection-rules)
+	_Collection of YARA-L 2.0 sample rules for the Chronicle Detection API_
+
+* [blueteam/FalconFriday](https://github.com/FalconForceTeam/FalconFriday)
+	_Bi-weekly hunting queries_
+
+* [blueteam/sigma](https://github.com/SigmaHQ/sigma)
+	_Generic Signature Format for SIEM Systems_
+
+* [blueteam/detection-rules](https://github.com/elastic/detection-rules)
+	_Rules for Elastic Security's detection engine_
+
 ## internet-scale-research
 * [internet-scale-research/opensquat](https://github.com/atenreiro/opensquat)
 	_Detection of phishing domains and domain squatting. Supports permutations such as homograph attack, typosquatting and bitsquatting._
