@@ -652,3 +652,6 @@
 [submodule "blueteam/detection-rules"]
 	path = blueteam/detection-rules
 	url = https://github.com/elastic/detection-rules.git
+[submodule "blueteam/sigma"]
+	path = blueteam/sigma
+	url = https://github.com/SigmaHQ/sigma.git
