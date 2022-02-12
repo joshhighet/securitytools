@@ -655,3 +655,6 @@
 [submodule "blueteam/sigma"]
 	path = blueteam/sigma
 	url = https://github.com/SigmaHQ/sigma.git
+[submodule "blueteam/chronicle-detection-rules"]
+	path = blueteam/chronicle-detection-rules
+	url = https://github.com/chronicle/detection-rules.git
