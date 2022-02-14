@@ -11,12 +11,14 @@ if os.path.basename(os.getcwd()) != 'securitytools':
     print('must run from the securitytools repo!')
     exit()
 
-if len(os.sys.argv) != 2:
-    print('usage: READMEgen.py ${github_pat}')
+try:
+    GHAUTH_API = os.environ['GHAUTH_API']
+except KeyError:
+    print('GHAUTH_API credential missing from environment!')
     exit()
 
 github_headers = {
-    'Authorization': 'token ' + os.sys.argv[1],
+    'Authorization': 'token ' + GHAUTH_API,
     'Accept': 'application/vnd.github.v3+json'
     }
 
@@ -49,7 +51,6 @@ with open(homedir + '/README.md', 'w') as f:
                 directory = homedir + '/' + folder + '/' + subfolder
                 logging.debug('processing %s' % directory)
                 os.chdir(directory)
-                # get the url of the submodule with git config --get remote.origin.url
                 url = subprocess.Popen(['git', 'config', '--get', 'remote.origin.url'], stdout=subprocess.PIPE).communicate()[0].decode('utf-8').strip().replace('.git', '')
                 ghapi = requests.get(url.replace('github.com', 'api.github.com/repos'), headers=github_headers)
                 if ghapi.status_code != 200:

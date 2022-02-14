@@ -18,7 +18,9 @@ jobs:
           submodules: true
       - name: run report generator
         run: |
-          python3 README.py ${{ secrets.GITHUB_TOKEN }}
+          python3 README.py
+        env: 
+          GHAUTH_API: ${{ secrets.GITHUB_TOKEN }}
       - name: save changes
         run: |
           git config --global user.email "theta-bot@users.noreply.github.com"
