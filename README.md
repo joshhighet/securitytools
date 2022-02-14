@@ -434,6 +434,9 @@ this readme is dynamically generated based upon the contents of the submodules
 * [socials/awesome-social-engineering](https://github.com/v2-dev/awesome-social-engineering)
 	_A curated list of awesome social engineering resources._
 
+* [socials/Telepathy](https://github.com/jordanwildon/Telepathy)
+	_Public release of Telepathy, an OSINT toolkit for investigating Telegram chats._
+
 * [socials/holehe](https://github.com/megadose/holehe)
 	_holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function._
 
