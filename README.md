@@ -562,6 +562,9 @@ this readme is dynamically generated based upon the contents of the submodules
 * [devops/auditd](https://github.com/Neo23x0/auditd)
 	_Best Practice Auditd Configuration_
 
+* [devops/dog](https://github.com/ogham/dog)
+	_A command-line DNS client._
+
 ## activedirectory
 * [activedirectory/ADFSpoof](https://github.com/fireeye/ADFSpoof)
 
