@@ -670,3 +670,6 @@
 [submodule "media/unredacter"]
 	path = media/unredacter
 	url = https://github.com/BishopFox/unredacter.git
+[submodule "media/exiftool"]
+	path = media/exiftool
+	url = https://github.com/exiftool/exiftool.git
