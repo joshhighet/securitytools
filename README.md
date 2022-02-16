@@ -556,6 +556,9 @@ this readme is dynamically generated based upon the contents of the submodules
 * [devops/credential-digger](https://github.com/SAP/credential-digger)
 	_A Github scanning tool that identifies hardcoded credentials while filtering the false positive data through machine learning models :lock:_
 
+* [devops/axiom](https://github.com/pry0cc/axiom)
+	_The dynamic infrastructure framework for everybody! Distribute the workload of many different scanning tools with ease, including nmap, ffuf, masscan, nuclei, meg and many more!_
+
 * [devops/Fenrir](https://github.com/Neo23x0/Fenrir)
 	_Simple Bash IOC Scanner_
 
