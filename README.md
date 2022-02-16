@@ -565,6 +565,16 @@ this readme is dynamically generated based upon the contents of the submodules
 * [devops/dog](https://github.com/ogham/dog)
 	_A command-line DNS client._
 
+## media
+* [media/unredacter](https://github.com/BishopFox/unredacter)
+	_Never ever ever use pixelation as a redaction technique_
+
+* [media/exiftool](https://github.com/exiftool/exiftool)
+	_ExifTool meta information reader/writer_
+
+* [media/go-exif](https://github.com/dsoprea/go-exif)
+	_A very complete, highly tested, standards-driven (but customizable) EXIF reader/writer lovingly written in Go._
+
 ## activedirectory
 * [activedirectory/ADFSpoof](https://github.com/fireeye/ADFSpoof)
 
