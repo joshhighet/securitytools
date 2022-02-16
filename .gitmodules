@@ -673,3 +673,6 @@
 [submodule "media/exiftool"]
 	path = media/exiftool
 	url = https://github.com/exiftool/exiftool.git
+[submodule "media/go-exif"]
+	path = media/go-exif
+	url = https://github.com/dsoprea/go-exif.git
