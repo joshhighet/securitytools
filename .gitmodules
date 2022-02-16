@@ -667,3 +667,6 @@
 [submodule "devops/dog"]
 	path = devops/dog
 	url = https://github.com/ogham/dog.git
+[submodule "media/unredacter"]
+	path = media/unredacter
+	url = https://github.com/BishopFox/unredacter.git
