@@ -679,3 +679,6 @@
 [submodule "devops/axiom"]
 	path = devops/axiom
 	url = https://github.com/pry0cc/axiom.git
+[submodule "microsoft&azure/Sentinel-Queries"]
+	path = microsoft&azure/Sentinel-Queries
+	url = https://github.com/reprise99/Sentinel-Queries.git
