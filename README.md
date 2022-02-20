@@ -552,6 +552,9 @@ this readme is dynamically generated based upon the contents of the submodules
 * [sdr/RFSec-ToolKit](https://github.com/cn0xroot/RFSec-ToolKit)
 	_RFSec-ToolKit is a collection of Radio Frequency Communication Protocol Hacktools.无线通信协议相关的工具集，可借助SDR硬件+相关工具对无线通信进行研究。Collect with ♥ by HackSmith_
 
+* [sdr/gps-sdr-sim](https://github.com/osqzss/gps-sdr-sim)
+	_Software-Defined GPS Signal Simulator_
+
 ## devops
 * [devops/osquery](https://github.com/osquery/osquery)
 	_SQL powered operating system instrumentation, monitoring, and analytics._
