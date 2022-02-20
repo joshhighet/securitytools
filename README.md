@@ -198,6 +198,9 @@ this readme is dynamically generated based upon the contents of the submodules
 * [microsoft&azure/AzurePenTestScope](https://github.com/swiftsolves-msft/AzurePenTestScope)
 	_The following scripts and programs are to help security professionals scope their organizations Azure footprint prior to penetration testing._
 
+* [microsoft&azure/Sentinel-Queries](https://github.com/reprise99/Sentinel-Queries)
+	_Collection of KQL queries_
+
 * [microsoft&azure/azucar](https://github.com/nccgroup/azucar)
 	_Security auditing tool for Azure environments_
 
