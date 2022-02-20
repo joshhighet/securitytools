@@ -682,3 +682,6 @@
 [submodule "microsoft&azure/Sentinel-Queries"]
 	path = microsoft&azure/Sentinel-Queries
 	url = https://github.com/reprise99/Sentinel-Queries.git
+[submodule "sdr/gps-sdr-sim"]
+	path = sdr/gps-sdr-sim
+	url = https://github.com/osqzss/gps-sdr-sim.git
