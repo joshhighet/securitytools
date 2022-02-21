@@ -422,6 +422,9 @@ this readme is dynamically generated based upon the contents of the submodules
 * [socials/sherlock](https://github.com/sherlock-project/sherlock)
 	_🔎 Hunt down social media accounts by username across social networks_
 
+* [socials/AMITT](https://github.com/cogsec-collaborative/AMITT)
+	_AMITT (Adversarial Misinformation and Influence Tactics and Techniques) framework for describing disinformation incidents. Includes TTPs and countermeasures._
+
 * [socials/NameSpi](https://github.com/waffl3ss/NameSpi)
 	_Scrape LinkedIn, ZoomInfo, USStaff, and Hunter.io for usernames and employees._
 
