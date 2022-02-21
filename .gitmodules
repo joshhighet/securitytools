@@ -685,3 +685,6 @@
 [submodule "sdr/gps-sdr-sim"]
 	path = sdr/gps-sdr-sim
 	url = https://github.com/osqzss/gps-sdr-sim.git
+[submodule "socials/AMITT"]
+	path = socials/AMITT
+	url = https://github.com/cogsec-collaborative/AMITT.git
