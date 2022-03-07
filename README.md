@@ -598,7 +598,7 @@ this readme is dynamically generated based upon the contents of the submodules
 
 ## windows
 * [windows/nanodump](https://github.com/helpsystems/nanodump)
-	_Dump LSASS like you mean it_
+	_A crappy LSASS dumper with no ASCII art_
 
 * [windows/SharpNoPSExec](https://github.com/juliourena/SharpNoPSExec)
 	_Get file less command execution for lateral movement._
