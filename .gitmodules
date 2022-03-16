@@ -688,3 +688,6 @@
 [submodule "windows/evtx"]
 	path = windows/evtx
 	url = https://github.com/omerbenamram/evtx.git
+[submodule "microsoft&azure/AzureAD-Attack-Defense"]
+	path = microsoft&azure/AzureAD-Attack-Defense
+	url = https://github.com/Cloud-Architekt/AzureAD-Attack-Defense.git
