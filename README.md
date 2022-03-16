@@ -184,6 +184,9 @@ this readme is dynamically generated based upon the contents of the submodules
 * [microsoft&azure/cs-suite](https://github.com/SecurityFTW/cs-suite)
 	_Cloud Security Suite - One stop tool for auditing the security posture of AWS/GCP/Azure infrastructure._
 
+* [microsoft&azure/AzureAD-Attack-Defense](https://github.com/Cloud-Architekt/AzureAD-Attack-Defense)
+	_This publication is a collection of various common attack scenarios on Azure Active Directory and how they can be mitigated or detected._
+
 * [microsoft&azure/Mandiant-Azure-AD-Investigator](https://github.com/fireeye/Mandiant-Azure-AD-Investigator)
 
 * [microsoft&azure/Azure-Network-Security](https://github.com/Azure/Azure-Network-Security)
@@ -615,14 +618,14 @@ this readme is dynamically generated based upon the contents of the submodules
 * [windows/RDPassSpray](https://github.com/xFreed0m/RDPassSpray)
 	_Python3 tool to perform password spraying using RDP_
 
+* [windows/evtx](https://github.com/omerbenamram/evtx)
+	_A Fast (and safe) parser for the Windows XML Event Log (EVTX) format_
+
 * [windows/SysmonSearch](https://github.com/JPCERTCC/SysmonSearch)
 	_Investigate suspicious activity by visualizing Sysmon's event log_
 
 * [windows/ForgeCert](https://github.com/GhostPack/ForgeCert)
 	_"Golden" certificates_
-
-* [windows/evtx2json](https://github.com/vavarachen/evtx2json)
-	_A tool to convert Windows evtx files (Windows Event Log Files) into JSON format and log to Splunk (optional) using HTTP Event Collector._
 
 * [windows/AttackSurfaceAnalyzer](https://github.com/microsoft/AttackSurfaceAnalyzer)
 	_Attack Surface Analyzer can help you analyze your operating system's security configuration for changes during software installation._
