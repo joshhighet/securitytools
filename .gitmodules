@@ -685,3 +685,6 @@
 [submodule "socials/AMITT"]
 	path = socials/AMITT
 	url = https://github.com/cogsec-collaborative/AMITT.git
+[submodule "windows/evtx"]
+	path = windows/evtx
+	url = https://github.com/omerbenamram/evtx.git
