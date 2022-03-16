@@ -691,3 +691,6 @@
 [submodule "microsoft&azure/AzureAD-Attack-Defense"]
 	path = microsoft&azure/AzureAD-Attack-Defense
 	url = https://github.com/Cloud-Architekt/AzureAD-Attack-Defense.git
+[submodule "sdr/CubicSDR"]
+	path = sdr/CubicSDR
+	url = https://github.com/cjcliffe/CubicSDR.git
