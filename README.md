@@ -546,6 +546,9 @@ this readme is dynamically generated based upon the contents of the submodules
 * [sdr/urh](https://github.com/jopohl/urh)
 	_Universal Radio Hacker: Investigate Wireless Protocols Like A Boss_
 
+* [sdr/CubicSDR](https://github.com/cjcliffe/CubicSDR)
+	_Cross-Platform Software-Defined Radio Application_
+
 * [sdr/gqrx](https://github.com/gqrx-sdr/gqrx)
 	_Software defined radio receiver powered by GNU Radio and Qt._
 
