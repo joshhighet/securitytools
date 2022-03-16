@@ -370,9 +370,6 @@
 [submodule "windows/LiquidSnake"]
 	path = windows/LiquidSnake
 	url = https://github.com/RiccardoAncarani/LiquidSnake.git
-[submodule "windows/evtx2json"]
-	path = windows/evtx2json
-	url = https://github.com/vavarachen/evtx2json.git
 [submodule "osint/Scrummage"]
 	path = osint/Scrummage
 	url = https://github.com/matamorphosis/Scrummage.git
