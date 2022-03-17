@@ -69,7 +69,7 @@ this readme is dynamically generated based upon the contents of the submodules
 	_A tool to parse Firefox and Chrome HSTS databases into forensic artifacts!_
 
 * [analysis/malwoverview](https://github.com/alexandreborges/malwoverview)
-	_Malwoverview is a first response tool used for threat hunting and offers intel information from Virus Total, Hybrid Analysis, URLHaus, Polyswarm, Malshare, Alien Vault, Malpedia, ThreatCrowd, Valhalla, Malware Bazaar, ThreatFox, Triage and it is able to scan Android devices against VT and HA._
+	_Malwoverview is a first response tool used for threat hunting and offers intel information from Virus Total, Hybrid Analysis, URLHaus, Polyswarm, Malshare, Alien Vault, Malpedia, ThreatCrowd, Malware Bazaar, ThreatFox, Triage and it is able to scan Android devices against VT and HA._
 
 * [analysis/munin](https://github.com/Neo23x0/munin)
 	_Online hash checker for Virustotal and other services_
