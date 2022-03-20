@@ -130,7 +130,7 @@ this readme is dynamically generated based upon the contents of the submodules
 	_A tool to find subdomains and interesting things hidden inside, external Javascript files of page, folder, and Github._
 
 * [reconnaisance/Ashok](https://github.com/powerexploit/Ashok)
-	_Ashok is a OSINT Recon Hacking Tool , a.k.a :heart_eyes:  Swiss Army knife ._
+	_Ashok is a OSINT Recon Tool , a.k.a :heart_eyes:  Swiss Army knife ._
 
 * [reconnaisance/github-dorks](https://github.com/techgaun/github-dorks)
 	_Find leaked secrets via github search_
