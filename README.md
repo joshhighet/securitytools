@@ -435,7 +435,7 @@ this readme is dynamically generated based upon the contents of the submodules
 	_Google dorks to easily get some Discord bots tokens_
 
 * [socials/Discord-History-Tracker](https://github.com/chylex/Discord-History-Tracker)
-	_Browser script that saves Discord chat history into a file, and an offline viewer that displays the file._
+	_Desktop app & browser script that saves Discord chat history into a file, and an offline viewer that displays the file._
 
 * [socials/OSINT-Discord-resources](https://github.com/Dutchosintguy/OSINT-Discord-resources)
 	_Some OSINT Discord resources_
