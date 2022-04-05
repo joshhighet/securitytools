@@ -694,3 +694,6 @@
 [submodule "sdr/CubicSDR"]
 	path = sdr/CubicSDR
 	url = https://github.com/cjcliffe/CubicSDR.git
+[submodule "devops/wraith"]
+	path = devops/wraith
+	url = https://github.com/N0MoreSecr3ts/wraith.git
