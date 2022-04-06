@@ -304,7 +304,7 @@ this readme is dynamically generated based upon the contents of the submodules
 	_Browser Shortcuts for Cyber Security Related Online Services_
 
 * [analysis/malwoverview](https://github.com/alexandreborges/malwoverview)
-	_Malwoverview is a first response tool used for threat hunting and offers intel information from Virus Total, Hybrid Analysis, URLHaus, Polyswarm, Malshare, Alien Vault, Malpedia, ThreatCrowd, Malware Bazaar, ThreatFox, Triage and it is able to scan Android devices against VT and HA._
+	_Malwoverview is a first response tool used for threat hunting and offers intel information from Virus Total, Hybrid Analysis, URLHaus, Polyswarm, Malshare, Alien Vault, Malpedia, ThreatCrowd, Malware Bazaar, ThreatFox, Triage and it is able to scan Android devices against VT._
 
 * [analysis/awesome-reversing](https://github.com/tylerha97/awesome-reversing)
 	_A curated list of awesome reversing resources_
@@ -390,6 +390,9 @@ this readme is dynamically generated based upon the contents of the submodules
 ## devops
 * [devops/auditd](https://github.com/Neo23x0/auditd)
 	_Best Practice Auditd Configuration_
+
+* [devops/wraith](https://github.com/N0MoreSecr3ts/wraith)
+	_Uncover forgotten secrets and bring them back to life, haunting security and operations teams._
 
 * [devops/dog](https://github.com/ogham/dog)
 	_A command-line DNS client._
