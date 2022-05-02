@@ -706,3 +706,6 @@
 [submodule "indicators/yara-signator"]
 	path = indicators/yara-signator
 	url = https://github.com/fxb-cocacoding/yara-signator.git
+[submodule "email/miteru"]
+	path = email/miteru
+	url = https://github.com/ninoseki/miteru.git
