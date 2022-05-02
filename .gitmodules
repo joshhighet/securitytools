@@ -697,3 +697,6 @@
 [submodule "devops/wraith"]
 	path = devops/wraith
 	url = https://github.com/N0MoreSecr3ts/wraith.git
+[submodule "blockchain/smart-contract-attack-vectors"]
+	path = blockchain/smart-contract-attack-vectors
+	url = https://github.com/kadenzipfel/smart-contract-attack-vectors.git
