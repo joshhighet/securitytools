@@ -700,3 +700,6 @@
 [submodule "blockchain/smart-contract-attack-vectors"]
 	path = blockchain/smart-contract-attack-vectors
 	url = https://github.com/kadenzipfel/smart-contract-attack-vectors.git
+[submodule "indicators/Yara-rules"]
+	path = indicators/Yara-rules
+	url = https://github.com/bartblaze/Yara-rules.git
