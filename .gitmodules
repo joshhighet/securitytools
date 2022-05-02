@@ -703,3 +703,6 @@
 [submodule "indicators/Yara-rules"]
 	path = indicators/Yara-rules
 	url = https://github.com/bartblaze/Yara-rules.git
+[submodule "indicators/yara-signator"]
+	path = indicators/yara-signator
+	url = https://github.com/fxb-cocacoding/yara-signator.git
