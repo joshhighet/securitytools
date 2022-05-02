@@ -163,6 +163,9 @@ this readme is dynamically generated based upon the contents of the submodules
 * [socials/CrossLinked](https://github.com/m8r0wn/CrossLinked)
 	_LinkedIn enumeration tool to extract valid employee names from an organization through search engine scraping_
 
+* [socials/TweetFeed](https://github.com/0xDanielLopez/TweetFeed)
+	_Collecting IOCs posted on Twitter_
+
 * [socials/sherlock](https://github.com/sherlock-project/sherlock)
 	_🔎 Hunt down social media accounts by username across social networks_
 
@@ -229,6 +232,9 @@ this readme is dynamically generated based upon the contents of the submodules
 * [industrial/ICS_IoT_Shodan_Dorks](https://github.com/AustrianEnergyCERT/ICS_IoT_Shodan_Dorks)
 
 ## email
+* [email/miteru](https://github.com/ninoseki/miteru)
+	_An experimental phishing kit detection tool_
+
 * [email/PhishMailer](https://github.com/BiZken/PhishMailer)
 	_Generate Professional Phishing Emails Fast And Easy_
 
@@ -276,6 +282,9 @@ this readme is dynamically generated based upon the contents of the submodules
 * [indicators/IoCs](https://github.com/sophoslabs/IoCs)
 	_Sophos-originated indicators-of-compromise from published reports_
 
+* [indicators/Yara-rules](https://github.com/bartblaze/Yara-rules)
+	_Collection of private Yara rules._
+
 * [indicators/awesome-threat-intelligence](https://github.com/hslatman/awesome-threat-intelligence)
 	_A curated list of Awesome Threat Intelligence resources_
 
@@ -290,6 +299,9 @@ this readme is dynamically generated based upon the contents of the submodules
 
 * [indicators/yarGen](https://github.com/Neo23x0/yarGen)
 	_yarGen is a generator for YARA rules_
+
+* [indicators/yara-signator](https://github.com/fxb-cocacoding/yara-signator)
+	_Automatic YARA rule generation for Malpedia_
 
 * [indicators/python-iocextract](https://github.com/InQuest/python-iocextract)
 	_Defanged Indicator of Compromise (IOC) Extractor._
@@ -609,6 +621,10 @@ this readme is dynamically generated based upon the contents of the submodules
 * [windows/RDPassSpray](https://github.com/xFreed0m/RDPassSpray)
 	_Python3 tool to perform password spraying using RDP_
 
+## blockchain
+* [blockchain/smart-contract-attack-vectors](https://github.com/kadenzipfel/smart-contract-attack-vectors)
+	_A collection of smart contract attack vectors along with prevention methods._
+
 ## networking
 * [networking/AutoRecon](https://github.com/Tib3rius/AutoRecon)
 	_AutoRecon is a multi-threaded network reconnaissance tool which performs automated enumeration of services._
@@ -712,6 +728,9 @@ this readme is dynamically generated based upon the contents of the submodules
 	_A pretty sweet vulnerability scanner_
 
 ## osint
+* [osint/metagoofil](https://github.com/opsdisk/metagoofil)
+	_Search Google and download specific file types_
+
 * [osint/Scrummage](https://github.com/matamorphosis/Scrummage)
 	_The Ultimate OSINT and Threat Hunting Framework_
 
