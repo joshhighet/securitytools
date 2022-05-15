@@ -715,3 +715,6 @@
 [submodule "osint/metagoofil"]
 	path = osint/metagoofil
 	url = https://github.com/opsdisk/metagoofil.git
+[submodule "collections/OSINT"]
+	path = collections/OSINT
+	url = https://github.com/sinwindie/OSINT.git
