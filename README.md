@@ -187,6 +187,9 @@ this readme is dynamically generated based upon the contents of the submodules
 * [collections/msticpy](https://github.com/microsoft/msticpy)
 	_Microsoft Threat Intelligence Security Tools_
 
+* [collections/OSINT](https://github.com/sinwindie/OSINT)
+	_Collections of tools and methods created to aid in OSINT collection_
+
 * [collections/tools](https://github.com/nullsecuritynet/tools)
 	_Security and Hacking Tools, Exploits, Proof of Concepts, Shellcodes, Scripts._
 
@@ -438,7 +441,7 @@ this readme is dynamically generated based upon the contents of the submodules
 	_🤖 The Modern Port Scanner 🤖_
 
 * [scanners/trivy](https://github.com/aquasecurity/trivy)
-	_Scanner for vulnerabilities in container images, file systems, and Git repositories, as well as for configuration issues_
+	_Scanner for vulnerabilities in container images, file systems, and Git repositories, as well as for configuration issues and hard-coded secrets_
 
 * [scanners/killshot](https://github.com/bahaabdelwahed/killshot)
 	_A Penetration Testing Framework, Information gathering tool & Website Vulnerability Scanner_
