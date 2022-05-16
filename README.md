@@ -1,38 +1,12 @@
-![](https://avatars0.githubusercontent.com/u/2897191?s=95&v=4)
 # securitytools
 
-this repository hosts an array of GitHub projects leveraged across the security community, indexed as submodules.
+a collection of GitHub projects used for various security tasks - collected as submodules within this repository.
 
-```shell
-docker pull ghcr.io/thetanz/securitytools:latest
-```
-
-### adding submodules
-
-git projects can be added to this repository by navigating to an applicable folder and replacing `git clone` with `git submodule add`
-
-### removing submodules
-
-_remove submodule entry from .git/config_
-
-```shell
-git submodule deinit -f path/to/submodule
-```
-_remove the submodule directory from .git/modules within the parent repo_
-
-```shell
-rm -rf .git/modules/path/to/submodule
-```
-_remove entry in .gitmodules & the submodule directory_
-
-```shell
-git rm -f path/to/submodule
-```
 # projects
 
-[![report generator](https://github.com/thetanz/securitytools/actions/workflows/reporter.yml/badge.svg)](https://github.com/thetanz/securitytools/actions/workflows/reporter.yml)
+[![report generator](https://github.com/joshhighet/securitytools/actions/workflows/reporter.yml/badge.svg)](https://github.com/joshhighet/securitytools/actions/workflows/reporter.yml)
 
-this readme is dynamically generated based upon the contents of the submodules
+this readme is dynamically generated based upon the github description field for the associated repo
 
 ## testing
 * [testing/caldera](https://github.com/mitre/caldera)
