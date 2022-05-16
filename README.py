@@ -24,22 +24,11 @@ github_headers = {
 
 homedir = os.getcwd()
 with open(homedir + '/README.md', 'w') as f:
-    f.write('![](https://avatars0.githubusercontent.com/u/2897191?s=95&v=4)\n')
     f.write('# securitytools\n\n')
-    f.write('this repository hosts an array of GitHub projects leveraged across the security community, indexed as submodules.\n\n')
-    f.write('```shell\ndocker pull ghcr.io/thetanz/securitytools:latest\n```\n\n')
-    f.write('### adding submodules\n\n')
-    f.write('git projects can be added to this repository by navigating to an applicable folder and replacing `git clone` with `git submodule add`\n\n')
-    f.write('### removing submodules\n\n')
-    f.write('_remove submodule entry from .git/config_\n\n')
-    f.write('```shell\ngit submodule deinit -f path/to/submodule\n```\n')
-    f.write('_remove the submodule directory from .git/modules within the parent repo_\n\n')
-    f.write('```shell\nrm -rf .git/modules/path/to/submodule\n```\n')
-    f.write('_remove entry in .gitmodules & the submodule directory_\n\n')
-    f.write('```shell\ngit rm -f path/to/submodule\n```\n')
+    f.write('a collection of GitHub projects used for various security tasks - collected as submodules within this repository.\n\n')
     f.write('# projects\n\n')
-    f.write('[![report generator](https://github.com/thetanz/securitytools/actions/workflows/reporter.yml/badge.svg)](https://github.com/thetanz/securitytools/actions/workflows/reporter.yml)\n\n')
-    f.write('this readme is dynamically generated based upon the contents of the submodules\n\n')
+    f.write('[![report generator](https://github.com/joshhighet/securitytools/actions/workflows/reporter.yml/badge.svg)](https://github.com/joshhighet/securitytools/actions/workflows/reporter.yml)\n\n')
+    f.write('this readme is dynamically generated based upon the github description field for the associated repo\n\n')
     for folder in os.listdir('.'):
         if os.path.isdir(folder):
             if folder.startswith('.git') or folder == 'securitytools':
