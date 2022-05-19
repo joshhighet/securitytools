@@ -718,3 +718,6 @@
 [submodule "collections/OSINT"]
 	path = collections/OSINT
 	url = https://github.com/sinwindie/OSINT.git
+[submodule "analysis/cyberchef-recipes"]
+	path = analysis/cyberchef-recipes
+	url = https://github.com/mattnotmax/cyberchef-recipes.git
