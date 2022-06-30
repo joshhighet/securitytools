@@ -528,7 +528,7 @@ this readme is dynamically generated based upon the github description field for
 	_Browser Shortcuts for Cyber Security Related Online Services_
 
 * [analysis/malwoverview](https://github.com/alexandreborges/malwoverview)
-	_Malwoverview is a first response tool used for threat hunting and offers intel information from Virus Total, Hybrid Analysis, URLHaus, Polyswarm, Malshare, Alien Vault, Malpedia, ThreatCrowd, Malware Bazaar, ThreatFox, Triage and it is able to scan Android devices against VT._
+	_Malwoverview is a first response tool used for threat hunting and offers intel information from Virus Total, Hybrid Analysis, URLHaus, Polyswarm, Malshare, Alien Vault, Malpedia, Malware Bazaar, ThreatFox, Triage and it is able to scan Android devices against VT._
 
 * [analysis/CAPEv2](https://github.com/kevoreilly/CAPEv2)
 	_Malware Configuration And Payload Extraction_
