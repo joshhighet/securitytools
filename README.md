@@ -402,7 +402,7 @@ this readme is dynamically generated based upon the github description field for
 	_TCP port scanner, spews SYN packets asynchronously, scanning entire Internet in under 5 minutes._
 
 * [scanners/faraday](https://github.com/infobyte/faraday)
-	_Collaborative Penetration Test and Vulnerability Management Platform_
+	_Open Source Vulnerability Management Platform_
 
 * [scanners/RustScan](https://github.com/RustScan/RustScan)
 	_🤖 The Modern Port Scanner 🤖_
