@@ -357,7 +357,7 @@ this readme is dynamically generated based upon the github description field for
 
 ## authentication
 * [authentication/teleport](https://github.com/gravitational/teleport)
-	_Certificate authority and access plane for SSH, Kubernetes, web apps, databases and desktops_
+	_The easiest, most secure way to access infrastructure._
 
 * [authentication/SAML2Spray](https://github.com/LuemmelSec/SAML2Spray)
 	_Python Script for SAML2 Authentication Passwordspray_
