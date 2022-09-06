@@ -109,7 +109,7 @@ this readme is dynamically generated based upon the github description field for
 	_Real-time performance monitoring, done right! https://www.netdata.cloud_
 
 * [assets/archerysec](https://github.com/archerysec/archerysec)
-	_Centralize Vulnerability Assessment and Management for DevSecOps Team_
+	_Automate Your Application Security Orchestration And Correlation (ASOC) Using ArcherySec._
 
 * [assets/streamalert](https://github.com/airbnb/streamalert)
 	_StreamAlert is a serverless, realtime data analysis framework which empowers you to ingest, analyze, and alert on data from any environment, using datasources and alerting logic you define._
