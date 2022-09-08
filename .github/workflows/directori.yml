@@ -1,0 +1,28 @@
+name: directori - submodule json generator
+# github.com/joshhighet/securitytools
+on:
+  push:
+    branches: [ main ]
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+jobs:
+  report-generator:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: checkout the repo
+        uses: actions/checkout@v2
+        #with: 
+          #submodules: true
+      - name: run report generator
+        run: |
+          python3 docs/directori-gen.py
+        env: 
+          GITHUB_TOKEN: ${{ github.token }}
+      - name: save changes
+        run: |
+          git config user.name github-actions
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git commit --all --message "𝚌𝚛𝚘𝚗𝚋𝚘𝚝" || echo "no changes to commit"
+          git push

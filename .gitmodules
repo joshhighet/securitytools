@@ -1,0 +1,573 @@
+[submodule "projects/adversarysim/detectioneng/atomic-red-team"]
+	path = projects/adversarysim/detectioneng/atomic-red-team
+	url = https://github.com/redcanaryco/atomic-red-team.git
+[submodule "projects/adversarysim/platforms/caldera"]
+	path = projects/adversarysim/platforms/caldera
+	url = https://github.com/mitre/caldera.git
+[submodule "projects/adversarysim/platforms/joystick"]
+	path = projects/adversarysim/platforms/joystick
+	url = https://github.com/mitre-attack/joystick.git
+[submodule "projects/browser/analysis/hstsparser"]
+	path = projects/browser/analysis/hstsparser
+	url = https://github.com/thebeanogamer/hstsparser.git
+[submodule "projects/browser/tools/mitaka"]
+	path = projects/browser/tools/mitaka
+	url = https://github.com/ninoseki/mitaka.git
+[submodule "projects/browser/tools/Cyber-Search-Shortcuts"]
+	path = projects/browser/tools/Cyber-Search-Shortcuts
+	url = https://github.com/Neo23x0/Cyber-Search-Shortcuts.git
+[submodule "projects/cloud/aws/festin"]
+	path = projects/cloud/aws/festin
+	url = https://github.com/cr0hn/festin.git
+[submodule "projects/cloud/azure/MicroBurst"]
+	path = projects/cloud/azure/MicroBurst
+	url = https://github.com/NetSPI/MicroBurst.git
+[submodule "projects/cloud/azure/o365-attack-toolkit"]
+	path = projects/cloud/azure/o365-attack-toolkit
+	url = https://github.com/mdsecactivebreach/o365-attack-toolkit.git
+[submodule "projects/cloud/azure/TokenTactics"]
+	path = projects/cloud/azure/TokenTactics
+	url = https://github.com/rvrsh3ll/TokenTactics.git
+[submodule "projects/cloud/azure/Stormspotter"]
+	path = projects/cloud/azure/Stormspotter
+	url = https://github.com/Azure/Stormspotter.git
+[submodule "projects/cloud/azure/Sentinel-Queries"]
+	path = projects/cloud/azure/Sentinel-Queries
+	url = https://github.com/reprise99/Sentinel-Queries.git
+[submodule "projects/cloud/azure/CRT"]
+	path = projects/cloud/azure/CRT
+	url = https://github.com/CrowdStrike/CRT.git
+[submodule "projects/cloud/azure/BlobHunter"]
+	path = projects/cloud/azure/BlobHunter
+	url = https://github.com/cyberark/BlobHunter.git
+[submodule "projects/cloud/azure/msmailprobe"]
+	path = projects/cloud/azure/msmailprobe
+	url = https://github.com/busterb/msmailprobe.git
+[submodule "projects/cloud/azure/o365creeper"]
+	path = projects/cloud/azure/o365creeper
+	url = https://github.com/LMGsec/o365creeper.git
+[submodule "projects/cloud/azure/azure-policy"]
+	path = projects/cloud/azure/azure-policy
+	url = https://github.com/Azure/azure-policy.git
+[submodule "projects/cloud/azure/Azure-Network-Security"]
+	path = projects/cloud/azure/Azure-Network-Security
+	url = https://github.com/Azure/Azure-Network-Security.git
+[submodule "projects/cloud/azure/o365recon"]
+	path = projects/cloud/azure/o365recon
+	url = https://github.com/nyxgeek/o365recon.git
+[submodule "projects/cloud/azure/azucar"]
+	path = projects/cloud/azure/azucar
+	url = https://github.com/nccgroup/azucar.git
+[submodule "projects/cloud/azure/Sparrow"]
+	path = projects/cloud/azure/Sparrow
+	url = https://github.com/cisagov/Sparrow.git
+[submodule "projects/cloud/azure/AzurePenTestScope"]
+	path = projects/cloud/azure/AzurePenTestScope
+	url = https://github.com/swiftsolves-msft/AzurePenTestScope.git
+[submodule "projects/cloud/azure/AzureADAssessment"]
+	path = projects/cloud/azure/AzureADAssessment
+	url = https://github.com/AzureAD/AzureADAssessment.git
+[submodule "projects/cloud/azure/Mandiant-Azure-AD-Investigator"]
+	path = projects/cloud/azure/Mandiant-Azure-AD-Investigator
+	url = https://github.com/mandiant/Mandiant-Azure-AD-Investigator.git
+[submodule "projects/cloud/azure/Cloud-Katana"]
+	path = projects/cloud/azure/Cloud-Katana
+	url = https://github.com/Azure/Cloud-Katana.git
+[submodule "projects/cloud/azure/docs/AzureAD-Attack-Defense"]
+	path = projects/cloud/azure/docs/AzureAD-Attack-Defense
+	url = https://github.com/Cloud-Architekt/AzureAD-Attack-Defense.git
+[submodule "projects/cloud/multitools/cs-suite"]
+	path = projects/cloud/multitools/cs-suite
+	url = https://github.com/SecurityFTW/cs-suite.git
+[submodule "projects/cloud/multitools/stratus-red-team"]
+	path = projects/cloud/multitools/stratus-red-team
+	url = https://github.com/DataDog/stratus-red-team.git
+[submodule "projects/cloud/multitools/cloud_enum"]
+	path = projects/cloud/multitools/cloud_enum
+	url = https://github.com/initstring/cloud_enum.git
+[submodule "projects/cloud/multitools/ScoutSuite"]
+	path = projects/cloud/multitools/ScoutSuite
+	url = https://github.com/nccgroup/ScoutSuite.git
+[submodule "projects/cloud/multitools/SkyArk"]
+	path = projects/cloud/multitools/SkyArk
+	url = https://github.com/cyberark/SkyArk.git
+[submodule "projects/cloud/multitools/docs/CloudPentestCheatsheets"]
+	path = projects/cloud/multitools/docs/CloudPentestCheatsheets
+	url = https://github.com/dafthack/CloudPentestCheatsheets.git
+[submodule "projects/devsec/tools/dog"]
+	path = projects/devsec/tools/dog
+	url = https://github.com/ogham/dog.git
+[submodule "projects/devsec/docs/awesome-devsecops"]
+	path = projects/devsec/docs/awesome-devsecops
+	url = https://github.com/devsecops/awesome-devsecops.git
+[submodule "projects/devsec/docs/the_cyber_plumbers_handbook"]
+	path = projects/devsec/docs/the_cyber_plumbers_handbook
+	url = https://github.com/opsdisk/the_cyber_plumbers_handbook.git
+[submodule "projects/devsec/docs/regular-expression-cheat-sheet"]
+	path = projects/devsec/docs/regular-expression-cheat-sheet
+	url = https://github.com/niklongstone/regular-expression-cheat-sheet.git
+[submodule "projects/devsec/docs/Red-Team-Infrastructure-Wiki"]
+	path = projects/devsec/docs/Red-Team-Infrastructure-Wiki
+	url = https://github.com/bluscreenofjeff/Red-Team-Infrastructure-Wiki.git
+[submodule "projects/devsec/docs/docker-bench-security"]
+	path = projects/devsec/docs/docker-bench-security
+	url = https://github.com/docker/docker-bench-security.git
+[submodule "projects/devsec/instrumentation/auditd"]
+	path = projects/devsec/instrumentation/auditd
+	url = https://github.com/Neo23x0/auditd.git
+[submodule "projects/devsec/instrumentation/osquery"]
+	path = projects/devsec/instrumentation/osquery
+	url = https://github.com/osquery/osquery.git
+[submodule "projects/devsec/lab/Ventoy"]
+	path = projects/devsec/lab/Ventoy
+	url = https://github.com/ventoy/Ventoy.git
+[submodule "projects/devsec/lab/dockerfiles"]
+	path = projects/devsec/lab/dockerfiles
+	url = https://github.com/jessfraz/dockerfiles.git
+[submodule "projects/devsec/networking/nebula"]
+	path = projects/devsec/networking/nebula
+	url = https://github.com/slackhq/nebula.git
+[submodule "projects/devsec/networking/mubeng"]
+	path = projects/devsec/networking/mubeng
+	url = https://github.com/kitabisa/mubeng.git
+[submodule "projects/devsec/networking/dnscrypt-proxy"]
+	path = projects/devsec/networking/dnscrypt-proxy
+	url = https://github.com/DNSCrypt/dnscrypt-proxy.git
+[submodule "projects/devsec/networking/clash"]
+	path = projects/devsec/networking/clash
+	url = https://github.com/Dreamacro/clash.git
+[submodule "projects/devsec/networking/teleport"]
+	path = projects/devsec/networking/teleport
+	url = https://github.com/gravitational/teleport.git
+[submodule "projects/devsec/networking/pwnat"]
+	path = projects/devsec/networking/pwnat
+	url = https://github.com/samyk/pwnat.git
+[submodule "projects/devsec/networking/microsocks"]
+	path = projects/devsec/networking/microsocks
+	url = https://github.com/rofl0r/microsocks.git
+[submodule "projects/devsec/networking/Tunna"]
+	path = projects/devsec/networking/Tunna
+	url = https://github.com/SECFORCE/Tunna.git
+[submodule "projects/devsec/networking/docs/weird_proxies"]
+	path = projects/devsec/networking/docs/weird_proxies
+	url = https://github.com/GrrrDog/weird_proxies.git
+[submodule "projects/devsec/tools/python-iocextract"]
+	path = projects/devsec/tools/python-iocextract
+	url = https://github.com/InQuest/python-iocextract.git
+[submodule "projects/devsec/tools/ctf-tools"]
+	path = projects/devsec/tools/ctf-tools
+	url = https://github.com/zardus/ctf-tools.git
+[submodule "projects/devsec/tools/axiom"]
+	path = projects/devsec/tools/axiom
+	url = https://github.com/pry0cc/axiom.git
+[submodule "projects/docs/security-cheatsheets"]
+	path = projects/docs/security-cheatsheets
+	url = https://github.com/andrewjkerr/security-cheatsheets.git
+[submodule "projects/docs/the-book-of-secret-knowledge"]
+	path = projects/docs/the-book-of-secret-knowledge
+	url = https://github.com/trimstray/the-book-of-secret-knowledge.git
+[submodule "projects/docs/Infosec_Reference"]
+	path = projects/docs/Infosec_Reference
+	url = https://github.com/rmusser01/Infosec_Reference.git
+[submodule "projects/docs/tools"]
+	path = projects/docs/tools
+	url = https://github.com/nullsecuritynet/tools.git
+[submodule "projects/docs/cyberchef-recipes"]
+	path = projects/docs/cyberchef-recipes
+	url = https://github.com/mattnotmax/cyberchef-recipes.git
+[submodule "projects/docs/DefaultCreds-cheat-sheet"]
+	path = projects/docs/DefaultCreds-cheat-sheet
+	url = https://github.com/ihebski/DefaultCreds-cheat-sheet.git
+[submodule "projects/docs/blockchain/smart-contract-attack-vectors"]
+	path = projects/docs/blockchain/smart-contract-attack-vectors
+	url = https://github.com/kadenzipfel/smart-contract-attack-vectors.git
+[submodule "projects/docs/docker/docker-cheat-sheet"]
+	path = projects/docs/docker/docker-cheat-sheet
+	url = https://github.com/wsargent/docker-cheat-sheet.git
+[submodule "projects/email/checkdmarc"]
+	path = projects/email/checkdmarc
+	url = https://github.com/domainaware/checkdmarc.git
+[submodule "projects/forensics/ArtifactCollectionMatrix"]
+	path = projects/forensics/ArtifactCollectionMatrix
+	url = https://github.com/swisscom/ArtifactCollectionMatrix.git
+[submodule "projects/forensics/sleuthkit"]
+	path = projects/forensics/sleuthkit
+	url = https://github.com/sleuthkit/sleuthkit.git
+[submodule "projects/incidentresponse/alerting-detection-strategy-framework"]
+	path = projects/incidentresponse/alerting-detection-strategy-framework
+	url = https://github.com/palantir/alerting-detection-strategy-framework.git
+[submodule "projects/incidentresponse/Aurora-Incident-Response"]
+	path = projects/incidentresponse/Aurora-Incident-Response
+	url = https://github.com/cyb3rfox/Aurora-Incident-Response.git
+[submodule "projects/incidentresponse/Loki"]
+	path = projects/incidentresponse/Loki
+	url = https://github.com/Neo23x0/Loki.git
+[submodule "projects/incidentresponse/Fenrir"]
+	path = projects/incidentresponse/Fenrir
+	url = https://github.com/Neo23x0/Fenrir.git
+[submodule "projects/intel/collections/IoCs"]
+	path = projects/intel/collections/IoCs
+	url = https://github.com/sophoslabs/IoCs.git
+[submodule "projects/intel/dictionaries/EternalLiberty"]
+	path = projects/intel/dictionaries/EternalLiberty
+	url = https://github.com/StrangerealIntel/EternalLiberty.git
+[submodule "projects/intel/dictionaries/DISARMframeworks"]
+	path = projects/intel/dictionaries/DISARMframeworks
+	url = https://github.com/DISARMFoundation/DISARMframeworks.git
+[submodule "projects/intel/docs/awesome-threat-intelligence"]
+	path = projects/intel/docs/awesome-threat-intelligence
+	url = https://github.com/hslatman/awesome-threat-intelligence.git
+[submodule "projects/intel/platforms/opencti"]
+	path = projects/intel/platforms/opencti
+	url = https://github.com/OpenCTI-Platform/opencti.git
+[submodule "projects/intel/platforms/yeti"]
+	path = projects/intel/platforms/yeti
+	url = https://github.com/yeti-platform/yeti.git
+[submodule "projects/intel/platforms/MISP"]
+	path = projects/intel/platforms/MISP
+	url = https://github.com/MISP/MISP.git
+[submodule "projects/malware/fame"]
+	path = projects/malware/fame
+	url = https://github.com/certsocietegenerale/fame.git
+[submodule "projects/malware/cli/malwoverview"]
+	path = projects/malware/cli/malwoverview
+	url = https://github.com/alexandreborges/malwoverview.git
+[submodule "projects/malware/cli/munin"]
+	path = projects/malware/cli/munin
+	url = https://github.com/Neo23x0/munin.git
+[submodule "projects/malware/re/awesome-reversing"]
+	path = projects/malware/re/awesome-reversing
+	url = https://github.com/tylerha97/awesome-reversing.git
+[submodule "projects/malware/re/CAPEv2"]
+	path = projects/malware/re/CAPEv2
+	url = https://github.com/kevoreilly/CAPEv2.git
+[submodule "projects/malware/re/radare2"]
+	path = projects/malware/re/radare2
+	url = https://github.com/radareorg/radare2.git
+[submodule "projects/malware/re/aa-tools"]
+	path = projects/malware/re/aa-tools
+	url = https://github.com/JPCERTCC/aa-tools.git
+[submodule "projects/malware/re/smda"]
+	path = projects/malware/re/smda
+	url = https://github.com/danielplohmann/smda.git
+[submodule "projects/malware/scanning/strelka"]
+	path = projects/malware/scanning/strelka
+	url = https://github.com/target/strelka.git
+[submodule "projects/malware/scanning/strelka-ui"]
+	path = projects/malware/scanning/strelka-ui
+	url = https://github.com/target/strelka-ui.git
+[submodule "projects/network/bettercap"]
+	path = projects/network/bettercap
+	url = https://github.com/bettercap/bettercap.git
+[submodule "projects/network/analysis/rita"]
+	path = projects/network/analysis/rita
+	url = https://github.com/activecm/rita.git
+[submodule "projects/network/idps/snort3"]
+	path = projects/network/idps/snort3
+	url = https://github.com/snort3/snort3.git
+[submodule "projects/network/poisoning/Responder"]
+	path = projects/network/poisoning/Responder
+	url = https://github.com/lgandx/Responder.git
+[submodule "projects/network/stressing/slowloris"]
+	path = projects/network/stressing/slowloris
+	url = https://github.com/gkbrk/slowloris.git
+[submodule "projects/network/stressing/Raven-Storm"]
+	path = projects/network/stressing/Raven-Storm
+	url = https://github.com/Tmpertor/Raven-Storm.git
+[submodule "projects/network/tapping/ssl-kill-switch2"]
+	path = projects/network/tapping/ssl-kill-switch2
+	url = https://github.com/nabla-c0d3/ssl-kill-switch2.git
+[submodule "projects/network/tapping/justniffer"]
+	path = projects/network/tapping/justniffer
+	url = https://github.com/onotelli/justniffer.git
+[submodule "projects/network/wlan/aircrack-ng"]
+	path = projects/network/wlan/aircrack-ng
+	url = https://github.com/aircrack-ng/aircrack-ng.git
+[submodule "projects/os/apple/docs/osx-and-ios-security-awesome"]
+	path = projects/os/apple/docs/osx-and-ios-security-awesome
+	url = https://github.com/ashishb/osx-and-ios-security-awesome.git
+[submodule "projects/os/macos/macOS-enterprise-privileges"]
+	path = projects/os/macos/macOS-enterprise-privileges
+	url = https://github.com/SAP/macOS-enterprise-privileges.git
+[submodule "projects/os/macos/macOS-Security-and-Privacy-Guide"]
+	path = projects/os/macos/macOS-Security-and-Privacy-Guide
+	url = https://github.com/drduh/macOS-Security-and-Privacy-Guide.git
+[submodule "projects/os/mobile/SMSSpoof"]
+	path = projects/os/mobile/SMSSpoof
+	url = https://github.com/vpn/SMSSpoof.git
+[submodule "projects/os/mobile/objection"]
+	path = projects/os/mobile/objection
+	url = https://github.com/sensepost/objection.git
+[submodule "projects/os/mobile/Mobile-Security-Framework-MobSF"]
+	path = projects/os/mobile/Mobile-Security-Framework-MobSF
+	url = https://github.com/MobSF/Mobile-Security-Framework-MobSF.git
+[submodule "projects/os/mobile/android/andriller"]
+	path = projects/os/mobile/android/andriller
+	url = https://github.com/den4uk/andriller.git
+[submodule "projects/os/mobile/docs/awesome-mobile-security"]
+	path = projects/os/mobile/docs/awesome-mobile-security
+	url = https://github.com/vaib25vicky/awesome-mobile-security.git
+[submodule "projects/os/mobile/docs/MobileApp-Pentest-Cheatsheet"]
+	path = projects/os/mobile/docs/MobileApp-Pentest-Cheatsheet
+	url = https://github.com/tanprathan/MobileApp-Pentest-Cheatsheet.git
+[submodule "projects/os/mobile/docs/owasp-mstg"]
+	path = projects/os/mobile/docs/owasp-mstg
+	url = https://github.com/OWASP/owasp-mstg.git
+[submodule "projects/os/mobile/ios/iLEAPP"]
+	path = projects/os/mobile/ios/iLEAPP
+	url = https://github.com/abrignoni/iLEAPP.git
+[submodule "projects/os/mobile/ios/RE-iOS-Apps"]
+	path = projects/os/mobile/ios/RE-iOS-Apps
+	url = https://github.com/ivRodriguezCA/RE-iOS-Apps.git
+[submodule "projects/phishing/detect/miteru"]
+	path = projects/phishing/detect/miteru
+	url = https://github.com/ninoseki/miteru.git
+[submodule "projects/phishing/detect/phishing_catcher"]
+	path = projects/phishing/detect/phishing_catcher
+	url = https://github.com/x0rz/phishing_catcher.git
+[submodule "projects/phishing/detect/StalkPhish"]
+	path = projects/phishing/detect/StalkPhish
+	url = https://github.com/t4d/StalkPhish.git
+[submodule "projects/phishing/generators/PhishMailer"]
+	path = projects/phishing/generators/PhishMailer
+	url = https://github.com/BiZken/PhishMailer.git
+[submodule "projects/phishing/spoofing/espoofer"]
+	path = projects/phishing/spoofing/espoofer
+	url = https://github.com/chenjj/espoofer.git
+[submodule "projects/platforms/burp/IPRotate_Burp_Extension"]
+	path = projects/platforms/burp/IPRotate_Burp_Extension
+	url = https://github.com/RhinoSecurityLabs/IPRotate_Burp_Extension.git
+[submodule "projects/platforms/chronicle/detection-rules"]
+	path = projects/platforms/chronicle/detection-rules
+	url = https://github.com/chronicle/detection-rules.git
+[submodule "projects/platforms/elastic/detection-rules"]
+	path = projects/platforms/elastic/detection-rules
+	url = https://github.com/elastic/detection-rules.git
+[submodule "projects/platforms/mde/FalconFriday"]
+	path = projects/platforms/mde/FalconFriday
+	url = https://github.com/FalconForceTeam/FalconFriday.git
+[submodule "projects/platforms/misp/misp-galaxy"]
+	path = projects/platforms/misp/misp-galaxy
+	url = https://github.com/MISP/misp-galaxy.git
+[submodule "projects/platforms/misp/misp-warninglists"]
+	path = projects/platforms/misp/misp-warninglists
+	url = https://github.com/MISP/misp-warninglists.git
+[submodule "projects/platforms/splunk/attack_data"]
+	path = projects/platforms/splunk/attack_data
+	url = https://github.com/splunk/attack_data.git
+[submodule "projects/recon/dns/wtfis"]
+	path = projects/recon/dns/wtfis
+	url = https://github.com/pirxthepilot/wtfis.git
+[submodule "projects/recon/dns/fierce"]
+	path = projects/recon/dns/fierce
+	url = https://github.com/mschwager/fierce.git
+[submodule "projects/recon/dns/SubDomainizer"]
+	path = projects/recon/dns/SubDomainizer
+	url = https://github.com/nsonaniya2010/SubDomainizer.git
+[submodule "projects/recon/dns/dnsrecon"]
+	path = projects/recon/dns/dnsrecon
+	url = https://github.com/darkoperator/dnsrecon.git
+[submodule "projects/recon/dns/HostHunter"]
+	path = projects/recon/dns/HostHunter
+	url = https://github.com/SpiderLabs/HostHunter.git
+[submodule "projects/recon/dns/recon-ng"]
+	path = projects/recon/dns/recon-ng
+	url = https://github.com/lanmaster53/recon-ng.git
+[submodule "projects/recon/dns/Sudomy"]
+	path = projects/recon/dns/Sudomy
+	url = https://github.com/Screetsec/Sudomy.git
+[submodule "projects/recon/docs/awesome-osint"]
+	path = projects/recon/docs/awesome-osint
+	url = https://github.com/jivoi/awesome-osint.git
+[submodule "projects/recon/docs/OSINT"]
+	path = projects/recon/docs/OSINT
+	url = https://github.com/sinwindie/OSINT.git
+[submodule "projects/recon/domaintools/opensquat"]
+	path = projects/recon/domaintools/opensquat
+	url = https://github.com/atenreiro/opensquat.git
+[submodule "projects/recon/domaintools/Hunting-New-Registered-Domains"]
+	path = projects/recon/domaintools/Hunting-New-Registered-Domains
+	url = https://github.com/gfek/Hunting-New-Registered-Domains.git
+[submodule "projects/recon/images/go-exif"]
+	path = projects/recon/images/go-exif
+	url = https://github.com/dsoprea/go-exif.git
+[submodule "projects/recon/images/exiftool"]
+	path = projects/recon/images/exiftool
+	url = https://github.com/exiftool/exiftool.git
+[submodule "projects/recon/images/unredacter"]
+	path = projects/recon/images/unredacter
+	url = https://github.com/BishopFox/unredacter.git
+[submodule "projects/recon/platforms/spiderfoot"]
+	path = projects/recon/platforms/spiderfoot
+	url = https://github.com/smicallef/spiderfoot.git
+[submodule "projects/recon/platforms/mihari"]
+	path = projects/recon/platforms/mihari
+	url = https://github.com/ninoseki/mihari.git
+[submodule "projects/recon/platforms/Scrummage"]
+	path = projects/recon/platforms/Scrummage
+	url = https://github.com/matamorphosis/Scrummage.git
+[submodule "projects/recon/suites/AttackSurfaceMapper"]
+	path = projects/recon/suites/AttackSurfaceMapper
+	url = https://github.com/superhedgy/AttackSurfaceMapper.git
+[submodule "projects/recon/suites/AutoRecon"]
+	path = projects/recon/suites/AutoRecon
+	url = https://github.com/Tib3rius/AutoRecon.git
+[submodule "projects/recon/webhosts/CloudFlair"]
+	path = projects/recon/webhosts/CloudFlair
+	url = https://github.com/christophetd/CloudFlair.git
+[submodule "projects/recon/webhosts/cloud-ranges"]
+	path = projects/recon/webhosts/cloud-ranges
+	url = https://github.com/pry0cc/cloud-ranges.git
+[submodule "projects/recon/websites/dorkScanner"]
+	path = projects/recon/websites/dorkScanner
+	url = https://github.com/madhavmehndiratta/dorkScanner.git
+[submodule "projects/recon/websites/gau"]
+	path = projects/recon/websites/gau
+	url = https://github.com/lc/gau.git
+[submodule "projects/recon/websites/waybackpack"]
+	path = projects/recon/websites/waybackpack
+	url = https://github.com/jsvine/waybackpack.git
+[submodule "projects/scanning/ports/RustScan"]
+	path = projects/scanning/ports/RustScan
+	url = https://github.com/RustScan/RustScan.git
+[submodule "projects/scanning/ports/masscan"]
+	path = projects/scanning/ports/masscan
+	url = https://github.com/robertdavidgraham/masscan.git
+[submodule "projects/scanning/ports/jfscan"]
+	path = projects/scanning/ports/jfscan
+	url = https://github.com/nullt3r/jfscan.git
+[submodule "projects/scanning/secrets/credential-digger"]
+	path = projects/scanning/secrets/credential-digger
+	url = https://github.com/SAP/credential-digger.git
+[submodule "projects/scanning/secrets/wraith"]
+	path = projects/scanning/secrets/wraith
+	url = https://github.com/N0MoreSecr3ts/wraith.git
+[submodule "projects/scanning/vulns/nuclei"]
+	path = projects/scanning/vulns/nuclei
+	url = https://github.com/projectdiscovery/nuclei.git
+[submodule "projects/scanning/vulns/nmap-vulners"]
+	path = projects/scanning/vulns/nmap-vulners
+	url = https://github.com/vulnersCom/nmap-vulners.git
+[submodule "projects/scanning/vulns/tsunami-security-scanner"]
+	path = projects/scanning/vulns/tsunami-security-scanner
+	url = https://github.com/google/tsunami-security-scanner.git
+[submodule "projects/scanning/vulns/flan"]
+	path = projects/scanning/vulns/flan
+	url = https://github.com/cloudflare/flan.git
+[submodule "projects/scanning/vulns/RDPassSpray"]
+	path = projects/scanning/vulns/RDPassSpray
+	url = https://github.com/xFreed0m/RDPassSpray.git
+[submodule "projects/scanning/vulns/filesystem/trivy"]
+	path = projects/scanning/vulns/filesystem/trivy
+	url = https://github.com/aquasecurity/trivy.git
+[submodule "projects/scanning/vulns/webservices/w3af"]
+	path = projects/scanning/vulns/webservices/w3af
+	url = https://github.com/andresriancho/w3af.git
+[submodule "projects/scanning/vulns/webservices/sqlmap"]
+	path = projects/scanning/vulns/webservices/sqlmap
+	url = https://github.com/sqlmapproject/sqlmap.git
+[submodule "projects/scanning/webservices/ffuf"]
+	path = projects/scanning/webservices/ffuf
+	url = https://github.com/ffuf/ffuf.git
+[submodule "projects/scanning/webservices/dirsearch"]
+	path = projects/scanning/webservices/dirsearch
+	url = https://github.com/maurosoria/dirsearch.git
+[submodule "projects/scanning/webservices/CMSeeK"]
+	path = projects/scanning/webservices/CMSeeK
+	url = https://github.com/Tuhinshubhra/CMSeeK.git
+[submodule "projects/scanning/webservices/aquatone"]
+	path = projects/scanning/webservices/aquatone
+	url = https://github.com/michenriksen/aquatone.git
+[submodule "projects/scanning/webservices/httprobe"]
+	path = projects/scanning/webservices/httprobe
+	url = https://github.com/tomnomnom/httprobe.git
+[submodule "projects/scanning/webservices/EyeWitness"]
+	path = projects/scanning/webservices/EyeWitness
+	url = https://github.com/FortyNorthSecurity/EyeWitness.git
+[submodule "projects/searchdorks/awesome-shodan-queries"]
+	path = projects/searchdorks/awesome-shodan-queries
+	url = https://github.com/jakejarvis/awesome-shodan-queries.git
+[submodule "projects/searchdorks/vti-dorks"]
+	path = projects/searchdorks/vti-dorks
+	url = https://github.com/Neo23x0/vti-dorks.git
+[submodule "projects/searchdorks/github-dorks"]
+	path = projects/searchdorks/github-dorks
+	url = https://github.com/techgaun/github-dorks.git
+[submodule "projects/searchdorks/oxdork"]
+	path = projects/searchdorks/oxdork
+	url = https://github.com/rly0nheart/oxdork.git
+[submodule "projects/searchdorks/metagoofil"]
+	path = projects/searchdorks/metagoofil
+	url = https://github.com/opsdisk/metagoofil.git
+[submodule "projects/searchdorks/uDork"]
+	path = projects/searchdorks/uDork
+	url = https://github.com/m3n0sd0n4ld/uDork.git
+[submodule "projects/searchdorks/shodan-filters"]
+	path = projects/searchdorks/shodan-filters
+	url = https://github.com/JavierOlmedo/shodan-filters.git
+[submodule "projects/searchdorks/OSINT-SearchOperators"]
+	path = projects/searchdorks/OSINT-SearchOperators
+	url = https://github.com/BushidoUK/OSINT-SearchOperators.git
+[submodule "projects/searchdorks/ICS_IoT_Shodan_Dorks"]
+	path = projects/searchdorks/ICS_IoT_Shodan_Dorks
+	url = https://github.com/AustrianEnergyCERT/ICS_IoT_Shodan_Dorks.git
+[submodule "projects/searchdorks/Backlink-dorks"]
+	path = projects/searchdorks/Backlink-dorks
+	url = https://github.com/alfazzafashion/Backlink-dorks.git
+[submodule "projects/signatures/awesome-yara"]
+	path = projects/signatures/awesome-yara
+	url = https://github.com/InQuest/awesome-yara.git
+[submodule "projects/signatures/yara-signator"]
+	path = projects/signatures/yara-signator
+	url = https://github.com/fxb-cocacoding/yara-signator.git
+[submodule "projects/signatures/sigma"]
+	path = projects/signatures/sigma
+	url = https://github.com/SigmaHQ/sigma.git
+[submodule "projects/socialeng/awesome-social-engineering"]
+	path = projects/socialeng/awesome-social-engineering
+	url = https://github.com/v2-dev/awesome-social-engineering.git
+[submodule "projects/socials/socialscan"]
+	path = projects/socials/socialscan
+	url = https://github.com/iojw/socialscan.git
+[submodule "projects/socials/GHunt"]
+	path = projects/socials/GHunt
+	url = https://github.com/mxrch/GHunt.git
+[submodule "projects/socials/discord/Discord-History-Tracker"]
+	path = projects/socials/discord/Discord-History-Tracker
+	url = https://github.com/chylex/Discord-History-Tracker.git
+[submodule "projects/socials/discord/get-discord-bots-tokens-with-google"]
+	path = projects/socials/discord/get-discord-bots-tokens-with-google
+	url = https://github.com/traumatism/get-discord-bots-tokens-with-google.git
+[submodule "projects/socials/discord/OSINT-Discord-resources"]
+	path = projects/socials/discord/OSINT-Discord-resources
+	url = https://github.com/Dutchosintguy/OSINT-Discord-resources.git
+[submodule "projects/socials/instagram/Osintgram"]
+	path = projects/socials/instagram/Osintgram
+	url = https://github.com/Datalux/Osintgram.git
+[submodule "projects/socials/leaks/Cr3dOv3r"]
+	path = projects/socials/leaks/Cr3dOv3r
+	url = https://github.com/D4Vinci/Cr3dOv3r.git
+[submodule "projects/socials/leaks/credmap"]
+	path = projects/socials/leaks/credmap
+	url = https://github.com/lightos/credmap.git
+[submodule "projects/socials/leaks/h8mail"]
+	path = projects/socials/leaks/h8mail
+	url = https://github.com/khast3x/h8mail.git
+[submodule "projects/socials/linkedin/CrossLinked"]
+	path = projects/socials/linkedin/CrossLinked
+	url = https://github.com/m8sec/CrossLinked.git
+[submodule "projects/socials/recon/sherlock"]
+	path = projects/socials/recon/sherlock
+	url = https://github.com/sherlock-project/sherlock.git
+[submodule "projects/socials/recon/holehe"]
+	path = projects/socials/recon/holehe
+	url = https://github.com/megadose/holehe.git
+[submodule "projects/socials/recon/socialscan"]
+	path = projects/socials/recon/socialscan
+	url = https://github.com/iojw/socialscan.git
+[submodule "projects/socials/recon/NameSpi"]
+	path = projects/socials/recon/NameSpi
+	url = https://github.com/waffl3ss/NameSpi.git
+[submodule "projects/socials/recon/email2phonenumber"]
+	path = projects/socials/recon/email2phonenumber
+	url = https://github.com/martinvigo/email2phonenumber.git
