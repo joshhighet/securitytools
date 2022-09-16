@@ -601,7 +601,7 @@ this readme is dynamically generated based upon the github description field for
 	_A Tool for Domain Flyovers_
 
 * [internet-scale-research/opensquat](https://github.com/atenreiro/opensquat)
-	_Detection of phishing domains and domain squatting. Supports permutations such as homograph attack, typosquatting and bitsquatting._
+	_The openSquat is an open-source project for phishing domain and domain squatting detection by searching daily newly registered domains impersonating legit domains._
 
 * [internet-scale-research/httprobe](https://github.com/tomnomnom/httprobe)
 	_Take a list of domains and probe for working HTTP and HTTPS servers_
