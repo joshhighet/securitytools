@@ -661,7 +661,7 @@ this readme is dynamically generated based upon the github description field for
 
 ## blueteam
 * [blueteam/FalconFriday](https://github.com/FalconForceTeam/FalconFriday)
-	_Bi-weekly hunting queries_
+	_Hunting queries and detections_
 
 * [blueteam/sigma](https://github.com/SigmaHQ/sigma)
 	_Generic Signature Format for SIEM Systems_
