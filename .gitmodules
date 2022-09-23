@@ -571,3 +571,36 @@
 [submodule "projects/socials/recon/email2phonenumber"]
 	path = projects/socials/recon/email2phonenumber
 	url = https://github.com/martinvigo/email2phonenumber.git
+[submodule "projects/tor/VigilantOnion"]
+	path = projects/tor/VigilantOnion
+	url = https://github.com/andreyglauzer/VigilantOnion.git
+[submodule "projects/tor/freshonions-torscraper"]
+	path = projects/tor/freshonions-torscraper
+	url = https://github.com/dirtyfilthy/freshonions-torscraper.git
+[submodule "projects/intel/generators/ThreatIngestor"]
+	path = projects/intel/generators/ThreatIngestor
+	url = https://github.com/InQuest/ThreatIngestor.git
+[submodule "projects/recon/docs/osint_stuff_tool_collection"]
+	path = projects/recon/docs/osint_stuff_tool_collection
+	url = https://github.com/cipher387/osint_stuff_tool_collection.git
+[submodule "projects/os/apple/cookienapper"]
+	path = projects/os/apple/cookienapper
+	url = https://github.com/greycatsec/cookienapper.git
+[submodule "projects/intel/generators/C2IntelFeeds"]
+	path = projects/intel/generators/C2IntelFeeds
+	url = https://github.com/drb-ra/C2IntelFeeds.git
+[submodule "projects/incidentresponse/platforms/iris-web"]
+	path = projects/incidentresponse/platforms/iris-web
+	url = https://github.com/dfir-iris/iris-web.git
+[submodule "projects/investigations/datashare"]
+	path = projects/investigations/datashare
+	url = https://github.com/ICIJ/datashare.git
+[submodule "projects/cloud/azure/PowerZure"]
+	path = projects/cloud/azure/PowerZure
+	url = https://github.com/hausec/PowerZure.git
+[submodule "projects/recon/CobaltStrikeParser"]
+	path = projects/recon/CobaltStrikeParser
+	url = https://github.com/Sentinel-One/CobaltStrikeParser.git
+[submodule "projects/recon/CobaltSpam"]
+	path = projects/recon/CobaltSpam
+	url = https://github.com/hariomenkel/CobaltSpam.git
