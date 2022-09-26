@@ -604,3 +604,6 @@
 [submodule "projects/recon/CobaltSpam"]
 	path = projects/recon/CobaltSpam
 	url = https://github.com/hariomenkel/CobaltSpam.git
+[submodule "projects/recon/docs/web-recon"]
+	path = projects/recon/docs/web-recon
+	url = https://github.com/pr0xh4ck/web-recon.git
