@@ -440,7 +440,7 @@ this readme is dynamically generated based upon the github description field for
 	_StalkPhish - The Phishing kits stalker, harvesting phishing kits for investigations._
 
 * [scanners/trivy](https://github.com/aquasecurity/trivy)
-	_Scanner for vulnerabilities in container images, file systems, and Git repositories, as well as for configuration issues and hard-coded secrets_
+	_Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more_
 
 * [scanners/watchdog](https://github.com/flipkart-incubator/watchdog)
 	_Watchdog - A Comprehensive Security Scanning and a Vulnerability Management Tool._
