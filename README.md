@@ -270,7 +270,7 @@ this readme is dynamically generated based upon the github description field for
 	_Get file less command execution for lateral movement._
 
 * [windows/nanodump](https://github.com/helpsystems/nanodump)
-	_A crappy LSASS dumper with no ASCII art_
+	_The swiss army knife of LSASS dumping_
 
 * [windows/Certipy](https://github.com/ly4k/Certipy)
 	_Tool for Active Directory Certificate Services enumeration and abuse_
