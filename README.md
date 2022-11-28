@@ -326,7 +326,7 @@ this readme is dynamically generated based upon the github description field for
 	_Search Google and download specific file types_
 
 * [osint/metabigor](https://github.com/j3ssie/metabigor)
-	_Intelligence tool but without API key_
+	_OSINT tools and more but without API ke_
 
 ## email
 * [email/PhishMailer](https://github.com/BiZken/PhishMailer)
