@@ -64,7 +64,7 @@ this readme is dynamically generated based upon the github description field for
 	_holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function._
 
 * [socials/NameSpi](https://github.com/waffl3ss/NameSpi)
-	_Scrape LinkedIn, ZoomInfo, USStaff, and Hunter.io for usernames and employees._
+	_An OSINT employee/username enumeration tool_
 
 * [socials/get-discord-bots-tokens-with-google](https://github.com/traumatism/get-discord-bots-tokens-with-google)
 	_Google dorks to easily get some Discord bots tokens_
