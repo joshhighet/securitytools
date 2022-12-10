@@ -1,5 +1,4 @@
-name: directori - submodule json generator
-# github.com/joshhighet/securitytools
+name: submodule json array generator
 on:
   push:
     branches: [ main ]
@@ -17,7 +16,7 @@ jobs:
           #submodules: true
       - name: run report generator
         run: |
-          python3 docs/directori-gen.py
+          python3 docs/directory-gen.py
         env: 
           GITHUB_TOKEN: ${{ github.token }}
       - name: save changes
