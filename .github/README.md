@@ -1,16 +1,9 @@
-```shell
-git -C <path> clone https://github.com/<repo>
-```
+<p align="center">
+  <a href="http://endless.horse">
+    <img src=moon.gif alt="spinning-moon" />
+  </a>
+</p>
 
-```shell
-git submodule add https://github.com/<repo>
-```
+# securitytools
 
-```shell
-git submodule init
-git submodule update
-git submodule deinit -f <repo>
-rm -rf .git/modules/<repo>
-git rm -f <repo>
-git commit -m "removed <repo>"
-```
+## _a collection of projects and tools for making computers do things_
