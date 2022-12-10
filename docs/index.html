@@ -1,4 +1,90 @@
 <!DOCTYPE html>
-<script src="skript.js"></script>
 <html>
+   <head>
+      <title>securitytools</title>
+      <style>
+         table {border-collapse: collapse; font-family: sans-serif; width: 100%;}
+         td, th {border: 1px solid #ddd;padding: 8px; font-family: sans-serif;}
+         tr:nth-child(even) {background-color: #f2f2f2; font-family: sans-serif;}
+         tr:hover {background-color: #ddd; font-family: sans-serif;}
+         th {cursor: pointer; font-family: sans-serif;}
+         h1 {text-align: center; font-family: sans-serif;}
+      </style>
+      <script src="https://cdn.jsdelivr.net/npm/fetch-polyfill"></script>
+   </head>
+   <body>
+      <h1>securitytools</h1>
+      <table id="repositories">
+         <thead>
+            <tr>
+               <th>path</th>
+               <th>location</th>
+               <th>description</th>
+               <th>watchers</th>
+               <th>forks</th>
+               <th data-sort-direction="desc">Stars</th>
+            </tr>
+         </thead>
+         <tbody></tbody>
+      </table>
+      <script>
+      (async function() {
+          const response = await fetch('https://raw.githubusercontent.com/joshhighet/securitytools/release/docs/directori.json');
+          let data = await response.json();
+          data.sort((a, b) => b.stars - a.stars);
+          const watchersHeader = document.querySelector('#repositories th:nth-child(4)');
+          watchersHeader.addEventListener('click', () => {
+              data.sort((a, b) => {
+                  if (watchersHeader.dataset.sortDirection === 'asc') {
+                      return a.watchers - b.watchers;
+                  } else {
+                      return b.watchers - a.watchers;
+                  }
+              });
+              updateTable(data);
+              watchersHeader.dataset.sortDirection = watchersHeader.dataset.sortDirection === 'asc' ? 'desc' : 'asc';
+          });
+          const forksHeader = document.querySelector('#repositories th:nth-child(5)');
+          forksHeader.addEventListener('click', () => {
+              data.sort((a, b) => {
+                  if (forksHeader.dataset.sortDirection === 'asc') {
+                      return a.forks - b.forks;
+                  } else {
+                      return b.forks - a.forks;
+                  }
+              });
+              updateTable(data);
+              forksHeader.dataset.sortDirection = forksHeader.dataset.sortDirection === 'asc' ? 'desc' : 'asc';
+          });
+          const starsHeader = document.querySelector('#repositories th:nth-child(6)');
+          updateTable(data);
+      })();
+      function updateTable(data) {
+          const tbody = document.querySelector('#repositories tbody');
+          tbody.innerHTML = '';
+          for (const repository of data) {
+              const tr = document.createElement('tr');
+              const pathTd = document.createElement('td');
+              const urlTd = document.createElement('td');
+              const descriptionTd = document.createElement('td');
+              const watchersTd = document.createElement('td');
+              const forksTd = document.createElement('td');
+              const starsTd = document.createElement('td');
+              pathTd.innerText = repository.path;
+              urlTd.innerHTML = `<a href="${repository.url}">${repository.url.split("/")[3] + "/" + repository.url.split("/")[4].split(".")[0]}</a>`;
+              descriptionTd.innerText = repository.description;
+              watchersTd.innerText = repository.watchers;
+              forksTd.innerText = repository.forks;
+              starsTd.innerText = repository.stars;
+              tr.appendChild(pathTd);
+              tr.appendChild(urlTd);
+              tr.appendChild(descriptionTd);
+              tr.appendChild(watchersTd);
+              tr.appendChild(forksTd);
+              tr.appendChild(starsTd);
+              tbody.appendChild(tr);
+          }
+      }
+      </script>
+   </body>
 </html>
