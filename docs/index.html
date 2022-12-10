@@ -29,7 +29,7 @@
       </table>
       <script>
       (async function() {
-          const response = await fetch('https://raw.githubusercontent.com/joshhighet/securitytools/release/docs/directori.json');
+          const response = await fetch('https://raw.githubusercontent.com/joshhighet/securitytools/release/docs/directory.json');
           let data = await response.json();
           data.sort((a, b) => b.stars - a.stars);
           const watchersHeader = document.querySelector('#repositories th:nth-child(4)');

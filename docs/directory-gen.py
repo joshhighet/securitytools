@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# generates directori.json details of included submodules
+# generates directory.json details of included submodules
 import os
 import sys
 import json
@@ -52,6 +52,6 @@ for i in gmodules:
     i['stars'] = project_info['stargazers_count']
     counter_projects += 1
 
-with open('docs/directori.json', 'w') as f:
+with open('docs/directory.json', 'w') as f:
     f.write(json.dumps(gmodules, indent=4))
     f.close()
