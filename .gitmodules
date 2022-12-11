@@ -616,3 +616,6 @@
 [submodule "projects/devsec/tools/age"]
 	path = projects/devsec/tools/age
 	url = https://github.com/FiloSottile/age.git
+[submodule "projects/malware/scanning/pandora"]
+	path = projects/malware/scanning/pandora
+	url = https://github.com/pandora-analysis/pandora.git
