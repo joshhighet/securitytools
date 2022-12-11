@@ -613,3 +613,6 @@
 [submodule "projects/phishing/detect/opensquat"]
 	path = projects/phishing/detect/opensquat
 	url = https://github.com/atenreiro/opensquat.git
+[submodule "projects/devsec/tools/age"]
+	path = projects/devsec/tools/age
+	url = https://github.com/FiloSottile/age.git
