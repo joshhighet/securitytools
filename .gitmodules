@@ -622,3 +622,6 @@
 [submodule "projects/recon/tools/interactsh"]
 	path = projects/recon/tools/interactsh
 	url = https://github.com/projectdiscovery/interactsh.git
+[submodule "projects/socials/telegram/Telepathy"]
+	path = projects/socials/telegram/Telepathy
+	url = https://github.com/jordanwildon/Telepathy.git
