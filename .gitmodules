@@ -610,3 +610,6 @@
 [submodule "projects/tor/funchly"]
 	path = projects/tor/funchly
 	url = https://github.com/hunchly/funchly
+[submodule "projects/phishing/detect/opensquat"]
+	path = projects/phishing/detect/opensquat
+	url = https://github.com/atenreiro/opensquat.git
