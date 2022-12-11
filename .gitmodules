@@ -625,3 +625,6 @@
 [submodule "projects/socials/telegram/Telepathy"]
 	path = projects/socials/telegram/Telepathy
 	url = https://github.com/jordanwildon/Telepathy.git
+[submodule "projects/intel/visualisers/RedEye"]
+	path = projects/intel/visualisers/RedEye
+	url = https://github.com/cisagov/RedEye.git
