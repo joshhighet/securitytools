@@ -637,3 +637,6 @@
 [submodule "projects/wordlists/webapp-wordlists"]
 	path = projects/wordlists/webapp-wordlists
 	url = https://github.com/p0dalirius/webapp-wordlists.git
+[submodule "projects/devsec/tools/argos-translate"]
+	path = projects/devsec/tools/argos-translate
+	url = https://github.com/argosopentech/argos-translate.git
