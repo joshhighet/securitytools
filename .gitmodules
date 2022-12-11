@@ -640,3 +640,6 @@
 [submodule "projects/devsec/tools/argos-translate"]
 	path = projects/devsec/tools/argos-translate
 	url = https://github.com/argosopentech/argos-translate.git
+[submodule "projects/os/mobile/mvt"]
+	path = projects/os/mobile/mvt
+	url = https://github.com/mvt-project/mvt.git
