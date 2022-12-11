@@ -646,3 +646,6 @@
 [submodule "projects/scanning/webservices/nginxpwner"]
 	path = projects/scanning/webservices/nginxpwner
 	url = https://github.com/stark0de/nginxpwner.git
+[submodule "projects/platforms/n8n"]
+	path = projects/platforms/n8n
+	url = https://github.com/n8n-io/n8n.git
