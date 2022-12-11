@@ -619,3 +619,6 @@
 [submodule "projects/malware/scanning/pandora"]
 	path = projects/malware/scanning/pandora
 	url = https://github.com/pandora-analysis/pandora.git
+[submodule "projects/recon/tools/interactsh"]
+	path = projects/recon/tools/interactsh
+	url = https://github.com/projectdiscovery/interactsh.git
