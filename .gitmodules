@@ -643,3 +643,6 @@
 [submodule "projects/os/mobile/mvt"]
 	path = projects/os/mobile/mvt
 	url = https://github.com/mvt-project/mvt.git
+[submodule "projects/scanning/webservices/nginxpwner"]
+	path = projects/scanning/webservices/nginxpwner
+	url = https://github.com/stark0de/nginxpwner.git
