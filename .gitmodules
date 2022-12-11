@@ -607,3 +607,6 @@
 [submodule "projects/recon/docs/web-recon"]
 	path = projects/recon/docs/web-recon
 	url = https://github.com/pr0xh4ck/web-recon.git
+[submodule "projects/tor/funchly"]
+	path = projects/tor/funchly
+	url = https://github.com/hunchly/funchly
