@@ -628,3 +628,6 @@
 [submodule "projects/intel/visualisers/RedEye"]
 	path = projects/intel/visualisers/RedEye
 	url = https://github.com/cisagov/RedEye.git
+[submodule "projects/signatures/yari"]
+	path = projects/signatures/yari
+	url = https://github.com/avast/yari.git
