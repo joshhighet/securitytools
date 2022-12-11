@@ -652,3 +652,6 @@
 [submodule "projects/scanning/webservices/katana"]
 	path = projects/scanning/webservices/katana
 	url = https://github.com/projectdiscovery/katana.git
+[submodule "projects/scanning/webservices/hero"]
+	path = projects/scanning/webservices/hero
+	url = https://github.com/ulixee/hero.git
