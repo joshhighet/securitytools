@@ -649,3 +649,6 @@
 [submodule "projects/platforms/n8n"]
 	path = projects/platforms/n8n
 	url = https://github.com/n8n-io/n8n.git
+[submodule "projects/scanning/webservices/katana"]
+	path = projects/scanning/webservices/katana
+	url = https://github.com/projectdiscovery/katana.git
