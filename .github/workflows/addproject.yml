@@ -12,6 +12,7 @@ jobs:
     - name: check folder exists
       run: |
         echo $GITHUB_EVENT_PATH
+        cat $GITHUB_EVENT_PATH
         location=$(jq '.body | fromjson | .location' < "$GITHUB_EVENT_PATH")
         if [ ! -d "$location" ]; then
           echo "the specified folder does not exist."
