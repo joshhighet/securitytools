@@ -1,0 +1,35 @@
+name: newproject
+
+on: issues
+
+jobs:
+  issue-created:
+    runs-on: ubuntu-latest
+    if: |
+      startsWith(github.event.issue.title, 'new project: ') && github.event.issue.labels.find(label => label.name == 'addproject') && github.event.issue.user.login == 'joshhighet'
+    steps:
+    - uses: actions/checkout@v2
+    - name: check folder exists
+      run: |
+        location=$(jq '.body | fromjson | .location' < "$GITHUB_EVENT_PATH")
+        if [ ! -d "$location" ]; then
+          echo "the specified folder does not exist."
+          exit 1
+        fi
+    - name: check project exists
+      run: |
+        project=$(jq '.body | fromjson | .project' < "$GITHUB_EVENT_PATH")
+        project_url=$(echo "$project" | sed -E 's|(https?://)?(www.)?(.+)/(.+)|\3/\4|')
+        project_exists=$(curl -s -o /dev/null -w "%{http_code}" "https://api.github.com/repos/$project_url")
+        if [ "$project_exists" != "200" ]; then
+          echo "the specified project URL is invalid."
+          exit 1
+        fi
+    - name: failed close
+      if: failure()
+      uses: peter-evans/create-and-close-issue@v2
+      with:
+        issue-title: 'the specified folder or project URL is invalid.'
+        issue-body: |
+          The folder specified in the `location` field of the issue or the URL provided in the `project` field is not valid. Please provide valid values and try again.
+        labels: invalid
