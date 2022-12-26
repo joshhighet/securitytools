@@ -1,4 +1,4 @@
-name: newproject
+name: Issue created
 
 on: issues
 
@@ -6,32 +6,32 @@ jobs:
   issue-created:
     runs-on: ubuntu-latest
     if: |
-      github.event.issue.user.login == 'joshhighet'
+      startsWith(github.event.issue.title, 'new project: ')
     steps:
     - uses: actions/checkout@v2
-    - name: check folder exists
+    - name: Extract location and project
       run: |
-        echo $GITHUB_EVENT_PATH
-        cat $GITHUB_EVENT_PATH
-        location=$(jq '.body | fromjson | .location' < "$GITHUB_EVENT_PATH")
+        location=$(echo "$GITHUB_EVENT_PATH" | grep -oE 'location: (.*)' | cut -d ' ' -f 2)
+        project=$(echo "$GITHUB_EVENT_PATH" | grep -oE 'project: (.*)' | cut -d ' ' -f 2)
+    - name: Check for folder
+      run: |
         if [ ! -d "$location" ]; then
-          echo "the specified folder does not exist."
+          echo "The specified folder does not exist."
           exit 1
         fi
-    - name: check project exists
+    - name: Check for valid project URL
       run: |
-        project=$(jq '.body | fromjson | .project' < "$GITHUB_EVENT_PATH")
         project_url=$(echo "$project" | sed -E 's|(https?://)?(www.)?(.+)/(.+)|\3/\4|')
         project_exists=$(curl -s -o /dev/null -w "%{http_code}" "https://api.github.com/repos/$project_url")
         if [ "$project_exists" != "200" ]; then
-          echo "the specified project URL is invalid."
+          echo "The specified project URL is not valid."
           exit 1
         fi
-    - name: failed close
+    - name: Close issue
       if: failure()
-      uses: peter-evans/close-issue@v2
+      uses: peter-evans/create-and-close-issue@v2
       with:
-        issue-title: 'the specified folder or project URL is invalid.'
+        issue-title: 'The specified folder or project URL is not valid.'
         issue-body: |
           The folder specified in the `location` field of the issue or the URL provided in the `project` field is not valid. Please provide valid values and try again.
         labels: invalid
