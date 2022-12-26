@@ -1,0 +1,22 @@
+name: new project
+description: add a new project to the collection
+title: "new project: "
+labels: ["addproject"]
+body:
+  - type: input
+    id: location
+    attributes:
+      label: location in collection
+      description: the folder the project should be added to
+      placeholder: eg. projects/cloud/aws
+    validations:
+      required: true
+  - type: input
+    id: project
+    attributes:
+      label: project link
+      description: the link to the github project
+      placeholder: https://github.com/joshhighet/newproject
+    validations:
+      required: true
+  
