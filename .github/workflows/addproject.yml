@@ -6,7 +6,7 @@ jobs:
   issue-created:
     runs-on: ubuntu-latest
     if: |
-      startsWith(github.event.issue.title, 'new project: ') && github.event.issue.labels.find(label => label.name == 'addproject') && github.event.issue.user.login == 'joshhighet'
+      startsWith(github.event.issue.title, 'new project: ') && github.event.issue.labels.find(label => label.name == 'addproject').length > 0 && github.event.issue.user.login == 'joshhighet'
     steps:
     - uses: actions/checkout@v2
     - name: check folder exists
