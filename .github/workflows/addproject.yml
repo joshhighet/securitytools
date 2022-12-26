@@ -27,7 +27,7 @@ jobs:
         fi
     - name: failed close
       if: failure()
-      uses: peter-evans/create-and-close-issue@v2
+      uses: peter-evans/close-issue@v2
       with:
         issue-title: 'the specified folder or project URL is invalid.'
         issue-body: |
