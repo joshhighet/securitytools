@@ -3,7 +3,7 @@ updates:
   - package-ecosystem: "gitsubmodule"
     directory: "/"
     schedule:
-      interval: "daily"
+      interval: "monthly"
       time: "23:00"
       timezone: "Pacific/Auckland"
     target-branch: "main"
