@@ -317,7 +317,7 @@
         "description": "SQL powered operating system instrumentation, monitoring, and analytics.",
         "watchers": 688,
         "forks": 2386,
-        "stars": 19795
+        "stars": 19797
     },
     {
         "path": "projects/devsec/lab/Ventoy",
@@ -325,7 +325,7 @@
         "description": "A new bootable USB solution.",
         "watchers": 576,
         "forks": 3098,
-        "stars": 43096
+        "stars": 43097
     },
     {
         "path": "projects/devsec/lab/dockerfiles",
@@ -348,8 +348,8 @@
         "url": "https://github.com/kitabisa/mubeng.git",
         "description": "An incredibly fast proxy checker & IP rotator with ease.",
         "watchers": 31,
-        "forks": 119,
-        "stars": 900
+        "forks": 120,
+        "stars": 901
     },
     {
         "path": "projects/devsec/networking/dnscrypt-proxy",
@@ -445,7 +445,7 @@
         "description": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.",
         "watchers": 1985,
         "forks": 6734,
-        "stars": 85491
+        "stars": 85494
     },
     {
         "path": "projects/docs/Infosec_Reference",
@@ -637,7 +637,7 @@
         "description": "A curated list of awesome reversing resources",
         "watchers": 186,
         "forks": 530,
-        "stars": 3278
+        "stars": 3279
     },
     {
         "path": "projects/malware/re/CAPEv2",
@@ -805,7 +805,7 @@
         "description": "Mobile Security Framework (MobSF) is an automated, all-in-one mobile application (Android/iOS/Windows) pen-testing, malware analysis and security assessment framework capable of performing static and dynamic analysis.",
         "watchers": 545,
         "forks": 2770,
-        "stars": 13150
+        "stars": 13152
     },
     {
         "path": "projects/os/mobile/android/andriller",
@@ -997,7 +997,7 @@
         "description": "Open Source Intelligence gathering tool aimed at reducing the time spent harvesting information from open sources.",
         "watchers": 92,
         "forks": 463,
-        "stars": 2355
+        "stars": 2356
     },
     {
         "path": "projects/recon/dns/Sudomy",
@@ -1053,7 +1053,7 @@
         "description": "ExifTool meta information reader/writer",
         "watchers": 44,
         "forks": 235,
-        "stars": 1749
+        "stars": 1750
     },
     {
         "path": "projects/recon/images/unredacter",
@@ -1061,7 +1061,7 @@
         "description": "Never ever ever use pixelation as a redaction technique",
         "watchers": 63,
         "forks": 594,
-        "stars": 6762
+        "stars": 6763
     },
     {
         "path": "projects/recon/platforms/spiderfoot",
@@ -1069,7 +1069,7 @@
         "description": "SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.",
         "watchers": 326,
         "forks": 1738,
-        "stars": 8936
+        "stars": 8937
     },
     {
         "path": "projects/recon/platforms/mihari",
@@ -1093,7 +1093,7 @@
         "description": "AttackSurfaceMapper is a tool that aims to automate the reconnaissance process.",
         "watchers": 42,
         "forks": 162,
-        "stars": 1016
+        "stars": 1017
     },
     {
         "path": "projects/recon/suites/AutoRecon",
@@ -1196,7 +1196,7 @@
         "url": "https://github.com/vulnersCom/nmap-vulners.git",
         "description": "NSE script based on Vulners.com API",
         "watchers": 128,
-        "forks": 498,
+        "forks": 499,
         "stars": 2812
     },
     {
@@ -1237,7 +1237,7 @@
         "description": "w3af: web application attack and audit framework, the open source web vulnerability scanner.",
         "watchers": 190,
         "forks": 1187,
-        "stars": 4098
+        "stars": 4099
     },
     {
         "path": "projects/scanning/vulns/webservices/sqlmap",
@@ -1381,7 +1381,7 @@
         "description": "A curated list of awesome YARA rules, tools, and people.",
         "watchers": 159,
         "forks": 389,
-        "stars": 2467
+        "stars": 2469
     },
     {
         "path": "projects/signatures/yara-signator",
@@ -1397,7 +1397,7 @@
         "description": "Main Rule Repository",
         "watchers": 300,
         "forks": 1725,
-        "stars": 5878
+        "stars": 5879
     },
     {
         "path": "projects/socialeng/awesome-social-engineering",
@@ -1421,7 +1421,7 @@
         "description": "\ud83d\udd75\ufe0f\u200d\u2642\ufe0f Offensive Google framework.",
         "watchers": 490,
         "forks": 1093,
-        "stars": 13065
+        "stars": 13067
     },
     {
         "path": "projects/socials/discord/Discord-History-Tracker",
@@ -1453,7 +1453,7 @@
         "description": "Osintgram is a OSINT tool on Instagram. It offers an interactive shell to perform analysis on Instagram account of any users by its nickname",
         "watchers": 151,
         "forks": 1180,
-        "stars": 5686
+        "stars": 5687
     },
     {
         "path": "projects/socials/leaks/Cr3dOv3r",
@@ -1492,8 +1492,8 @@
         "url": "https://github.com/sherlock-project/sherlock.git",
         "description": "\ud83d\udd0e Hunt down social media accounts by username across social networks",
         "watchers": 963,
-        "forks": 4493,
-        "stars": 37971
+        "forks": 4494,
+        "stars": 37977
     },
     {
         "path": "projects/socials/recon/holehe",
@@ -1501,7 +1501,7 @@
         "description": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
         "watchers": 82,
         "forks": 423,
-        "stars": 3748
+        "stars": 3750
     },
     {
         "path": "projects/socials/recon/socialscan",
@@ -1645,7 +1645,7 @@
         "description": "A simple, modern and secure encryption tool (and Go library) with small explicit keys, no config options, and UNIX-style composability.",
         "watchers": 137,
         "forks": 388,
-        "stars": 12324
+        "stars": 12326
     },
     {
         "path": "projects/malware/scanning/pandora",
@@ -1733,7 +1733,7 @@
         "description": "Free and source-available fair-code licensed workflow automation tool. Easily automate tasks across different services.",
         "watchers": 268,
         "forks": 3200,
-        "stars": 27186
+        "stars": 27188
     },
     {
         "path": "projects/scanning/webservices/katana",
@@ -1741,7 +1741,7 @@
         "description": "A next-generation crawling and spidering framework.",
         "watchers": 58,
         "forks": 232,
-        "stars": 5184
+        "stars": 5185
     },
     {
         "path": "projects/scanning/webservices/hero",
