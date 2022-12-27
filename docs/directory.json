@@ -205,7 +205,7 @@
         "description": "This publication is a collection of various common attack scenarios on Azure Active Directory and how they can be mitigated or detected.",
         "watchers": 57,
         "forks": 188,
-        "stars": 1213
+        "stars": 1214
     },
     {
         "path": "projects/cloud/multitools/cs-suite",
@@ -293,7 +293,7 @@
         "description": "Wiki to collect Red Team infrastructure hardening resources",
         "watchers": 204,
         "forks": 829,
-        "stars": 3396
+        "stars": 3397
     },
     {
         "path": "projects/devsec/docs/docker-bench-security",
@@ -325,7 +325,7 @@
         "description": "A new bootable USB solution.",
         "watchers": 576,
         "forks": 3098,
-        "stars": 43097
+        "stars": 43101
     },
     {
         "path": "projects/devsec/lab/dockerfiles",
@@ -365,7 +365,7 @@
         "description": "A rule-based tunnel in Go.",
         "watchers": 517,
         "forks": 4674,
-        "stars": 34778
+        "stars": 34779
     },
     {
         "path": "projects/devsec/networking/teleport",
@@ -373,7 +373,7 @@
         "description": "The easiest, most secure way to access infrastructure.",
         "watchers": 246,
         "forks": 1381,
-        "stars": 13310
+        "stars": 13311
     },
     {
         "path": "projects/devsec/networking/pwnat",
@@ -444,8 +444,8 @@
         "url": "https://github.com/trimstray/the-book-of-secret-knowledge.git",
         "description": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.",
         "watchers": 1985,
-        "forks": 6734,
-        "stars": 85494
+        "forks": 6736,
+        "stars": 85501
     },
     {
         "path": "projects/docs/Infosec_Reference",
@@ -453,7 +453,7 @@
         "description": "An Information Security Reference That Doesn't Suck; https://rmusser.net/git/admin-2/Infosec_Reference for non-MS Git hosted version.",
         "watchers": 251,
         "forks": 1114,
-        "stars": 4678
+        "stars": 4679
     },
     {
         "path": "projects/docs/tools",
@@ -461,7 +461,7 @@
         "description": "Security and Hacking Tools, Exploits, Proof of Concepts, Shellcodes, Scripts.",
         "watchers": 179,
         "forks": 519,
-        "stars": 1779
+        "stars": 1780
     },
     {
         "path": "projects/docs/cyberchef-recipes",
@@ -492,7 +492,7 @@
         "url": "https://github.com/wsargent/docker-cheat-sheet.git",
         "description": "Docker Cheat Sheet",
         "watchers": 754,
-        "forks": 4536,
+        "forks": 4537,
         "stars": 21279
     },
     {
@@ -517,7 +517,7 @@
         "description": "The Sleuth Kit\u00ae (TSK) is a library and collection of command line digital forensics tools that allow you to investigate volume and file system data. The library can be incorporated into larger digital forensics tools and the command line tools can be directly used to find evidence. ",
         "watchers": 179,
         "forks": 569,
-        "stars": 2169
+        "stars": 2170
     },
     {
         "path": "projects/incidentresponse/alerting-detection-strategy-framework",
@@ -549,7 +549,7 @@
         "description": "Simple Bash IOC Scanner",
         "watchers": 36,
         "forks": 93,
-        "stars": 531
+        "stars": 532
     },
     {
         "path": "projects/intel/collections/IoCs",
@@ -605,7 +605,7 @@
         "description": "MISP (core software) - Open Source Threat Intelligence and Sharing Platform",
         "watchers": 262,
         "forks": 1211,
-        "stars": 4150
+        "stars": 4152
     },
     {
         "path": "projects/malware/fame",
@@ -693,7 +693,7 @@
         "description": "The Swiss Army knife for 802.11, BLE, IPv4 and IPv6 networks reconnaissance and MITM attacks.",
         "watchers": 392,
         "forks": 1248,
-        "stars": 13304
+        "stars": 13305
     },
     {
         "path": "projects/network/analysis/rita",
@@ -716,7 +716,7 @@
         "url": "https://github.com/lgandx/Responder.git",
         "description": "Responder is a LLMNR, NBT-NS and MDNS poisoner, with built-in HTTP/SMB/MSSQL/FTP/LDAP rogue authentication server supporting NTLMv1/NTLMv2/LMv2, Extended Security NTLMSSP and Basic HTTP authentication. ",
         "watchers": 144,
-        "forks": 1515,
+        "forks": 1516,
         "stars": 3994
     },
     {
@@ -725,7 +725,7 @@
         "description": "Low bandwidth DoS tool. Slowloris rewrite in Python.",
         "watchers": 73,
         "forks": 633,
-        "stars": 1915
+        "stars": 1916
     },
     {
         "path": "projects/network/stressing/Raven-Storm",
@@ -781,7 +781,7 @@
         "description": "Guide to securing and improving privacy on macOS",
         "watchers": 758,
         "forks": 1409,
-        "stars": 19787
+        "stars": 19788
     },
     {
         "path": "projects/os/mobile/SMSSpoof",
@@ -805,7 +805,7 @@
         "description": "Mobile Security Framework (MobSF) is an automated, all-in-one mobile application (Android/iOS/Windows) pen-testing, malware analysis and security assessment framework capable of performing static and dynamic analysis.",
         "watchers": 545,
         "forks": 2770,
-        "stars": 13152
+        "stars": 13153
     },
     {
         "path": "projects/os/mobile/android/andriller",
@@ -997,7 +997,7 @@
         "description": "Open Source Intelligence gathering tool aimed at reducing the time spent harvesting information from open sources.",
         "watchers": 92,
         "forks": 463,
-        "stars": 2356
+        "stars": 2357
     },
     {
         "path": "projects/recon/dns/Sudomy",
@@ -1053,7 +1053,7 @@
         "description": "ExifTool meta information reader/writer",
         "watchers": 44,
         "forks": 235,
-        "stars": 1750
+        "stars": 1751
     },
     {
         "path": "projects/recon/images/unredacter",
@@ -1061,7 +1061,7 @@
         "description": "Never ever ever use pixelation as a redaction technique",
         "watchers": 63,
         "forks": 594,
-        "stars": 6763
+        "stars": 6764
     },
     {
         "path": "projects/recon/platforms/spiderfoot",
@@ -1133,7 +1133,7 @@
         "description": "Fetch known URLs from AlienVault's Open Threat Exchange, the Wayback Machine, and Common Crawl.",
         "watchers": 35,
         "forks": 328,
-        "stars": 2477
+        "stars": 2478
     },
     {
         "path": "projects/recon/websites/waybackpack",
@@ -1245,7 +1245,7 @@
         "description": "Automatic SQL injection and database takeover tool",
         "watchers": 1082,
         "forks": 5069,
-        "stars": 25649
+        "stars": 25648
     },
     {
         "path": "projects/scanning/webservices/ffuf",
@@ -1452,8 +1452,8 @@
         "url": "https://github.com/Datalux/Osintgram.git",
         "description": "Osintgram is a OSINT tool on Instagram. It offers an interactive shell to perform analysis on Instagram account of any users by its nickname",
         "watchers": 151,
-        "forks": 1180,
-        "stars": 5687
+        "forks": 1181,
+        "stars": 5688
     },
     {
         "path": "projects/socials/leaks/Cr3dOv3r",
@@ -1491,9 +1491,9 @@
         "path": "projects/socials/recon/sherlock",
         "url": "https://github.com/sherlock-project/sherlock.git",
         "description": "\ud83d\udd0e Hunt down social media accounts by username across social networks",
-        "watchers": 963,
+        "watchers": 964,
         "forks": 4494,
-        "stars": 37977
+        "stars": 37979
     },
     {
         "path": "projects/socials/recon/holehe",
@@ -1501,7 +1501,7 @@
         "description": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
         "watchers": 82,
         "forks": 423,
-        "stars": 3750
+        "stars": 3751
     },
     {
         "path": "projects/socials/recon/socialscan",
@@ -1549,7 +1549,7 @@
         "description": "Extract and aggregate threat intelligence.",
         "watchers": 36,
         "forks": 124,
-        "stars": 624
+        "stars": 625
     },
     {
         "path": "projects/recon/docs/osint_stuff_tool_collection",
@@ -1645,7 +1645,7 @@
         "description": "A simple, modern and secure encryption tool (and Go library) with small explicit keys, no config options, and UNIX-style composability.",
         "watchers": 137,
         "forks": 388,
-        "stars": 12326
+        "stars": 12329
     },
     {
         "path": "projects/malware/scanning/pandora",
@@ -1677,7 +1677,7 @@
         "description": "RedEye is a visual analytic tool supporting Red & Blue Team operations",
         "watchers": 34,
         "forks": 185,
-        "stars": 2056
+        "stars": 2057
     },
     {
         "path": "projects/signatures/yari",
@@ -1733,7 +1733,7 @@
         "description": "Free and source-available fair-code licensed workflow automation tool. Easily automate tasks across different services.",
         "watchers": 268,
         "forks": 3200,
-        "stars": 27188
+        "stars": 27190
     },
     {
         "path": "projects/scanning/webservices/katana",
