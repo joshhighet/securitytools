@@ -13,7 +13,7 @@
       <script src="https://cdn.jsdelivr.net/npm/fetch-polyfill"></script>
    </head>
    <body>
-      <h1>securitytools</h1>
+      <h1><a href="https://github.com/joshhighet/securitytools">securitytools</a></h1>
       <table id="repositories">
          <thead>
             <tr>
@@ -70,7 +70,7 @@
               const watchersTd = document.createElement('td');
               const forksTd = document.createElement('td');
               const starsTd = document.createElement('td');
-              pathTd.innerText = repository.path;
+              pathTd.innerText = repository.path.replace("projects/", "");
               urlTd.innerHTML = `<a href="${repository.url}">${repository.url.split("/")[3] + "/" + repository.url.split("/")[4].split(".")[0]}</a>`;
               descriptionTd.innerText = repository.description;
               watchersTd.innerText = repository.watchers;
