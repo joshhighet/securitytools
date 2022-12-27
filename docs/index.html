@@ -28,63 +28,63 @@
          <tbody></tbody>
       </table>
       <script>
-      (async function() {
-          const response = await fetch('https://raw.githubusercontent.com/joshhighet/securitytools/main/docs/directory.json');
-          let data = await response.json();
-          data.sort((a, b) => b.stars - a.stars);
-          const watchersHeader = document.querySelector('#repositories th:nth-child(4)');
-          watchersHeader.addEventListener('click', () => {
-              data.sort((a, b) => {
-                  if (watchersHeader.dataset.sortDirection === 'asc') {
-                      return a.watchers - b.watchers;
-                  } else {
-                      return b.watchers - a.watchers;
-                  }
-              });
-              updateTable(data);
-              watchersHeader.dataset.sortDirection = watchersHeader.dataset.sortDirection === 'asc' ? 'desc' : 'asc';
-          });
-          const forksHeader = document.querySelector('#repositories th:nth-child(5)');
-          forksHeader.addEventListener('click', () => {
-              data.sort((a, b) => {
-                  if (forksHeader.dataset.sortDirection === 'asc') {
-                      return a.forks - b.forks;
-                  } else {
-                      return b.forks - a.forks;
-                  }
-              });
-              updateTable(data);
-              forksHeader.dataset.sortDirection = forksHeader.dataset.sortDirection === 'asc' ? 'desc' : 'asc';
-          });
-          const starsHeader = document.querySelector('#repositories th:nth-child(6)');
-          updateTable(data);
-      })();
-      function updateTable(data) {
-          const tbody = document.querySelector('#repositories tbody');
-          tbody.innerHTML = '';
-          for (const repository of data) {
-              const tr = document.createElement('tr');
-              const pathTd = document.createElement('td');
-              const urlTd = document.createElement('td');
-              const descriptionTd = document.createElement('td');
-              const watchersTd = document.createElement('td');
-              const forksTd = document.createElement('td');
-              const starsTd = document.createElement('td');
-              pathTd.innerText = repository.path.replace("projects/", "");
-              urlTd.innerHTML = `<a href="${repository.url}">${repository.url.split("/")[3] + "/" + repository.url.split("/")[4].split(".")[0]}</a>`;
-              descriptionTd.innerText = repository.description;
-              watchersTd.innerText = repository.watchers;
-              forksTd.innerText = repository.forks;
-              starsTd.innerText = repository.stars;
-              tr.appendChild(pathTd);
-              tr.appendChild(urlTd);
-              tr.appendChild(descriptionTd);
-              tr.appendChild(watchersTd);
-              tr.appendChild(forksTd);
-              tr.appendChild(starsTd);
-              tbody.appendChild(tr);
-          }
-      }
+         (async function() {
+             const response = await fetch('https://raw.githubusercontent.com/joshhighet/securitytools/main/docs/directory.json');
+             let data = await response.json();
+             data.sort((a, b) => b.stars - a.stars);
+             const watchersHeader = document.querySelector('#repositories th:nth-child(4)');
+             watchersHeader.addEventListener('click', () => {
+                 data.sort((a, b) => {
+                     if (watchersHeader.dataset.sortDirection === 'asc') {
+                         return a.watchers - b.watchers;
+                     } else {
+                         return b.watchers - a.watchers;
+                     }
+                 });
+                 updateTable(data);
+                 watchersHeader.dataset.sortDirection = watchersHeader.dataset.sortDirection === 'asc' ? 'desc' : 'asc';
+             });
+             const forksHeader = document.querySelector('#repositories th:nth-child(5)');
+             forksHeader.addEventListener('click', () => {
+                 data.sort((a, b) => {
+                     if (forksHeader.dataset.sortDirection === 'asc') {
+                         return a.forks - b.forks;
+                     } else {
+                         return b.forks - a.forks;
+                     }
+                 });
+                 updateTable(data);
+                 forksHeader.dataset.sortDirection = forksHeader.dataset.sortDirection === 'asc' ? 'desc' : 'asc';
+             });
+             const starsHeader = document.querySelector('#repositories th:nth-child(6)');
+             updateTable(data);
+         })();
+         function updateTable(data) {
+             const tbody = document.querySelector('#repositories tbody');
+             tbody.innerHTML = '';
+             for (const repository of data) {
+                 const tr = document.createElement('tr');
+                 const pathTd = document.createElement('td');
+                 const urlTd = document.createElement('td');
+                 const descriptionTd = document.createElement('td');
+                 const watchersTd = document.createElement('td');
+                 const forksTd = document.createElement('td');
+                 const starsTd = document.createElement('td');
+                 pathTd.innerText = repository.path.replace("projects/", "");
+                 urlTd.innerHTML = `<a href="${repository.url}">${repository.url.split("/")[3] + "/" + repository.url.split("/")[4].split(".")[0]}</a>`;
+                 descriptionTd.innerText = repository.description;
+                 watchersTd.innerText = repository.watchers;
+                 forksTd.innerText = repository.forks;
+                 starsTd.innerText = repository.stars;
+                 tr.appendChild(pathTd);
+                 tr.appendChild(urlTd);
+                 tr.appendChild(descriptionTd);
+                 tr.appendChild(watchersTd);
+                 tr.appendChild(forksTd);
+                 tr.appendChild(starsTd);
+                 tbody.appendChild(tr);
+             }
+         }
       </script>
    </body>
 </html>
