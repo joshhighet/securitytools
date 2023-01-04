@@ -667,3 +667,6 @@
 [submodule "projects/devsec/docs/ssh_hardening"]
 	path = projects/devsec/docs/ssh_hardening
 	url = https://github.com/certnz/ssh_hardening.git
+[submodule "projects/devsec/tools/public-apis"]
+	path = projects/devsec/tools/public-apis
+	url = https://github.com/public-apis/public-apis.git
