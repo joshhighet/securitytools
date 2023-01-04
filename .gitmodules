@@ -661,3 +661,6 @@
 [submodule "projects/forensics/chainsaw"]
 	path = projects/forensics/chainsaw
 	url = https://github.com/WithSecureLabs/chainsaw.git
+[submodule "projects/devsec/tools/bpytop"]
+	path = projects/devsec/tools/bpytop
+	url = https://github.com/aristocratos/bpytop.git
