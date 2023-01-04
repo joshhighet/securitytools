@@ -22,7 +22,7 @@
                <th>description</th>
                <th>watchers</th>
                <th>forks</th>
-               <th data-sort-direction="desc">Stars</th>
+               <th data-sort-direction="desc">stars</th>
             </tr>
          </thead>
          <tbody></tbody>
@@ -57,6 +57,17 @@
                  forksHeader.dataset.sortDirection = forksHeader.dataset.sortDirection === 'asc' ? 'desc' : 'asc';
              });
              const starsHeader = document.querySelector('#repositories th:nth-child(6)');
+             starsHeader.addEventListener('click', () => {
+                 data.sort((a, b) => {
+                     if (starsHeader.dataset.sortDirection === 'asc') {
+                         return a.stars - b.stars;
+                     } else {
+                         return b.stars - a.stars;
+                     }
+                 });
+                 updateTable(data);
+                 starsHeader.dataset.sortDirection = starsHeader.dataset.sortDirection === 'asc' ? 'desc' : 'asc';
+             });
              updateTable(data);
          })();
          function updateTable(data) {
@@ -70,7 +81,7 @@
                  const watchersTd = document.createElement('td');
                  const forksTd = document.createElement('td');
                  const starsTd = document.createElement('td');
-                 pathTd.innerText = repository.path.replace("projects/", "");
+                 pathTd.innerText = repository.path.replace("projects/", "").split("/").slice(0, -1).join("/");                
                  urlTd.innerHTML = `<a href="${repository.url}">${repository.url.split("/")[3] + "/" + repository.url.split("/")[4].split(".")[0]}</a>`;
                  descriptionTd.innerText = repository.description;
                  watchersTd.innerText = repository.watchers;
