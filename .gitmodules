@@ -658,3 +658,6 @@
 [submodule "projects/malware/re/DC3-MWCP"]
 	path = projects/malware/re/DC3-MWCP
 	url = https://github.com/dod-cyber-crime-center/DC3-MWCP.git
+[submodule "projects/forensics/chainsaw"]
+	path = projects/forensics/chainsaw
+	url = https://github.com/WithSecureLabs/chainsaw.git
