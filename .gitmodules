@@ -670,3 +670,6 @@
 [submodule "projects/devsec/tools/public-apis"]
 	path = projects/devsec/tools/public-apis
 	url = https://github.com/public-apis/public-apis.git
+[submodule "projects/adversarysim/docs/conti-pentester-guide-leak"]
+	path = projects/adversarysim/docs/conti-pentester-guide-leak
+	url = https://github.com/ForbiddenProgrammer/conti-pentester-guide-leak.git
