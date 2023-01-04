@@ -673,3 +673,6 @@
 [submodule "projects/adversarysim/docs/conti-pentester-guide-leak"]
 	path = projects/adversarysim/docs/conti-pentester-guide-leak
 	url = https://github.com/ForbiddenProgrammer/conti-pentester-guide-leak.git
+[submodule "projects/platforms/uptime-kuma"]
+	path = projects/platforms/uptime-kuma
+	url = https://github.com/louislam/uptime-kuma.git
