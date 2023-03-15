@@ -691,3 +691,6 @@
 [submodule "projects/recon/platforms/changedetection.io"]
 	path = projects/recon/platforms/changedetection.io
 	url = https://github.com/dgtlmoon/changedetection.io
+[submodule "projects/devsec/tools/notify"]
+	path = projects/devsec/tools/notify
+	url = https://github.com/projectdiscovery/notify
