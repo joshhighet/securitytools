@@ -676,3 +676,6 @@
 [submodule "projects/platforms/uptime-kuma"]
 	path = projects/platforms/uptime-kuma
 	url = https://github.com/louislam/uptime-kuma.git
+[submodule "projects/os/macos/secretive"]
+	path = projects/os/macos/secretive
+	url = https://github.com/maxgoedjen/secretive
