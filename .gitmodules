@@ -730,3 +730,6 @@
 [submodule "projects/scanning/domaintools/certstream-server"]
 	path = projects/scanning/domaintools/certstream-server
 	url = https://github.com/CaliDog/certstream-server
+[submodule "projects/platforms/honeypots/canarytokens"]
+	path = projects/platforms/honeypots/canarytokens
+	url = https://github.com/thinkst/canarytokens
