@@ -721,3 +721,6 @@
 [submodule "projects/intel/tor/ransomwatch"]
 	path = projects/intel/tor/ransomwatch
 	url = https://github.com/joshhighet/ransomwatch
+[submodule "projects/platforms/stoq"]
+	path = projects/platforms/stoq
+	url = https://github.com/PUNCH-Cyber/stoq
