@@ -682,3 +682,6 @@
 [submodule "projects/browser/tools/BotD"]
 	path = projects/browser/tools/BotD
 	url = https://github.com/fingerprintjs/BotD
+[submodule "projects/platforms/wazuh"]
+	path = projects/platforms/wazuh
+	url = https://github.com/wazuh/wazuh
