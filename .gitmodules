@@ -712,3 +712,6 @@
 [submodule "projects/devsec/tools/kerchow"]
 	path = projects/devsec/tools/kerchow
 	url = https://github.com/joshhighet/kerchow
+[submodule "projects/devsec/networking/tor/multisocks"]
+	path = projects/devsec/networking/tor/multisocks
+	url = https://github.com/joshhighet/multisocks
