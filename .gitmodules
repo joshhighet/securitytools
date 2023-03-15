@@ -688,3 +688,6 @@
 [submodule "projects/scanning/webservices/colly"]
 	path = projects/scanning/webservices/colly
 	url = https://github.com/gocolly/colly
+[submodule "projects/recon/platforms/changedetection.io"]
+	path = projects/recon/platforms/changedetection.io
+	url = https://github.com/dgtlmoon/changedetection.io
