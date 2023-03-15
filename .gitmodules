@@ -685,3 +685,6 @@
 [submodule "projects/platforms/wazuh"]
 	path = projects/platforms/wazuh
 	url = https://github.com/wazuh/wazuh
+[submodule "projects/scanning/webservices/colly"]
+	path = projects/scanning/webservices/colly
+	url = https://github.com/gocolly/colly
