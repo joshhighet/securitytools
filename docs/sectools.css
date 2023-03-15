@@ -1,0 +1,98 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+}
+h1 {
+    font-weight: bold;
+    color: #343a40;
+    padding: 1rem 0;
+    border-bottom: 2px solid #dee2e6;
+    margin-bottom: 1.5rem;
+}
+h1 a {
+    text-decoration: none;
+    color: #343a40;
+}
+table {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    border-radius: 0.25rem;
+}
+th {
+    background-color: #f8f9fa;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #495057;
+    letter-spacing: 1px;
+    position: relative;
+}
+th:hover {
+    cursor: pointer;
+}
+th::after {
+    content: '';
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid #495057;
+    opacity: 0;
+}
+th:hover::after {
+    opacity: 1;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+.search-container {
+    margin-bottom: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+input[type="text"] {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+.tag-badge {
+    display: inline-block;
+    color: #fff;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+
+.tag-selected {
+background-color: #0056b3;
+}
+.credit-banner {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-family: 'Comic Sans MS', sans-serif;
+    display: none;
+}
+.github-icon {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+}
