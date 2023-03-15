@@ -365,7 +365,7 @@
         "description": "A rule-based tunnel in Go.",
         "watchers": 537,
         "forks": 5012,
-        "stars": 38101
+        "stars": 38102
     },
     {
         "path": "projects/devsec/networking/teleport",
@@ -429,7 +429,7 @@
         "description": "The dynamic infrastructure framework for everybody! Distribute the workload of many different scanning tools with ease, including nmap, ffuf, masscan, nuclei, meg and many more!",
         "watchers": 87,
         "forks": 515,
-        "stars": 3234
+        "stars": 3235
     },
     {
         "path": "projects/docs/security-cheatsheets",
@@ -445,7 +445,7 @@
         "description": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.",
         "watchers": 2051,
         "forks": 7042,
-        "stars": 92354
+        "stars": 92355
     },
     {
         "path": "projects/docs/Infosec_Reference",
@@ -597,7 +597,7 @@
         "description": "Your Everyday Threat Intelligence",
         "watchers": 98,
         "forks": 268,
-        "stars": 1360
+        "stars": 1361
     },
     {
         "path": "projects/intel/platforms/MISP",
@@ -653,7 +653,7 @@
         "description": "UNIX-like reverse engineering framework and command-line toolset",
         "watchers": 484,
         "forks": 2828,
-        "stars": 17720
+        "stars": 17721
     },
     {
         "path": "projects/malware/re/aa-tools",
@@ -1005,7 +1005,7 @@
         "description": "Sudomy is a subdomain enumeration tool to collect subdomains and analyzing domains performing automated reconnaissance (recon) for bug hunting / pentesting",
         "watchers": 31,
         "forks": 339,
-        "stars": 1586
+        "stars": 1587
     },
     {
         "path": "projects/recon/docs/awesome-osint",
@@ -1013,7 +1013,7 @@
         "description": ":scream: A curated list of amazingly awesome OSINT",
         "watchers": 573,
         "forks": 2198,
-        "stars": 11924
+        "stars": 11925
     },
     {
         "path": "projects/recon/docs/OSINT",
@@ -1022,14 +1022,6 @@
         "watchers": 86,
         "forks": 316,
         "stars": 1994
-    },
-    {
-        "path": "projects/recon/domaintools/opensquat",
-        "url": "https://github.com/atenreiro/opensquat.git",
-        "description": "The openSquat project is an open-source solution for detecting phishing domains and domain squatting. It searches for newly registered domains that impersonate legitimate domains on a daily basis. This project aims to help protect individuals and organizations from cyber threats by identifying and alerting them to potentially malicious domains.",
-        "watchers": 19,
-        "forks": 89,
-        "stars": 432
     },
     {
         "path": "projects/recon/domaintools/Hunting-New-Registered-Domains",
@@ -1069,7 +1061,7 @@
         "description": "SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.",
         "watchers": 332,
         "forks": 1816,
-        "stars": 9305
+        "stars": 9306
     },
     {
         "path": "projects/recon/platforms/mihari",
@@ -1413,7 +1405,7 @@
         "description": "Python library for accurately querying username and email usage on online platforms",
         "watchers": 33,
         "forks": 152,
-        "stars": 1089
+        "stars": 1090
     },
     {
         "path": "projects/socials/GHunt",
@@ -1452,8 +1444,8 @@
         "url": "https://github.com/Datalux/Osintgram.git",
         "description": "Osintgram is a OSINT tool on Instagram. It offers an interactive shell to perform analysis on Instagram account of any users by its nickname",
         "watchers": 159,
-        "forks": 1338,
-        "stars": 6326
+        "forks": 1337,
+        "stars": 6327
     },
     {
         "path": "projects/socials/leaks/Cr3dOv3r",
@@ -1509,7 +1501,7 @@
         "description": "Python library for accurately querying username and email usage on online platforms",
         "watchers": 33,
         "forks": 152,
-        "stars": 1089
+        "stars": 1090
     },
     {
         "path": "projects/socials/recon/NameSpi",
@@ -1645,7 +1637,7 @@
         "description": "A simple, modern and secure encryption tool (and Go library) with small explicit keys, no config options, and UNIX-style composability.",
         "watchers": 139,
         "forks": 406,
-        "stars": 13076
+        "stars": 13077
     },
     {
         "path": "projects/malware/scanning/pandora",
@@ -1653,7 +1645,7 @@
         "description": "Pandora is an analysis framework to discover if a file is suspicious and conveniently show the results ",
         "watchers": 7,
         "forks": 27,
-        "stars": 184
+        "stars": 185
     },
     {
         "path": "projects/recon/tools/interactsh",
@@ -1788,7 +1780,7 @@
         "url": "https://github.com/public-apis/public-apis.git",
         "description": "A collective list of free APIs",
         "watchers": 3791,
-        "forks": 26311,
+        "forks": 26312,
         "stars": 231089
     },
     {
@@ -1805,7 +1797,7 @@
         "description": "A fancy self-hosted monitoring tool",
         "watchers": 191,
         "forks": 2605,
-        "stars": 30805
+        "stars": 30807
     },
     {
         "path": "projects/os/macos/secretive",
@@ -1942,5 +1934,29 @@
         "watchers": 1,
         "forks": 3,
         "stars": 24
+    },
+    {
+        "path": "projects/scanning/webservices/lookyloo",
+        "url": "https://github.com/Lookyloo/lookyloo.git",
+        "description": "Lookyloo is a web interface that allows users to capture a website page and then display a tree of domains that call each other.",
+        "watchers": 20,
+        "forks": 61,
+        "stars": 525
+    },
+    {
+        "path": "projects/scanning/domaintools/certstream-server",
+        "url": "https://github.com/CaliDog/certstream-server",
+        "description": "Certificate Transparency Log aggregation, parsing, and streaming service written in Elixir",
+        "watchers": 16,
+        "forks": 57,
+        "stars": 173
+    },
+    {
+        "path": "projects/platforms/honeypots/canarytokens",
+        "url": "https://github.com/thinkst/canarytokens",
+        "description": "Canarytokens helps track activity and actions on your network.",
+        "watchers": 40,
+        "forks": 220,
+        "stars": 1337
     }
 ]
