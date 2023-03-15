@@ -445,7 +445,7 @@
         "description": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.",
         "watchers": 2051,
         "forks": 7042,
-        "stars": 92352
+        "stars": 92353
     },
     {
         "path": "projects/docs/Infosec_Reference",
@@ -1765,7 +1765,7 @@
         "description": "Rapidly Search and Hunt through Windows Forensic Artefacts",
         "watchers": 42,
         "forks": 172,
-        "stars": 1894
+        "stars": 1895
     },
     {
         "path": "projects/devsec/tools/bpytop",
@@ -1789,7 +1789,7 @@
         "description": "A collective list of free APIs",
         "watchers": 3791,
         "forks": 26311,
-        "stars": 231088
+        "stars": 231089
     },
     {
         "path": "projects/adversarysim/docs/conti-pentester-guide-leak",
@@ -1806,5 +1806,141 @@
         "watchers": 191,
         "forks": 2605,
         "stars": 30804
+    },
+    {
+        "path": "projects/os/macos/secretive",
+        "url": "https://github.com/maxgoedjen/secretive",
+        "description": "Store SSH keys in the Secure Enclave",
+        "watchers": 38,
+        "forks": 114,
+        "stars": 5752
+    },
+    {
+        "path": "projects/browser/tools/BotD",
+        "url": "https://github.com/fingerprintjs/BotD",
+        "description": "Bot detection library that runs in the browser. Detects automation tools and frameworks. No server required, runs 100% on the client.",
+        "watchers": 19,
+        "forks": 52,
+        "stars": 546
+    },
+    {
+        "path": "projects/platforms/wazuh",
+        "url": "https://github.com/wazuh/wazuh",
+        "description": "Wazuh - The Open Source Security Platform. Unified XDR and SIEM protection for endpoints and cloud workloads.",
+        "watchers": 184,
+        "forks": 986,
+        "stars": 5727
+    },
+    {
+        "path": "projects/scanning/webservices/colly",
+        "url": "https://github.com/gocolly/colly",
+        "description": "Elegant Scraper and Crawler Framework for Golang",
+        "watchers": 323,
+        "forks": 1562,
+        "stars": 19125
+    },
+    {
+        "path": "projects/recon/platforms/changedetection.io",
+        "url": "https://github.com/dgtlmoon/changedetection.io",
+        "description": "The best and simplest self-hosted free open source website change detection, monitor and notification service. Restock Monitor, change detection. Designed for simplicity - the main goal is to simply monitor which websites had a text change for free. Free Open source web page change detection, Restock Monitoring, Visualping and Apify alternative",
+        "watchers": 57,
+        "forks": 481,
+        "stars": 8355
+    },
+    {
+        "path": "projects/devsec/tools/notify",
+        "url": "https://github.com/projectdiscovery/notify",
+        "description": "Notify is a Go-based assistance package that enables you to stream the output of several tools (or read from a file) and publish it to a variety of supported platforms.",
+        "watchers": 18,
+        "forks": 103,
+        "stars": 769
+    },
+    {
+        "path": "projects/browser/crux-top-lists",
+        "url": "https://github.com/zakird/crux-top-lists",
+        "description": "Downloadable snapshots of the Chrome Top Million Websites pulled from public CrUX data in BigQuery.",
+        "watchers": 9,
+        "forks": 33,
+        "stars": 639
+    },
+    {
+        "path": "projects/adversarysim/detectioneng/GHOSTS",
+        "url": "https://github.com/cmu-sei/GHOSTS",
+        "description": "GHOSTS is a realistic user simulation framework for cyber simulation, training, and exercise",
+        "watchers": 19,
+        "forks": 44,
+        "stars": 286
+    },
+    {
+        "path": "projects/tor/ansible-relayor",
+        "url": "https://github.com/nusenu/ansible-relayor",
+        "description": "An Ansible Role for Tor Relay Operators",
+        "watchers": 15,
+        "forks": 41,
+        "stars": 217
+    },
+    {
+        "path": "projects/intel/collections/ransomwhere",
+        "url": "https://github.com/cablej/ransomwhere",
+        "description": "The open ransomware payment tracker",
+        "watchers": 7,
+        "forks": 7,
+        "stars": 71
+    },
+    {
+        "path": "projects/tor/bebop",
+        "url": "https://github.com/joshhighet/bebop",
+        "description": "the hidden service discovery framework \ud83d\udc40 \ud83e\uddc5 \ud83d\udcbb",
+        "watchers": 1,
+        "forks": 1,
+        "stars": 1
+    },
+    {
+        "path": "projects/devsec/tools/kerchow",
+        "url": "https://github.com/joshhighet/kerchow",
+        "description": "scripts, tricks n' shortcuts \ud83c\udfce ",
+        "watchers": 4,
+        "forks": 3,
+        "stars": 32
+    },
+    {
+        "path": "projects/devsec/networking/tor/multisocks",
+        "url": "https://github.com/joshhighet/multisocks",
+        "description": "a scaling socks5 service for reaching hidden services  \ud83e\udde6 \ud83e\uddc5 \u2696\ufe0f ",
+        "watchers": 0,
+        "forks": 1,
+        "stars": 0
+    },
+    {
+        "path": "projects/devsec/tools/gotham",
+        "url": "https://github.com/joshhighet/gotham",
+        "description": "cybertools & nicnacs \ud83e\udd16\ud83d\udcf8\ud83d\udce1",
+        "watchers": 3,
+        "forks": 1,
+        "stars": 4
+    },
+    {
+        "path": "projects/intel/tor/ransomwatch",
+        "url": "https://github.com/joshhighet/ransomwatch",
+        "description": "a ransomware-group observatory  \ud83e\uddc5\ud83d\udc79 ",
+        "watchers": 24,
+        "forks": 53,
+        "stars": 304
+    },
+    {
+        "path": "projects/platforms/stoq",
+        "url": "https://github.com/PUNCH-Cyber/stoq",
+        "description": "An open source framework for enterprise level automated analysis.",
+        "watchers": 43,
+        "forks": 54,
+        "stars": 390
+    },
+    {
+        "path": "projects/recon/tools/cryptocurrency/a_TON_of_privacy",
+        "url": "https://github.com/aaarghhh/a_TON_of_privacy",
+        "description": "A tool for investigating TON network and its NFT",
+        "watchers": 1,
+        "forks": 3,
+        "stars": 24
     }
 ]
