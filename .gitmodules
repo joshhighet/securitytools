@@ -715,3 +715,6 @@
 [submodule "projects/devsec/networking/tor/multisocks"]
 	path = projects/devsec/networking/tor/multisocks
 	url = https://github.com/joshhighet/multisocks
+[submodule "projects/devsec/tools/gotham"]
+	path = projects/devsec/tools/gotham
+	url = https://github.com/joshhighet/gotham
