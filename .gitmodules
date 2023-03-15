@@ -700,3 +700,6 @@
 [submodule "projects/adversarysim/detectioneng/GHOSTS"]
 	path = projects/adversarysim/detectioneng/GHOSTS
 	url = https://github.com/cmu-sei/GHOSTS
+[submodule "projects/tor/ansible-relayor"]
+	path = projects/tor/ansible-relayor
+	url = https://github.com/nusenu/ansible-relayor
