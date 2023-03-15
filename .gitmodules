@@ -382,9 +382,6 @@
 [submodule "projects/recon/docs/OSINT"]
 	path = projects/recon/docs/OSINT
 	url = https://github.com/sinwindie/OSINT.git
-[submodule "projects/recon/domaintools/opensquat"]
-	path = projects/recon/domaintools/opensquat
-	url = https://github.com/atenreiro/opensquat.git
 [submodule "projects/recon/domaintools/Hunting-New-Registered-Domains"]
 	path = projects/recon/domaintools/Hunting-New-Registered-Domains
 	url = https://github.com/gfek/Hunting-New-Registered-Domains.git
