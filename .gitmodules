@@ -703,3 +703,6 @@
 [submodule "projects/tor/ansible-relayor"]
 	path = projects/tor/ansible-relayor
 	url = https://github.com/nusenu/ansible-relayor
+[submodule "projects/intel/collections/ransomwhere"]
+	path = projects/intel/collections/ransomwhere
+	url = https://github.com/cablej/ransomwhere
