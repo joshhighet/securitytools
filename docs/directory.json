@@ -236,7 +236,7 @@
         "url": "https://github.com/nccgroup/ScoutSuite.git",
         "description": "Multi-Cloud Security Auditing Tool",
         "watchers": 115,
-        "forks": 836,
+        "forks": 837,
         "stars": 5193
     },
     {
@@ -324,7 +324,7 @@
         "url": "https://github.com/ventoy/Ventoy.git",
         "description": "A new bootable USB solution.",
         "watchers": 597,
-        "forks": 3272,
+        "forks": 3273,
         "stars": 46399
     },
     {
@@ -365,7 +365,7 @@
         "description": "A rule-based tunnel in Go.",
         "watchers": 537,
         "forks": 5012,
-        "stars": 38099
+        "stars": 38101
     },
     {
         "path": "projects/devsec/networking/teleport",
@@ -373,7 +373,7 @@
         "description": "The easiest, most secure way to access infrastructure.",
         "watchers": 245,
         "forks": 1439,
-        "stars": 13955
+        "stars": 13956
     },
     {
         "path": "projects/devsec/networking/pwnat",
@@ -445,7 +445,7 @@
         "description": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.",
         "watchers": 2051,
         "forks": 7042,
-        "stars": 92348
+        "stars": 92352
     },
     {
         "path": "projects/docs/Infosec_Reference",
@@ -453,7 +453,7 @@
         "description": "An Information Security Reference That Doesn't Suck; https://rmusser.net/git/admin-2/Infosec_Reference for non-MS Git hosted version.",
         "watchers": 254,
         "forks": 1139,
-        "stars": 4873
+        "stars": 4874
     },
     {
         "path": "projects/docs/tools",
@@ -604,7 +604,7 @@
         "url": "https://github.com/MISP/MISP.git",
         "description": "MISP (core software) - Open Source Threat Intelligence and Sharing Platform",
         "watchers": 268,
-        "forks": 1248,
+        "forks": 1249,
         "stars": 4265
     },
     {
@@ -653,7 +653,7 @@
         "description": "UNIX-like reverse engineering framework and command-line toolset",
         "watchers": 484,
         "forks": 2828,
-        "stars": 17719
+        "stars": 17720
     },
     {
         "path": "projects/malware/re/aa-tools",
@@ -693,7 +693,7 @@
         "description": "The Swiss Army knife for 802.11, BLE, IPv4 and IPv6 networks reconnaissance and MITM attacks.",
         "watchers": 393,
         "forks": 1276,
-        "stars": 13758
+        "stars": 13759
     },
     {
         "path": "projects/network/analysis/rita",
@@ -701,7 +701,7 @@
         "description": "Real Intelligence Threat Analytics (RITA) is a framework for detecting command and control communication through network traffic analysis.",
         "watchers": 110,
         "forks": 334,
-        "stars": 2135
+        "stars": 2136
     },
     {
         "path": "projects/network/idps/snort3",
@@ -797,7 +797,7 @@
         "description": "\ud83d\udcf1 objection - runtime mobile exploration",
         "watchers": 155,
         "forks": 750,
-        "stars": 5826
+        "stars": 5827
     },
     {
         "path": "projects/os/mobile/Mobile-Security-Framework-MobSF",
@@ -1012,8 +1012,8 @@
         "url": "https://github.com/jivoi/awesome-osint.git",
         "description": ":scream: A curated list of amazingly awesome OSINT",
         "watchers": 572,
-        "forks": 2197,
-        "stars": 11923
+        "forks": 2198,
+        "stars": 11924
     },
     {
         "path": "projects/recon/docs/OSINT",
@@ -1157,7 +1157,7 @@
         "description": "TCP port scanner, spews SYN packets asynchronously, scanning entire Internet in under 5 minutes.",
         "watchers": 655,
         "forks": 2884,
-        "stars": 20745
+        "stars": 20746
     },
     {
         "path": "projects/scanning/ports/jfscan",
@@ -1413,15 +1413,15 @@
         "description": "Python library for accurately querying username and email usage on online platforms",
         "watchers": 33,
         "forks": 152,
-        "stars": 1087
+        "stars": 1089
     },
     {
         "path": "projects/socials/GHunt",
         "url": "https://github.com/mxrch/GHunt.git",
         "description": "\ud83d\udd75\ufe0f\u200d\u2642\ufe0f Offensive Google framework.",
         "watchers": 493,
-        "forks": 1127,
-        "stars": 13431
+        "forks": 1128,
+        "stars": 13432
     },
     {
         "path": "projects/socials/discord/Discord-History-Tracker",
@@ -1509,7 +1509,7 @@
         "description": "Python library for accurately querying username and email usage on online platforms",
         "watchers": 33,
         "forks": 152,
-        "stars": 1087
+        "stars": 1089
     },
     {
         "path": "projects/socials/recon/NameSpi",
@@ -1788,8 +1788,8 @@
         "url": "https://github.com/public-apis/public-apis.git",
         "description": "A collective list of free APIs",
         "watchers": 3791,
-        "forks": 26310,
-        "stars": 231087
+        "forks": 26311,
+        "stars": 231088
     },
     {
         "path": "projects/adversarysim/docs/conti-pentester-guide-leak",
@@ -1805,6 +1805,6 @@
         "description": "A fancy self-hosted monitoring tool",
         "watchers": 191,
         "forks": 2605,
-        "stars": 30803
+        "stars": 30804
     }
 ]
