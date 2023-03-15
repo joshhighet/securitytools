@@ -679,3 +679,6 @@
 [submodule "projects/os/macos/secretive"]
 	path = projects/os/macos/secretive
 	url = https://github.com/maxgoedjen/secretive
+[submodule "projects/browser/tools/BotD"]
+	path = projects/browser/tools/BotD
+	url = https://github.com/fingerprintjs/BotD
