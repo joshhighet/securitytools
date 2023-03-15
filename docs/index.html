@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>securitytools</title>
+        <title>securitytools: quality opensauce projects</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous" />
         <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/fetch-polyfill"></script>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
         <link rel="stylesheet" href="sectools.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" crossorigin="anonymous" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/png" href="https://github.com/joshhighet.png">
     </head>
     <body>
         <a id="github-icon" class="github-icon" href="https://github.com/joshhighet/securitytools" target="_blank" @mouseleave="showBanner">
@@ -15,9 +17,11 @@
         </a>
         <div id="bottom-banner" class="credit-banner" @mouseleave="hideBanner">a project by <a href="https://joshhighet.com" target="_blank" style="color: white; text-decoration: underline;">joshhighet</a></div>
         <div id="app">
-            <div class="search-container">
-                <input type="text" v-model="searchQuery" placeholder="search description or project/owner name" />
-            </div>
+            <div class="search-wrapper">
+                <div class="search-container">
+                    <input type="text" v-model="searchQuery" placeholder="search description or project/owner name" />
+                </div>
+            </div>            
             <table class="table table-bordered table-hover">
                 <thead>
                     <tr>
