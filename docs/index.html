@@ -20,7 +20,7 @@
     </head>
     <body>
         <a id="github-icon" class="github-icon" href="https://github.com/joshhighet/securitytools" target="_blank" @mouseleave="showBanner">
-            <img src="https://github.com/joshhighet.png" width="50" height="50" alt="GitHub" />
+            <img src="https://octodex.github.com/images/bouncercat.png" width="50" height="50" alt="GitHub" />
         </a>
         <div id="bottom-banner" class="credit-banner" @mouseleave="hideBanner">a project by <a href="https://joshhighet.com" target="_blank" style="color: white; text-decoration: underline;">joshhighet</a></div>
         <div id="app">
@@ -28,7 +28,11 @@
                 <div class="search-container">
                     <input type="text" v-model="searchQuery" placeholder="search description or project/owner name" />
                 </div>
-            </div>            
+            </div>
+            <div v-show="selectedTags.length > 0" class="filtered-tag-message">
+                filtered by tag:
+                <span v-for="(tag, index) in selectedTags" :key="index" class="tag-filter-name">{{ tag }}</span>
+            </div>
             <table class="table table-bordered table-hover">
                 <thead>
                     <tr>
@@ -52,6 +56,7 @@
                                 :class="{ 'tag-selected': selectedTags.includes(tag) }"
                             >
                                 {{ tag }}
+                                <i class="fas fa-filter" v-show="selectedTags.includes(tag)"></i>
                             </span>
                         </td>
                         <td><a :href="repo.url">{{ repo.url.split("/")[3] + "/" + repo.url.split("/")[4].split(".")[0] }}</a></td>
