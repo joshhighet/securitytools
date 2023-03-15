@@ -709,3 +709,6 @@
 [submodule "projects/tor/bebop"]
 	path = projects/tor/bebop
 	url = https://github.com/joshhighet/bebop
+[submodule "projects/devsec/tools/kerchow"]
+	path = projects/devsec/tools/kerchow
+	url = https://github.com/joshhighet/kerchow
