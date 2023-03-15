@@ -694,3 +694,6 @@
 [submodule "projects/devsec/tools/notify"]
 	path = projects/devsec/tools/notify
 	url = https://github.com/projectdiscovery/notify
+[submodule "projects/browser/crux-top-lists"]
+	path = projects/browser/crux-top-lists
+	url = https://github.com/zakird/crux-top-lists
