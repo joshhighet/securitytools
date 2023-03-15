@@ -718,3 +718,6 @@
 [submodule "projects/devsec/tools/gotham"]
 	path = projects/devsec/tools/gotham
 	url = https://github.com/joshhighet/gotham
+[submodule "projects/intel/tor/ransomwatch"]
+	path = projects/intel/tor/ransomwatch
+	url = https://github.com/joshhighet/ransomwatch
