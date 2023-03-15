@@ -727,3 +727,6 @@
 [submodule "projects/scanning/webservices/lookyloo"]
 	path = projects/scanning/webservices/lookyloo
 	url = https://github.com/Lookyloo/lookyloo.git
+[submodule "projects/scanning/domaintools/certstream-server"]
+	path = projects/scanning/domaintools/certstream-server
+	url = https://github.com/CaliDog/certstream-server
