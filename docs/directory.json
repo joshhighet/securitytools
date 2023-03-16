@@ -5,7 +5,7 @@
         "description": "Small and highly portable detection tests based on MITRE's ATT&CK.",
         "watchers": 325,
         "forks": 2359,
-        "stars": 7255
+        "stars": 7256
     },
     {
         "path": "projects/adversarysim/platforms/caldera",
@@ -76,7 +76,7 @@
         "url": "https://github.com/rvrsh3ll/TokenTactics.git",
         "description": "Azure JWT Token Manipulation Toolset",
         "watchers": 9,
-        "forks": 54,
+        "forks": 55,
         "stars": 323
     },
     {
@@ -93,7 +93,7 @@
         "description": "Collection of KQL queries",
         "watchers": 64,
         "forks": 208,
-        "stars": 926
+        "stars": 927
     },
     {
         "path": "projects/cloud/azure/CRT",
@@ -253,7 +253,7 @@
         "description": "This repository contains a collection of cheatsheets I have put together for tools related to pentesting organizations that leverage cloud providers.",
         "watchers": 92,
         "forks": 418,
-        "stars": 2065
+        "stars": 2066
     },
     {
         "path": "projects/devsec/tools/dog",
@@ -261,7 +261,7 @@
         "description": "A command-line DNS client.",
         "watchers": 29,
         "forks": 119,
-        "stars": 4990
+        "stars": 4991
     },
     {
         "path": "projects/devsec/docs/awesome-devsecops",
@@ -333,7 +333,7 @@
         "description": "Various Dockerfiles I use on the desktop and on servers.",
         "watchers": 438,
         "forks": 2456,
-        "stars": 13057
+        "stars": 13059
     },
     {
         "path": "projects/devsec/networking/nebula",
@@ -373,7 +373,7 @@
         "description": "The easiest, most secure way to access infrastructure.",
         "watchers": 245,
         "forks": 1439,
-        "stars": 13957
+        "stars": 13958
     },
     {
         "path": "projects/devsec/networking/pwnat",
@@ -445,7 +445,7 @@
         "description": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.",
         "watchers": 2051,
         "forks": 7042,
-        "stars": 92355
+        "stars": 92358
     },
     {
         "path": "projects/docs/Infosec_Reference",
@@ -453,7 +453,7 @@
         "description": "An Information Security Reference That Doesn't Suck; https://rmusser.net/git/admin-2/Infosec_Reference for non-MS Git hosted version.",
         "watchers": 254,
         "forks": 1139,
-        "stars": 4874
+        "stars": 4873
     },
     {
         "path": "projects/docs/tools",
@@ -693,7 +693,7 @@
         "description": "The Swiss Army knife for 802.11, BLE, IPv4 and IPv6 networks reconnaissance and MITM attacks.",
         "watchers": 393,
         "forks": 1276,
-        "stars": 13759
+        "stars": 13760
     },
     {
         "path": "projects/network/analysis/rita",
@@ -701,7 +701,7 @@
         "description": "Real Intelligence Threat Analytics (RITA) is a framework for detecting command and control communication through network traffic analysis.",
         "watchers": 110,
         "forks": 334,
-        "stars": 2136
+        "stars": 2137
     },
     {
         "path": "projects/network/idps/snort3",
@@ -709,7 +709,7 @@
         "description": "Snort++",
         "watchers": 120,
         "forks": 425,
-        "stars": 1703
+        "stars": 1704
     },
     {
         "path": "projects/network/poisoning/Responder",
@@ -781,7 +781,7 @@
         "description": "Guide to securing and improving privacy on macOS",
         "watchers": 757,
         "forks": 1418,
-        "stars": 20014
+        "stars": 20015
     },
     {
         "path": "projects/os/mobile/SMSSpoof",
@@ -829,7 +829,7 @@
         "description": "The Mobile App Pentest cheat sheet was created to provide concise collection of high value information on specific mobile application penetration testing topics.",
         "watchers": 219,
         "forks": 1182,
-        "stars": 3903
+        "stars": 3904
     },
     {
         "path": "projects/os/mobile/docs/owasp-mstg",
@@ -837,7 +837,7 @@
         "description": "The Mobile Application Security Testing Guide (MASTG) is a comprehensive manual for mobile app security testing and reverse engineering. It describes the technical processes for verifying the controls listed in the OWASP Mobile Application Security Verification Standard (MASVS).",
         "watchers": 404,
         "forks": 2138,
-        "stars": 10035
+        "stars": 10036
     },
     {
         "path": "projects/os/mobile/ios/iLEAPP",
@@ -909,7 +909,7 @@
         "description": "Collection of YARA-L 2.0 sample rules for the Chronicle Detection API",
         "watchers": 26,
         "forks": 31,
-        "stars": 146
+        "stars": 147
     },
     {
         "path": "projects/platforms/elastic/detection-rules",
@@ -1013,7 +1013,7 @@
         "description": ":scream: A curated list of amazingly awesome OSINT",
         "watchers": 573,
         "forks": 2198,
-        "stars": 11925
+        "stars": 11926
     },
     {
         "path": "projects/recon/docs/OSINT",
@@ -1053,7 +1053,7 @@
         "description": "Never ever ever use pixelation as a redaction technique",
         "watchers": 64,
         "forks": 612,
-        "stars": 6942
+        "stars": 6943
     },
     {
         "path": "projects/recon/platforms/spiderfoot",
@@ -1181,7 +1181,7 @@
         "description": "Fast and customizable vulnerability scanner based on simple YAML based DSL.",
         "watchers": 191,
         "forks": 1697,
-        "stars": 12050
+        "stars": 12051
     },
     {
         "path": "projects/scanning/vulns/nmap-vulners",
@@ -1309,7 +1309,7 @@
         "description": "Find leaked secrets via github search",
         "watchers": 92,
         "forks": 557,
-        "stars": 2311
+        "stars": 2312
     },
     {
         "path": "projects/searchdorks/oxdork",
@@ -1387,7 +1387,7 @@
         "path": "projects/signatures/sigma",
         "url": "https://github.com/SigmaHQ/sigma.git",
         "description": "Main Rule Repository",
-        "watchers": 309,
+        "watchers": 308,
         "forks": 1804,
         "stars": 6179
     },
@@ -1405,7 +1405,7 @@
         "description": "Python library for accurately querying username and email usage on online platforms",
         "watchers": 33,
         "forks": 152,
-        "stars": 1090
+        "stars": 1091
     },
     {
         "path": "projects/socials/GHunt",
@@ -1445,7 +1445,7 @@
         "description": "Osintgram is a OSINT tool on Instagram. It offers an interactive shell to perform analysis on Instagram account of any users by its nickname",
         "watchers": 159,
         "forks": 1337,
-        "stars": 6327
+        "stars": 6329
     },
     {
         "path": "projects/socials/leaks/Cr3dOv3r",
@@ -1485,7 +1485,7 @@
         "description": "\ud83d\udd0e Hunt down social media accounts by username across social networks",
         "watchers": 982,
         "forks": 4726,
-        "stars": 39829
+        "stars": 39830
     },
     {
         "path": "projects/socials/recon/holehe",
@@ -1501,7 +1501,7 @@
         "description": "Python library for accurately querying username and email usage on online platforms",
         "watchers": 33,
         "forks": 152,
-        "stars": 1090
+        "stars": 1091
     },
     {
         "path": "projects/socials/recon/NameSpi",
@@ -1637,7 +1637,7 @@
         "description": "A simple, modern and secure encryption tool (and Go library) with small explicit keys, no config options, and UNIX-style composability.",
         "watchers": 139,
         "forks": 406,
-        "stars": 13077
+        "stars": 13079
     },
     {
         "path": "projects/malware/scanning/pandora",
@@ -1725,7 +1725,7 @@
         "description": "Free and source-available fair-code licensed workflow automation tool. Easily automate tasks across different services.",
         "watchers": 278,
         "forks": 3366,
-        "stars": 28873
+        "stars": 28874
     },
     {
         "path": "projects/scanning/webservices/katana",
@@ -1781,7 +1781,7 @@
         "description": "A collective list of free APIs",
         "watchers": 3791,
         "forks": 26312,
-        "stars": 231089
+        "stars": 231092
     },
     {
         "path": "projects/adversarysim/docs/conti-pentester-guide-leak",
@@ -1797,7 +1797,7 @@
         "description": "A fancy self-hosted monitoring tool",
         "watchers": 191,
         "forks": 2605,
-        "stars": 30807
+        "stars": 30809
     },
     {
         "path": "projects/os/macos/secretive",
@@ -1805,7 +1805,7 @@
         "description": "Store SSH keys in the Secure Enclave",
         "watchers": 38,
         "forks": 114,
-        "stars": 5753
+        "stars": 5755
     },
     {
         "path": "projects/browser/tools/BotD",
@@ -1829,7 +1829,7 @@
         "description": "Elegant Scraper and Crawler Framework for Golang",
         "watchers": 323,
         "forks": 1562,
-        "stars": 19125
+        "stars": 19126
     },
     {
         "path": "projects/recon/platforms/changedetection.io",
@@ -1949,7 +1949,7 @@
         "description": "Certificate Transparency Log aggregation, parsing, and streaming service written in Elixir",
         "watchers": 16,
         "forks": 57,
-        "stars": 173
+        "stars": 174
     },
     {
         "path": "projects/platforms/honeypots/canarytokens",
