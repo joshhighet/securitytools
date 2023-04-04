@@ -5,6 +5,10 @@ on: pull_request
 permissions:
   pull-requests: write
 
+concurrency: 
+  group: automerge-dependabot
+  cancel-in-progress: true
+
 jobs:
   dependabot:
     permissions: write-all
