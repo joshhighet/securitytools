@@ -445,7 +445,7 @@
         "description": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.",
         "watchers": 2088,
         "forks": 7202,
-        "stars": 95677
+        "stars": 95678
     },
     {
         "path": "projects/docs/Infosec_Reference",
@@ -653,7 +653,7 @@
         "description": "UNIX-like reverse engineering framework and command-line toolset",
         "watchers": 485,
         "forks": 2859,
-        "stars": 17932
+        "stars": 17933
     },
     {
         "path": "projects/malware/re/aa-tools",
@@ -1149,7 +1149,7 @@
         "description": "TCP port scanner, spews SYN packets asynchronously, scanning entire Internet in under 5 minutes.",
         "watchers": 656,
         "forks": 2896,
-        "stars": 20915
+        "stars": 20916
     },
     {
         "path": "projects/scanning/ports/jfscan",
@@ -1493,7 +1493,7 @@
         "description": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
         "watchers": 91,
         "forks": 542,
-        "stars": 4622
+        "stars": 4623
     },
     {
         "path": "projects/socials/recon/socialscan",
@@ -1781,7 +1781,7 @@
         "description": "A collective list of free APIs",
         "watchers": 3835,
         "forks": 26909,
-        "stars": 236914
+        "stars": 236916
     },
     {
         "path": "projects/adversarysim/docs/conti-pentester-guide-leak",
@@ -1966,5 +1966,61 @@
         "watchers": 1,
         "forks": 1,
         "stars": 2
+    },
+    {
+        "path": "projects/platforms/vx_underground",
+        "url": "https://github.com/blackmassgroup/vx_underground.git",
+        "description": "A scalable web app features LiveView authentication, user roles and permission system, and secure S3/Wasabi uploads. It calculates file hashes with Erlang crypto library and uses Oban for all most API requests for automated retries. It includes a custom Logger backend to log to Discord, has CI/CD setup and is deployed on Fly.io.",
+        "watchers": 5,
+        "forks": 3,
+        "stars": 48
+    },
+    {
+        "path": "projects/recon/geography/gvision",
+        "url": "https://github.com/GONZOsint/gvision.git",
+        "description": "GVision is a reverse image search app that use Google Cloud Vision API to detect landmarks and web entities from images, helping you gather valuable information quickly and easily.",
+        "watchers": 2,
+        "forks": 10,
+        "stars": 109
+    },
+    {
+        "path": "projects/searchdorks/Dorks-collections-list",
+        "url": "https://github.com/cipher387/Dorks-collections-list.git",
+        "description": "List of Github repositories and articles with list of dorks for different search engines",
+        "watchers": 31,
+        "forks": 192,
+        "stars": 1322
+    },
+    {
+        "path": "projects/adversarysim/pencode",
+        "url": "https://github.com/ffuf/pencode.git",
+        "description": "Complex payload encoder",
+        "watchers": 8,
+        "forks": 28,
+        "stars": 149
+    },
+    {
+        "path": "projects/socials/recon/gitrecon",
+        "url": "https://github.com/GONZOsint/gitrecon.git",
+        "description": "OSINT tool to get information from a Github and Gitlab profile and find user's email addresses leaked on commits.",
+        "watchers": 5,
+        "forks": 37,
+        "stars": 226
+    },
+    {
+        "path": "projects/socials/recon/ProtOSINT",
+        "url": "https://github.com/pixelbubble/ProtOSINT.git",
+        "description": "ProtOSINT is a Python script that helps you investigate Protonmail accounts and ProtonVPN IP addresses",
+        "watchers": 8,
+        "forks": 62,
+        "stars": 262
+    },
+    {
+        "path": "projects/recon/docs/MetaOSINT.github.io",
+        "url": "https://github.com/MetaOSINT/MetaOSINT.github.io.git",
+        "description": "A tool to quickly identify relevant, publicly-available open source intelligence (\"OSINT\") tools and resources, saving valuable time during investigations, research, and analysis.",
+        "watchers": 7,
+        "forks": 55,
+        "stars": 242
     }
 ]
