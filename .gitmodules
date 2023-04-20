@@ -745,3 +745,6 @@
 [submodule "projects/searchdorks/Dorks-collections-list"]
 	path = projects/searchdorks/Dorks-collections-list
 	url = https://github.com/cipher387/Dorks-collections-list.git
+[submodule "projects/adversarysim/pencode"]
+	path = projects/adversarysim/pencode
+	url = https://github.com/ffuf/pencode.git
