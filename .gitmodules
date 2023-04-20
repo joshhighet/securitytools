@@ -733,3 +733,6 @@
 [submodule "projects/platforms/honeypots/canarytokens"]
 	path = projects/platforms/honeypots/canarytokens
 	url = https://github.com/thinkst/canarytokens
+[submodule "projects/recon/images/ela-image-forensics"]
+	path = projects/recon/images/ela-image-forensics
+	url = https://github.com/luke-slytalker/ela-image-forensics.git
