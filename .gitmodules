@@ -748,3 +748,6 @@
 [submodule "projects/adversarysim/pencode"]
 	path = projects/adversarysim/pencode
 	url = https://github.com/ffuf/pencode.git
+[submodule "projects/socials/recon/gitrecon"]
+	path = projects/socials/recon/gitrecon
+	url = https://github.com/GONZOsint/gitrecon.git
