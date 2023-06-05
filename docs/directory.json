@@ -4,8 +4,8 @@
         "url": "https://github.com/redcanaryco/atomic-red-team.git",
         "description": "Small and highly portable detection tests based on MITRE's ATT&CK.",
         "watchers": 323,
-        "forks": 2430,
-        "stars": 7670
+        "forks": 2431,
+        "stars": 7672
     },
     {
         "path": "projects/adversarysim/platforms/caldera",
@@ -13,7 +13,7 @@
         "description": "Automated Adversary Emulation Platform",
         "watchers": 155,
         "forks": 898,
-        "stars": 4367
+        "stars": 4369
     },
     {
         "path": "projects/adversarysim/platforms/joystick",
@@ -36,7 +36,7 @@
         "url": "https://github.com/ninoseki/mitaka.git",
         "description": "A browser extension for OSINT search",
         "watchers": 38,
-        "forks": 136,
+        "forks": 137,
         "stars": 1069
     },
     {
@@ -108,7 +108,7 @@
         "url": "https://github.com/cyberark/BlobHunter.git",
         "description": "Find exposed data in Azure with this public blob scanner",
         "watchers": 24,
-        "forks": 46,
+        "forks": 47,
         "stars": 268
     },
     {
@@ -132,8 +132,8 @@
         "url": "https://github.com/Azure/azure-policy.git",
         "description": "Repository for Azure Resource Policy built-in definitions and samples",
         "watchers": 121,
-        "forks": 996,
-        "stars": 1277
+        "forks": 997,
+        "stars": 1278
     },
     {
         "path": "projects/cloud/azure/Azure-Network-Security",
@@ -228,7 +228,7 @@
         "url": "https://github.com/initstring/cloud_enum.git",
         "description": "Multi-cloud OSINT tool. Enumerate public resources in AWS, Azure, and Google Cloud.",
         "watchers": 34,
-        "forks": 178,
+        "forks": 179,
         "stars": 1122
     },
     {
@@ -252,7 +252,7 @@
         "url": "https://github.com/dafthack/CloudPentestCheatsheets.git",
         "description": "This repository contains a collection of cheatsheets I have put together for tools related to pentesting organizations that leverage cloud providers.",
         "watchers": 95,
-        "forks": 433,
+        "forks": 434,
         "stars": 2167
     },
     {
@@ -269,7 +269,7 @@
         "description": "An authoritative list of awesome devsecops tools with the help from community experiments and contributions.",
         "watchers": 246,
         "forks": 859,
-        "stars": 3872
+        "stars": 3873
     },
     {
         "path": "projects/devsec/docs/the_cyber_plumbers_handbook",
@@ -277,7 +277,7 @@
         "description": "Free copy of The Cyber Plumber's Handbook",
         "watchers": 35,
         "forks": 149,
-        "stars": 2283
+        "stars": 2284
     },
     {
         "path": "projects/devsec/docs/regular-expression-cheat-sheet",
@@ -292,8 +292,8 @@
         "url": "https://github.com/bluscreenofjeff/Red-Team-Infrastructure-Wiki.git",
         "description": "Wiki to collect Red Team infrastructure hardening resources",
         "watchers": 206,
-        "forks": 863,
-        "stars": 3610
+        "forks": 864,
+        "stars": 3611
     },
     {
         "path": "projects/devsec/docs/docker-bench-security",
@@ -301,7 +301,7 @@
         "description": "The Docker Bench for Security is a script that checks for dozens of common best-practices around deploying Docker containers in production.",
         "watchers": 239,
         "forks": 966,
-        "stars": 8377
+        "stars": 8378
     },
     {
         "path": "projects/devsec/instrumentation/auditd",
@@ -323,9 +323,9 @@
         "path": "projects/devsec/lab/Ventoy",
         "url": "https://github.com/ventoy/Ventoy.git",
         "description": "A new bootable USB solution.",
-        "watchers": 605,
-        "forks": 3498,
-        "stars": 49507
+        "watchers": 604,
+        "forks": 3500,
+        "stars": 49533
     },
     {
         "path": "projects/devsec/lab/dockerfiles",
@@ -333,7 +333,7 @@
         "description": "Various Dockerfiles I use on the desktop and on servers.",
         "watchers": 438,
         "forks": 2496,
-        "stars": 13163
+        "stars": 13164
     },
     {
         "path": "projects/devsec/networking/nebula",
@@ -341,7 +341,7 @@
         "description": "A scalable overlay networking tool with a focus on performance, simplicity and security",
         "watchers": 236,
         "forks": 834,
-        "stars": 11848
+        "stars": 11854
     },
     {
         "path": "projects/devsec/networking/mubeng",
@@ -349,7 +349,7 @@
         "description": "An incredibly fast proxy checker & IP rotator with ease.",
         "watchers": 31,
         "forks": 142,
-        "stars": 1076
+        "stars": 1077
     },
     {
         "path": "projects/devsec/networking/dnscrypt-proxy",
@@ -357,15 +357,15 @@
         "description": "dnscrypt-proxy 2 - A flexible DNS proxy, with support for encrypted DNS protocols.",
         "watchers": 319,
         "forks": 956,
-        "stars": 10068
+        "stars": 10069
     },
     {
         "path": "projects/devsec/networking/clash",
         "url": "https://github.com/Dreamacro/clash.git",
         "description": "A rule-based tunnel in Go.",
         "watchers": 560,
-        "forks": 5564,
-        "stars": 42775
+        "forks": 5567,
+        "stars": 42820
     },
     {
         "path": "projects/devsec/networking/teleport",
@@ -373,7 +373,7 @@
         "description": "The easiest, most secure way to access infrastructure.",
         "watchers": 243,
         "forks": 1497,
-        "stars": 14466
+        "stars": 14471
     },
     {
         "path": "projects/devsec/networking/pwnat",
@@ -381,7 +381,7 @@
         "description": "The only tool and technique to punch holes through firewalls/NATs where both clients and server can be behind separate NATs without any 3rd party involvement. Pwnat uses a newly developed technique, exploiting a property of NAT translation tables, with no 3rd party, port forwarding, DMZ, router administrative requirements, STUN/TURN/UPnP/ICE, or spoofing required.",
         "watchers": 146,
         "forks": 443,
-        "stars": 2749
+        "stars": 2750
     },
     {
         "path": "projects/devsec/networking/microsocks",
@@ -413,7 +413,7 @@
         "description": "Defanged Indicator of Compromise (IOC) Extractor.",
         "watchers": 29,
         "forks": 85,
-        "stars": 430
+        "stars": 431
     },
     {
         "path": "projects/devsec/tools/ctf-tools",
@@ -421,14 +421,14 @@
         "description": "Some setup scripts for security research tools.",
         "watchers": 290,
         "forks": 1798,
-        "stars": 7465
+        "stars": 7468
     },
     {
         "path": "projects/devsec/tools/axiom",
         "url": "https://github.com/pry0cc/axiom.git",
         "description": "The dynamic infrastructure framework for everybody! Distribute the workload of many different scanning tools with ease, including nmap, ffuf, masscan, nuclei, meg and many more!",
         "watchers": 87,
-        "forks": 543,
+        "forks": 544,
         "stars": 3352
     },
     {
@@ -437,15 +437,15 @@
         "description": "\ud83d\udd12 A collection of cheatsheets for various infosec tools and topics.",
         "watchers": 75,
         "forks": 547,
-        "stars": 1107
+        "stars": 1108
     },
     {
         "path": "projects/docs/the-book-of-secret-knowledge",
         "url": "https://github.com/trimstray/the-book-of-secret-knowledge.git",
         "description": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.",
-        "watchers": 2121,
+        "watchers": 2122,
         "forks": 7352,
-        "stars": 99241
+        "stars": 99302
     },
     {
         "path": "projects/docs/Infosec_Reference",
@@ -453,7 +453,7 @@
         "description": "An Information Security Reference That Doesn't Suck; https://rmusser.net/git/admin-2/Infosec_Reference for non-MS Git hosted version.",
         "watchers": 262,
         "forks": 1162,
-        "stars": 4995
+        "stars": 4998
     },
     {
         "path": "projects/docs/tools",
@@ -469,23 +469,23 @@
         "description": "A list of cyber-chef recipes and curated links",
         "watchers": 86,
         "forks": 229,
-        "stars": 1610
+        "stars": 1609
     },
     {
         "path": "projects/docs/DefaultCreds-cheat-sheet",
         "url": "https://github.com/ihebski/DefaultCreds-cheat-sheet.git",
         "description": "One place for all the default credentials to assist the Blue/Red teamers activities on finding devices with default password \ud83d\udee1\ufe0f",
         "watchers": 76,
-        "forks": 565,
-        "stars": 4030
+        "forks": 566,
+        "stars": 4035
     },
     {
         "path": "projects/docs/blockchain/smart-contract-attack-vectors",
         "url": "https://github.com/kadenzipfel/smart-contract-attack-vectors.git",
         "description": "A collection of smart contract vulnerabilities along with prevention methods.",
-        "watchers": 31,
-        "forks": 146,
-        "stars": 1156
+        "watchers": 32,
+        "forks": 148,
+        "stars": 1163
     },
     {
         "path": "projects/docs/docker/docker-cheat-sheet",
@@ -517,7 +517,7 @@
         "description": "The Sleuth Kit\u00ae (TSK) is a library and collection of command line digital forensics tools that allow you to investigate volume and file system data. The library can be incorporated into larger digital forensics tools and the command line tools can be directly used to find evidence. ",
         "watchers": 182,
         "forks": 577,
-        "stars": 2277
+        "stars": 2278
     },
     {
         "path": "projects/incidentresponse/alerting-detection-strategy-framework",
@@ -540,8 +540,8 @@
         "url": "https://github.com/Neo23x0/Loki.git",
         "description": "Loki - Simple IOC and YARA Scanner",
         "watchers": 185,
-        "forks": 552,
-        "stars": 2892
+        "forks": 553,
+        "stars": 2893
     },
     {
         "path": "projects/incidentresponse/Fenrir",
@@ -581,7 +581,7 @@
         "description": "A curated list of Awesome Threat Intelligence resources",
         "watchers": 528,
         "forks": 1296,
-        "stars": 6168
+        "stars": 6175
     },
     {
         "path": "projects/intel/platforms/opencti",
@@ -589,7 +589,7 @@
         "description": "Open Cyber Threat Intelligence Platform",
         "watchers": 118,
         "forks": 642,
-        "stars": 3612
+        "stars": 3613
     },
     {
         "path": "projects/intel/platforms/yeti",
@@ -604,8 +604,8 @@
         "url": "https://github.com/MISP/MISP.git",
         "description": "MISP (core software) - Open Source Threat Intelligence and Sharing Platform",
         "watchers": 271,
-        "forks": 1271,
-        "stars": 4404
+        "forks": 1272,
+        "stars": 4407
     },
     {
         "path": "projects/malware/fame",
@@ -637,7 +637,7 @@
         "description": "A curated list of awesome reversing resources",
         "watchers": 185,
         "forks": 543,
-        "stars": 3458
+        "stars": 3460
     },
     {
         "path": "projects/malware/re/CAPEv2",
@@ -645,7 +645,7 @@
         "description": "Malware Configuration And Payload Extraction",
         "watchers": 55,
         "forks": 298,
-        "stars": 1224
+        "stars": 1225
     },
     {
         "path": "projects/malware/re/radare2",
@@ -653,7 +653,7 @@
         "description": "UNIX-like reverse engineering framework and command-line toolset",
         "watchers": 481,
         "forks": 2876,
-        "stars": 18132
+        "stars": 18135
     },
     {
         "path": "projects/malware/re/aa-tools",
@@ -692,8 +692,8 @@
         "url": "https://github.com/bettercap/bettercap.git",
         "description": "The Swiss Army knife for 802.11, BLE, IPv4 and IPv6 networks reconnaissance and MITM attacks.",
         "watchers": 395,
-        "forks": 1316,
-        "stars": 14118
+        "forks": 1314,
+        "stars": 14121
     },
     {
         "path": "projects/network/analysis/rita",
@@ -701,14 +701,14 @@
         "description": "Real Intelligence Threat Analytics (RITA) is a framework for detecting command and control communication through network traffic analysis.",
         "watchers": 110,
         "forks": 341,
-        "stars": 2198
+        "stars": 2199
     },
     {
         "path": "projects/network/idps/snort3",
         "url": "https://github.com/snort3/snort3.git",
         "description": "Snort++",
         "watchers": 120,
-        "forks": 440,
+        "forks": 441,
         "stars": 1811
     },
     {
@@ -716,16 +716,16 @@
         "url": "https://github.com/lgandx/Responder.git",
         "description": "Responder is a LLMNR, NBT-NS and MDNS poisoner, with built-in HTTP/SMB/MSSQL/FTP/LDAP rogue authentication server supporting NTLMv1/NTLMv2/LMv2, Extended Security NTLMSSP and Basic HTTP authentication. ",
         "watchers": 145,
-        "forks": 1577,
-        "stars": 4379
+        "forks": 1578,
+        "stars": 4380
     },
     {
         "path": "projects/network/stressing/slowloris",
         "url": "https://github.com/gkbrk/slowloris.git",
         "description": "Low bandwidth DoS tool. Slowloris rewrite in Python.",
         "watchers": 73,
-        "forks": 654,
-        "stars": 2075
+        "forks": 655,
+        "stars": 2077
     },
     {
         "path": "projects/network/stressing/Raven-Storm",
@@ -733,7 +733,7 @@
         "description": "Raven-Storm is a powerful DDoS toolkit for penetration tests, including attacks for several protocols written in python. Takedown many connections using several exotic and classic protocols.",
         "watchers": 22,
         "forks": 139,
-        "stars": 429
+        "stars": 428
     },
     {
         "path": "projects/network/tapping/ssl-kill-switch2",
@@ -757,7 +757,7 @@
         "description": "WiFi security auditing tools suite",
         "watchers": 204,
         "forks": 798,
-        "stars": 3949
+        "stars": 3950
     },
     {
         "path": "projects/os/apple/docs/osx-and-ios-security-awesome",
@@ -765,7 +765,7 @@
         "description": "OSX and iOS related security tools",
         "watchers": 68,
         "forks": 177,
-        "stars": 1093
+        "stars": 1095
     },
     {
         "path": "projects/os/macos/macOS-enterprise-privileges",
@@ -781,7 +781,7 @@
         "description": "Guide to securing and improving privacy on macOS",
         "watchers": 752,
         "forks": 1426,
-        "stars": 20213
+        "stars": 20214
     },
     {
         "path": "projects/os/mobile/SMSSpoof",
@@ -797,7 +797,7 @@
         "description": "\ud83d\udcf1 objection - runtime mobile exploration",
         "watchers": 157,
         "forks": 772,
-        "stars": 6047
+        "stars": 6048
     },
     {
         "path": "projects/os/mobile/Mobile-Security-Framework-MobSF",
@@ -805,14 +805,14 @@
         "description": "Mobile Security Framework (MobSF) is an automated, all-in-one mobile application (Android/iOS/Windows) pen-testing, malware analysis and security assessment framework capable of performing static and dynamic analysis.",
         "watchers": 546,
         "forks": 2898,
-        "stars": 14139
+        "stars": 14143
     },
     {
         "path": "projects/os/mobile/android/andriller",
         "url": "https://github.com/den4uk/andriller.git",
         "description": "\ud83d\udcf1 Andriller - is software utility with a collection of forensic tools for smartphones. It performs read-only, forensically sound, non-destructive acquisition from Android devices.",
         "watchers": 49,
-        "forks": 192,
+        "forks": 193,
         "stars": 1115
     },
     {
@@ -821,7 +821,7 @@
         "description": "An effort to build a single place for all useful android and iOS security related stuff. All references and tools belong to their respective owners. I'm just maintaining it.",
         "watchers": 106,
         "forks": 290,
-        "stars": 2427
+        "stars": 2428
     },
     {
         "path": "projects/os/mobile/docs/MobileApp-Pentest-Cheatsheet",
@@ -837,7 +837,7 @@
         "description": "The Mobile Application Security Testing Guide (MASTG) is a comprehensive manual for mobile app security testing and reverse engineering. It describes the technical processes for verifying the controls listed in the OWASP Mobile Application Security Verification Standard (MASVS).",
         "watchers": 406,
         "forks": 2172,
-        "stars": 10323
+        "stars": 10326
     },
     {
         "path": "projects/os/mobile/ios/iLEAPP",
@@ -853,7 +853,7 @@
         "description": "A completely free, open source and online course about Reverse Engineering iOS Applications.",
         "watchers": 119,
         "forks": 341,
-        "stars": 2493
+        "stars": 2492
     },
     {
         "path": "projects/phishing/detect/miteru",
@@ -868,7 +868,7 @@
         "url": "https://github.com/x0rz/phishing_catcher.git",
         "description": "Phishing catcher using Certstream",
         "watchers": 87,
-        "forks": 344,
+        "forks": 345,
         "stars": 1520
     },
     {
@@ -877,7 +877,7 @@
         "description": "StalkPhish - The Phishing kits stalker, harvesting phishing kits for investigations.",
         "watchers": 23,
         "forks": 68,
-        "stars": 485
+        "stars": 487
     },
     {
         "path": "projects/phishing/generators/PhishMailer",
@@ -893,7 +893,7 @@
         "description": "An email spoofing testing tool that aims to bypass SPF/DKIM/DMARC and forge DKIM signatures.\ud83c\udf7b",
         "watchers": 23,
         "forks": 217,
-        "stars": 1111
+        "stars": 1112
     },
     {
         "path": "projects/platforms/burp/IPRotate_Burp_Extension",
@@ -915,17 +915,17 @@
         "path": "projects/platforms/elastic/detection-rules",
         "url": "https://github.com/elastic/detection-rules.git",
         "description": "Rules for Elastic Security's detection engine",
-        "watchers": 88,
+        "watchers": 87,
         "forks": 372,
-        "stars": 1542
+        "stars": 1543
     },
     {
         "path": "projects/platforms/mde/FalconFriday",
         "url": "https://github.com/FalconForceTeam/FalconFriday.git",
         "description": "Hunting queries and detections",
         "watchers": 41,
-        "forks": 53,
-        "stars": 521
+        "forks": 54,
+        "stars": 522
     },
     {
         "path": "projects/platforms/misp/misp-galaxy",
@@ -949,7 +949,7 @@
         "description": "A repository of curated datasets from various attacks",
         "watchers": 38,
         "forks": 66,
-        "stars": 419
+        "stars": 420
     },
     {
         "path": "projects/recon/dns/wtfis",
@@ -981,7 +981,7 @@
         "description": "DNS Enumeration Script",
         "watchers": 93,
         "forks": 501,
-        "stars": 2243
+        "stars": 2244
     },
     {
         "path": "projects/recon/dns/HostHunter",
@@ -997,23 +997,23 @@
         "description": "Open Source Intelligence gathering tool aimed at reducing the time spent harvesting information from open sources.",
         "watchers": 97,
         "forks": 500,
-        "stars": 2682
+        "stars": 2684
     },
     {
         "path": "projects/recon/dns/Sudomy",
         "url": "https://github.com/Screetsec/Sudomy.git",
         "description": "Sudomy is a subdomain enumeration tool to collect subdomains and analyzing domains performing automated reconnaissance (recon) for bug hunting / pentesting",
         "watchers": 32,
-        "forks": 339,
-        "stars": 1648
+        "forks": 340,
+        "stars": 1650
     },
     {
         "path": "projects/recon/docs/awesome-osint",
         "url": "https://github.com/jivoi/awesome-osint.git",
         "description": ":scream: A curated list of amazingly awesome OSINT",
         "watchers": 593,
-        "forks": 2284,
-        "stars": 12680
+        "forks": 2285,
+        "stars": 12695
     },
     {
         "path": "projects/recon/docs/OSINT",
@@ -1021,7 +1021,7 @@
         "description": "Collections of tools and methods created to aid in OSINT collection",
         "watchers": 92,
         "forks": 339,
-        "stars": 2106
+        "stars": 2107
     },
     {
         "path": "projects/recon/domaintools/Hunting-New-Registered-Domains",
@@ -1045,7 +1045,7 @@
         "description": "ExifTool meta information reader/writer",
         "watchers": 46,
         "forks": 254,
-        "stars": 2138
+        "stars": 2139
     },
     {
         "path": "projects/recon/images/unredacter",
@@ -1053,15 +1053,15 @@
         "description": "Never ever ever use pixelation as a redaction technique",
         "watchers": 66,
         "forks": 629,
-        "stars": 7086
+        "stars": 7087
     },
     {
         "path": "projects/recon/platforms/spiderfoot",
         "url": "https://github.com/smicallef/spiderfoot.git",
         "description": "SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.",
-        "watchers": 337,
-        "forks": 1867,
-        "stars": 9695
+        "watchers": 338,
+        "forks": 1869,
+        "stars": 9700
     },
     {
         "path": "projects/recon/platforms/mihari",
@@ -1077,7 +1077,7 @@
         "description": "The Ultimate OSINT and Threat Hunting Framework",
         "watchers": 16,
         "forks": 76,
-        "stars": 425
+        "stars": 424
     },
     {
         "path": "projects/recon/suites/AttackSurfaceMapper",
@@ -1093,7 +1093,7 @@
         "description": "AutoRecon is a multi-threaded network reconnaissance tool which performs automated enumeration of services.",
         "watchers": 98,
         "forks": 789,
-        "stars": 4101
+        "stars": 4102
     },
     {
         "path": "projects/recon/webhosts/CloudFlair",
@@ -1101,7 +1101,7 @@
         "description": "\ud83d\udd0e Find origin servers of websites behind CloudFlare by using Internet-wide scan data from Censys.",
         "watchers": 51,
         "forks": 301,
-        "stars": 1929
+        "stars": 1931
     },
     {
         "path": "projects/recon/webhosts/cloud-ranges",
@@ -1117,7 +1117,7 @@
         "description": "A typical search engine dork scanner scrapes search engines with dorks that you provide in order to find vulnerable URLs.",
         "watchers": 6,
         "forks": 41,
-        "stars": 138
+        "stars": 139
     },
     {
         "path": "projects/recon/websites/gau",
@@ -1141,7 +1141,7 @@
         "description": "\ud83e\udd16 The Modern Port Scanner \ud83e\udd16",
         "watchers": 113,
         "forks": 717,
-        "stars": 10093
+        "stars": 10105
     },
     {
         "path": "projects/scanning/ports/masscan",
@@ -1149,7 +1149,7 @@
         "description": "TCP port scanner, spews SYN packets asynchronously, scanning entire Internet in under 5 minutes.",
         "watchers": 660,
         "forks": 2924,
-        "stars": 21106
+        "stars": 21112
     },
     {
         "path": "projects/scanning/ports/jfscan",
@@ -1180,8 +1180,8 @@
         "url": "https://github.com/projectdiscovery/nuclei.git",
         "description": "Fast and customizable vulnerability scanner based on simple YAML based DSL.",
         "watchers": 191,
-        "forks": 1829,
-        "stars": 13189
+        "forks": 1830,
+        "stars": 13199
     },
     {
         "path": "projects/scanning/vulns/nmap-vulners",
@@ -1189,7 +1189,7 @@
         "description": "NSE script based on Vulners.com API",
         "watchers": 132,
         "forks": 515,
-        "stars": 2944
+        "stars": 2945
     },
     {
         "path": "projects/scanning/vulns/tsunami-security-scanner",
@@ -1221,15 +1221,15 @@
         "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
         "watchers": 159,
         "forks": 1730,
-        "stars": 17597
+        "stars": 17602
     },
     {
         "path": "projects/scanning/vulns/webservices/w3af",
         "url": "https://github.com/andresriancho/w3af.git",
         "description": "w3af: web application attack and audit framework, the open source web vulnerability scanner.",
-        "watchers": 192,
+        "watchers": 193,
         "forks": 1197,
-        "stars": 4239
+        "stars": 4241
     },
     {
         "path": "projects/scanning/vulns/webservices/sqlmap",
@@ -1237,15 +1237,15 @@
         "description": "Automatic SQL injection and database takeover tool",
         "watchers": 1093,
         "forks": 5290,
-        "stars": 27199
+        "stars": 27206
     },
     {
         "path": "projects/scanning/webservices/ffuf",
         "url": "https://github.com/ffuf/ffuf.git",
         "description": "Fast web fuzzer written in Go",
         "watchers": 143,
-        "forks": 1037,
-        "stars": 9426
+        "forks": 1038,
+        "stars": 9429
     },
     {
         "path": "projects/scanning/webservices/dirsearch",
@@ -1253,7 +1253,7 @@
         "description": "Web path scanner",
         "watchers": 309,
         "forks": 2165,
-        "stars": 9750
+        "stars": 9754
     },
     {
         "path": "projects/scanning/webservices/CMSeeK",
@@ -1261,7 +1261,7 @@
         "description": "CMS Detection and Exploitation suite - Scan WordPress, Joomla, Drupal and over 180 other CMSs",
         "watchers": 74,
         "forks": 479,
-        "stars": 1926
+        "stars": 1927
     },
     {
         "path": "projects/scanning/webservices/aquatone",
@@ -1269,7 +1269,7 @@
         "description": "A Tool for Domain Flyovers",
         "watchers": 136,
         "forks": 862,
-        "stars": 5152
+        "stars": 5153
     },
     {
         "path": "projects/scanning/webservices/httprobe",
@@ -1277,7 +1277,7 @@
         "description": "Take a list of domains and probe for working HTTP and HTTPS servers",
         "watchers": 45,
         "forks": 466,
-        "stars": 2462
+        "stars": 2463
     },
     {
         "path": "projects/scanning/webservices/EyeWitness",
@@ -1293,7 +1293,7 @@
         "description": "\ud83d\udd0d A collection of interesting, funny, and depressing search queries to plug into shodan.io \ud83d\udc69\u200d\ud83d\udcbb",
         "watchers": 155,
         "forks": 697,
-        "stars": 4147
+        "stars": 4149
     },
     {
         "path": "projects/searchdorks/vti-dorks",
@@ -1309,7 +1309,7 @@
         "description": "Find leaked secrets via github search",
         "watchers": 92,
         "forks": 566,
-        "stars": 2403
+        "stars": 2402
     },
     {
         "path": "projects/searchdorks/oxdork",
@@ -1333,7 +1333,7 @@
         "description": "uDork is a script written in Bash Scripting that uses advanced Google search techniques to obtain sensitive information in files or directories, find IoT devices, detect versions of web applications, and so on.",
         "watchers": 28,
         "forks": 153,
-        "stars": 714
+        "stars": 715
     },
     {
         "path": "projects/searchdorks/shodan-filters",
@@ -1373,7 +1373,7 @@
         "description": "A curated list of awesome YARA rules, tools, and people.",
         "watchers": 164,
         "forks": 420,
-        "stars": 2725
+        "stars": 2728
     },
     {
         "path": "projects/signatures/yara-signator",
@@ -1387,8 +1387,8 @@
         "path": "projects/signatures/sigma",
         "url": "https://github.com/SigmaHQ/sigma.git",
         "description": "Main Sigma Rule Repository",
-        "watchers": 309,
-        "forks": 1868,
+        "watchers": 310,
+        "forks": 1869,
         "stars": 6435
     },
     {
@@ -1397,7 +1397,7 @@
         "description": "A curated list of awesome social engineering resources.",
         "watchers": 98,
         "forks": 339,
-        "stars": 2077
+        "stars": 2079
     },
     {
         "path": "projects/socials/socialscan",
@@ -1405,7 +1405,7 @@
         "description": "Python library for accurately querying username and email usage on online platforms",
         "watchers": 33,
         "forks": 160,
-        "stars": 1141
+        "stars": 1142
     },
     {
         "path": "projects/socials/GHunt",
@@ -1413,7 +1413,7 @@
         "description": "\ud83d\udd75\ufe0f\u200d\u2642\ufe0f Offensive Google framework.",
         "watchers": 496,
         "forks": 1154,
-        "stars": 13687
+        "stars": 13696
     },
     {
         "path": "projects/socials/discord/Discord-History-Tracker",
@@ -1444,8 +1444,8 @@
         "url": "https://github.com/Datalux/Osintgram.git",
         "description": "Osintgram is a OSINT tool on Instagram. It offers an interactive shell to perform analysis on Instagram account of any users by its nickname",
         "watchers": 173,
-        "forks": 1503,
-        "stars": 6818
+        "forks": 1504,
+        "stars": 6824
     },
     {
         "path": "projects/socials/leaks/Cr3dOv3r",
@@ -1469,7 +1469,7 @@
         "description": "Email OSINT & Password breach hunting tool, locally or using premium services. Supports chasing down related email",
         "watchers": 114,
         "forks": 461,
-        "stars": 3309
+        "stars": 3308
     },
     {
         "path": "projects/socials/linkedin/CrossLinked",
@@ -1477,23 +1477,23 @@
         "description": "LinkedIn enumeration tool to extract valid employee names from an organization through search engine scraping",
         "watchers": 28,
         "forks": 144,
-        "stars": 790
+        "stars": 791
     },
     {
         "path": "projects/socials/recon/sherlock",
         "url": "https://github.com/sherlock-project/sherlock.git",
         "description": "\ud83d\udd0e Hunt down social media accounts by username across social networks",
-        "watchers": 1008,
-        "forks": 4968,
-        "stars": 41498
+        "watchers": 1009,
+        "forks": 4977,
+        "stars": 41517
     },
     {
         "path": "projects/socials/recon/holehe",
         "url": "https://github.com/megadose/holehe.git",
         "description": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
         "watchers": 98,
-        "forks": 570,
-        "stars": 4943
+        "forks": 571,
+        "stars": 4956
     },
     {
         "path": "projects/socials/recon/socialscan",
@@ -1501,7 +1501,7 @@
         "description": "Python library for accurately querying username and email usage on online platforms",
         "watchers": 33,
         "forks": 160,
-        "stars": 1141
+        "stars": 1142
     },
     {
         "path": "projects/socials/recon/NameSpi",
@@ -1517,7 +1517,7 @@
         "description": "A OSINT tool to obtain a target's phone number just by having his email address",
         "watchers": 42,
         "forks": 200,
-        "stars": 1299
+        "stars": 1300
     },
     {
         "path": "projects/tor/VigilantOnion",
@@ -1541,7 +1541,7 @@
         "description": "Extract and aggregate threat intelligence.",
         "watchers": 41,
         "forks": 133,
-        "stars": 683
+        "stars": 684
     },
     {
         "path": "projects/recon/docs/osint_stuff_tool_collection",
@@ -1549,7 +1549,7 @@
         "description": "A collection of several hundred online tools for OSINT",
         "watchers": 104,
         "forks": 383,
-        "stars": 3422
+        "stars": 3423
     },
     {
         "path": "projects/os/apple/cookienapper",
@@ -1637,7 +1637,7 @@
         "description": "A simple, modern and secure encryption tool (and Go library) with small explicit keys, no config options, and UNIX-style composability.",
         "watchers": 143,
         "forks": 425,
-        "stars": 13546
+        "stars": 13550
     },
     {
         "path": "projects/malware/scanning/pandora",
@@ -1652,8 +1652,8 @@
         "url": "https://github.com/projectdiscovery/interactsh.git",
         "description": "An OOB interaction gathering server and client library",
         "watchers": 36,
-        "forks": 287,
-        "stars": 2438
+        "forks": 286,
+        "stars": 2441
     },
     {
         "path": "projects/socials/telegram/Telepathy",
@@ -1661,7 +1661,7 @@
         "description": "Public release of Telepathy, an OSINT toolkit for investigating Telegram chats.",
         "watchers": 14,
         "forks": 94,
-        "stars": 686
+        "stars": 689
     },
     {
         "path": "projects/intel/visualisers/RedEye",
@@ -1701,15 +1701,15 @@
         "description": "Open-source offline translation library written in Python",
         "watchers": 41,
         "forks": 145,
-        "stars": 1963
+        "stars": 1965
     },
     {
         "path": "projects/os/mobile/mvt",
         "url": "https://github.com/mvt-project/mvt.git",
         "description": "MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of a potential compromise.",
         "watchers": 229,
-        "forks": 778,
-        "stars": 8664
+        "forks": 779,
+        "stars": 8674
     },
     {
         "path": "projects/scanning/webservices/nginxpwner",
@@ -1717,15 +1717,15 @@
         "description": "Nginxpwner is a simple tool to look for common Nginx misconfigurations and vulnerabilities.",
         "watchers": 8,
         "forks": 114,
-        "stars": 1071
+        "stars": 1073
     },
     {
         "path": "projects/platforms/n8n",
         "url": "https://github.com/n8n-io/n8n.git",
         "description": "Free and source-available fair-code licensed workflow automation tool. Easily automate tasks across different services.",
         "watchers": 288,
-        "forks": 3560,
-        "stars": 30896
+        "forks": 3562,
+        "stars": 30912
     },
     {
         "path": "projects/scanning/webservices/katana",
@@ -1733,7 +1733,7 @@
         "description": "A next-generation crawling and spidering framework.",
         "watchers": 66,
         "forks": 330,
-        "stars": 6574
+        "stars": 6576
     },
     {
         "path": "projects/scanning/webservices/hero",
@@ -1755,7 +1755,7 @@
         "path": "projects/forensics/chainsaw",
         "url": "https://github.com/WithSecureLabs/chainsaw.git",
         "description": "Rapidly Search and Hunt through Windows Forensic Artefacts",
-        "watchers": 41,
+        "watchers": 42,
         "forks": 191,
         "stars": 2071
     },
@@ -1764,8 +1764,8 @@
         "url": "https://github.com/aristocratos/bpytop.git",
         "description": "Linux/OSX/FreeBSD resource monitor",
         "watchers": 153,
-        "forks": 377,
-        "stars": 9377
+        "forks": 376,
+        "stars": 9379
     },
     {
         "path": "projects/devsec/docs/ssh_hardening",
@@ -1779,9 +1779,9 @@
         "path": "projects/devsec/tools/public-apis",
         "url": "https://github.com/public-apis/public-apis.git",
         "description": "A collective list of free APIs",
-        "watchers": 3848,
+        "watchers": 3849,
         "forks": 27628,
-        "stars": 241836
+        "stars": 241906
     },
     {
         "path": "projects/adversarysim/docs/conti-pentester-guide-leak",
@@ -1789,15 +1789,15 @@
         "description": "Leaked pentesting manuals given to Conti ransomware crooks",
         "watchers": 29,
         "forks": 242,
-        "stars": 797
+        "stars": 798
     },
     {
         "path": "projects/platforms/uptime-kuma",
         "url": "https://github.com/louislam/uptime-kuma.git",
         "description": "A fancy self-hosted monitoring tool",
-        "watchers": 221,
-        "forks": 2926,
-        "stars": 33980
+        "watchers": 220,
+        "forks": 2927,
+        "stars": 34019
     },
     {
         "path": "projects/os/macos/secretive",
@@ -1821,23 +1821,23 @@
         "description": "Wazuh - The Open Source Security Platform. Unified XDR and SIEM protection for endpoints and cloud workloads.",
         "watchers": 195,
         "forks": 1042,
-        "stars": 6050
+        "stars": 6052
     },
     {
         "path": "projects/scanning/webservices/colly",
         "url": "https://github.com/gocolly/colly",
         "description": "Elegant Scraper and Crawler Framework for Golang",
-        "watchers": 323,
+        "watchers": 324,
         "forks": 1603,
-        "stars": 19672
+        "stars": 19676
     },
     {
         "path": "projects/recon/platforms/changedetection.io",
         "url": "https://github.com/dgtlmoon/changedetection.io",
         "description": "The best and simplest free open source website change detection, restock monitor and notification service. Restock Monitor, change detection. Designed for simplicity - Simply monitor which websites had a text change for free. Free Open source web page change detection, Website defacement monitoring, Price change and Price Drop notification",
         "watchers": 59,
-        "forks": 546,
-        "stars": 9273
+        "forks": 547,
+        "stars": 9282
     },
     {
         "path": "projects/devsec/tools/notify",
@@ -1845,7 +1845,7 @@
         "description": "Notify is a Go-based assistance package that enables you to stream the output of several tools (or read from a file) and publish it to a variety of supported platforms.",
         "watchers": 20,
         "forks": 108,
-        "stars": 881
+        "stars": 882
     },
     {
         "path": "projects/browser/crux-top-lists",
@@ -1981,7 +1981,7 @@
         "description": "GVision is a reverse image search app that use Google Cloud Vision API to detect landmarks and web entities from images, helping you gather valuable information quickly and easily.",
         "watchers": 5,
         "forks": 17,
-        "stars": 170
+        "stars": 171
     },
     {
         "path": "projects/searchdorks/Dorks-collections-list",
@@ -1989,7 +1989,7 @@
         "description": "List of Github repositories and articles with list of dorks for different search engines",
         "watchers": 33,
         "forks": 204,
-        "stars": 1380
+        "stars": 1381
     },
     {
         "path": "projects/adversarysim/pencode",
@@ -2013,7 +2013,7 @@
         "description": "ProtOSINT is a Python script that helps you investigate Protonmail accounts and ProtonVPN IP addresses",
         "watchers": 7,
         "forks": 61,
-        "stars": 264
+        "stars": 263
     },
     {
         "path": "projects/recon/docs/MetaOSINT.github.io",
