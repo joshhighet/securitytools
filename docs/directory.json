@@ -325,7 +325,7 @@
         "description": "A new bootable USB solution.",
         "watchers": 612,
         "forks": 3644,
-        "stars": 50708
+        "stars": 50709
     },
     {
         "path": "projects/devsec/lab/dockerfiles",
@@ -341,7 +341,7 @@
         "description": "A scalable overlay networking tool with a focus on performance, simplicity and security",
         "watchers": 236,
         "forks": 846,
-        "stars": 12032
+        "stars": 12033
     },
     {
         "path": "projects/devsec/networking/mubeng",
@@ -365,7 +365,7 @@
         "description": "A rule-based tunnel in Go.",
         "watchers": 567,
         "forks": 5704,
-        "stars": 44185
+        "stars": 44186
     },
     {
         "path": "projects/devsec/networking/teleport",
@@ -381,7 +381,7 @@
         "description": "The only tool and technique to punch holes through firewalls/NATs where both clients and server can be behind separate NATs without any 3rd party involvement. Pwnat uses a newly developed technique, exploiting a property of NAT translation tables, with no 3rd party, port forwarding, DMZ, router administrative requirements, STUN/TURN/UPnP/ICE, or spoofing required.",
         "watchers": 146,
         "forks": 443,
-        "stars": 2774
+        "stars": 2775
     },
     {
         "path": "projects/devsec/networking/microsocks",
@@ -445,7 +445,7 @@
         "description": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.",
         "watchers": 2142,
         "forks": 7438,
-        "stars": 101771
+        "stars": 101775
     },
     {
         "path": "projects/docs/Infosec_Reference",
@@ -621,7 +621,7 @@
         "description": "Malwoverview is a first response tool used for threat hunting and offers intel information from Virus Total, Hybrid Analysis, URLHaus, Polyswarm, Malshare, Alien Vault, Malpedia, Malware Bazaar, ThreatFox, Triage, InQuest and it is able to scan Android devices against VT.",
         "watchers": 106,
         "forks": 366,
-        "stars": 2295
+        "stars": 2296
     },
     {
         "path": "projects/malware/cli/munin",
@@ -693,7 +693,7 @@
         "description": "The Swiss Army knife for 802.11, BLE, IPv4 and IPv6 networks reconnaissance and MITM attacks.",
         "watchers": 398,
         "forks": 1326,
-        "stars": 14232
+        "stars": 14233
     },
     {
         "path": "projects/network/analysis/rita",
@@ -835,9 +835,9 @@
         "path": "projects/os/mobile/docs/owasp-mstg",
         "url": "https://github.com/OWASP/owasp-mstg.git",
         "description": "The Mobile Application Security Testing Guide (MASTG) is a comprehensive manual for mobile app security testing and reverse engineering. It describes the technical processes for verifying the controls listed in the OWASP Mobile Application Security Verification Standard (MASVS).",
-        "watchers": 409,
+        "watchers": 410,
         "forks": 2176,
-        "stars": 10434
+        "stars": 10435
     },
     {
         "path": "projects/os/mobile/ios/iLEAPP",
@@ -1060,7 +1060,7 @@
         "url": "https://github.com/smicallef/spiderfoot.git",
         "description": "SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.",
         "watchers": 338,
-        "forks": 1894,
+        "forks": 1895,
         "stars": 9909
     },
     {
@@ -1141,7 +1141,7 @@
         "description": "\ud83e\udd16 The Modern Port Scanner \ud83e\udd16",
         "watchers": 115,
         "forks": 737,
-        "stars": 10344
+        "stars": 10345
     },
     {
         "path": "projects/scanning/ports/masscan",
@@ -1181,7 +1181,7 @@
         "description": "Fast and customizable vulnerability scanner based on simple YAML based DSL.",
         "watchers": 191,
         "forks": 1870,
-        "stars": 13595
+        "stars": 13596
     },
     {
         "path": "projects/scanning/vulns/nmap-vulners",
@@ -1485,7 +1485,7 @@
         "description": "\ud83d\udd0e Hunt down social media accounts by username across social networks",
         "watchers": 1012,
         "forks": 5111,
-        "stars": 42127
+        "stars": 42128
     },
     {
         "path": "projects/socials/recon/holehe",
@@ -1669,7 +1669,7 @@
         "description": "RedEye is a visual analytic tool supporting Red & Blue Team operations",
         "watchers": 40,
         "forks": 237,
-        "stars": 2380
+        "stars": 2381
     },
     {
         "path": "projects/signatures/yari",
@@ -1781,7 +1781,7 @@
         "description": "A collective list of free APIs",
         "watchers": 3881,
         "forks": 28443,
-        "stars": 247714
+        "stars": 247719
     },
     {
         "path": "projects/adversarysim/docs/conti-pentester-guide-leak",
