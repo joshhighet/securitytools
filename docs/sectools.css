@@ -86,17 +86,6 @@ input[type="text"] {
 .tag-selected {
     background-color: #0056b3;
 }
-.credit-banner {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: #007bff;
-    color: white;
-    text-align: center;
-    padding: 1rem;
-    font-family: 'Comic Sans MS', sans-serif;
-    display: none;
-}
 @media screen and (max-width: 767px) {
     table {
     font-size: 0.8rem;

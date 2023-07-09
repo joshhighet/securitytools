@@ -1,134 +1,78 @@
+<!-- index.html -->
+
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>securitytools: quality opensauce projects</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous" />
-        <script src="https://cdn.jsdelivr.net/npm/vue@2.7.14/dist/vue.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/fetch-polyfill"></script>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
-        <link rel="stylesheet" href="sectools.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" crossorigin="anonymous" />
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="icon" type="image/png" href="https://github.com/joshhighet.png">
-        <meta property="og:title" content="securitytools: quality opensauce projects" />
-        <meta property="og:image" content="https://raw.githubusercontent.com/joshhighet/securitytools/main/docs/stls.png" />
-        <meta property="og:url" content="https://tools.watchdawg.io" />
-        <meta property="og:type" content="website" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="securitytools: quality opensauce projects" />
-        <meta name="twitter:image" content="stls.png" />
-        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ff0000">
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    </head>
-    <body>
-        <div id="bottom-banner" class="credit-banner" @mouseleave="hideBanner">a project by <a href="https://joshhighet.com" target="_blank" style="color: white; text-decoration: underline;">joshhighet</a></div>
-        <div id="app">
-            <div class="search-wrapper">
-                <div class="search-container">
-                    <input type="text" v-model="searchQuery" placeholder="search description or project/owner name" />
-                </div>
-            </div>
-            <div v-show="selectedTags.length > 0" class="filtered-tag-message">
-                filtered by tag:
-                <span v-for="(tag, index) in selectedTags" :key="index" class="tag-filter-name">{{ tag }}</span>
-            </div>
-            <table class="table table-bordered table-hover">
-                <thead>
-                    <tr>
-                        <th>Tags</th>
-                        <th @click="sortBy('location')">Location</th>
-                        <th @click="sortBy('description')">Description</th>
-                        <th @click="sortBy('watchers')">Watchers</th>
-                        <th @click="sortBy('forks')">Forks</th>
-                        <th @click="sortBy('stars')">Stars</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr v-for="repo in filteredData">
-                        <td>
-                            <span
-                                v-for="(tag, index) in repo.path.replace('projects/', '').split('/').slice(0, -1)"
-                                :key="index"
-                                class="tag-badge tag-color"
-                                :style="{ 'background-color': generateTagColor(tag) }"
-                                @click="toggleTag(tag)"
-                                :class="{ 'tag-selected': selectedTags.includes(tag) }"
-                            >
-                                {{ tag }}
-                                <i class="fas fa-filter" v-show="selectedTags.includes(tag)"></i>
-                            </span>
-                        </td>
-                        <td><a :href="repo.url">{{ repo.url.split("/")[3] + "/" + repo.url.split("/")[4].split(".")[0] }}</a></td>
-                        <td>{{ repo.description }}</td>
-                        <td>{{ repo.watchers }}</td>
-                        <td>{{ repo.forks }}</td>
-                        <td>{{ repo.stars }}</td>
-                    </tr>
-                </tbody>
-            </table>
+  <head>
+    <title>securitytools: quality opensauce projects</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous"/>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.7.14/dist/vue.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fetch-polyfill"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="sectools.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" crossorigin="anonymous"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="https://github.com/joshhighet.png"/>
+    <meta property="og:title" content="securitytools: quality opensauce projects" />
+    <meta property="og:image" content="https://raw.githubusercontent.com/joshhighet/securitytools/main/docs/stls.png"/>
+    <meta property="og:url" content="https://tools.watchdawg.io" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="securitytools: quality opensauce projects" />
+    <meta name="twitter:image" content="stls.png" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ff0000">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  </head>
+  <body>
+    <div id="app">
+      <div class="search-wrapper">
+        <div class="search-container">
+          <input type="text" v-model="searchQuery" placeholder="search description or project/owner name" />
         </div>
-        <script>
-            new Vue({
-                el: "#app",
-                data: {
-                    data: [],
-                    searchQuery: "",
-                    sortKey: "stars",
-                    sortDirection: -1,
-                    selectedTags: [],
-                },
-                computed: {
-                    sortedData() {
-                        return this.data.slice().sort((a, b) => this.sortDirection * (a[this.sortKey] - b[this.sortKey]));
-                    },
-                    filteredData() {
-                        return this.sortedData.filter((repository) => {
-                            const location = repository.url.split("/")[3] + "/" + repository.url.split("/")[4].split(".")[0];
-                            const description = repository.description || "";
-                            const tags = repository.path.replace("projects/", "").split("/").slice(0, -1);
-
-                            const tagFilter = this.selectedTags.every((tag) => tags.includes(tag));
-
-                            return tagFilter && (description.toLowerCase().includes(this.searchQuery.toLowerCase()) || location.toLowerCase().includes(this.searchQuery.toLowerCase()));
-                        });
-                    },
-                },
-                async created() {
-                    const response = await fetch("https://raw.githubusercontent.com/joshhighet/securitytools/main/docs/directory.json");
-                    this.data = await response.json();
-                },
-                methods: {
-                    sortBy(key) {
-                        this.sortDirection = this.sortKey === key ? -this.sortDirection : -1;
-                        this.sortKey = key;
-                    },
-                    toggleTag(tag) {
-                        const index = this.selectedTags.indexOf(tag);
-                        if (index >= 0) {
-                            this.selectedTags.splice(index, 1);
-                        } else {
-                            this.selectedTags.push(tag);
-                        }
-                    },
-                    showBanner() {
-                        document.querySelector(".credit-banner").style.display = "block";
-                    },
-                    hideBanner() {
-                        document.querySelector(".credit-banner").style.display = "none";
-                    },
-                    generateTagColor(tag) {
-                        let hash = 0;
-                        for (let i = 0; i < tag.length; i++) {
-                            hash = tag.charCodeAt(i) + ((hash << 5) - hash);
-                        }
-
-                        const c = (hash & 0x00ffffff).toString(16).toUpperCase();
-                        const color = "00000".substring(0, 6 - c.length) + c;
-
-                        return "#" + color;
-                    },
-                },
-            });
-        </script>
-    </body>
+      </div>
+      <div v-show="selectedTags.length > 0" class="filtered-tag-message">
+        filtered by tag:
+        <span
+          v-for="(tag, index) in selectedTags"
+          :key="index"
+          class="tag-filter-name"
+          >{{ tag }}</span
+        >
+      </div>
+      <table class="table table-bordered table-hover">
+        <thead>
+          <tr>
+            <th>Tags</th>
+            <th @click="sortBy('location')">location</th>
+            <th @click="sortBy('description')">description</th>
+            <th @click="sortBy('watchers')">watchers</th>
+            <th @click="sortBy('forks')">forks</th>
+            <th @click="sortBy('stars')">stars</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr v-for="repo in filteredData">
+            <td>
+              <span
+                v-for="(tag, index) in repo.path.replace('projects/', '').split('/').slice(0, -1)"
+                :key="index"
+                class="tag-badge tag-color"
+                :style="{ 'background-color': generateTagColor(tag) }"
+                @click="toggleTag(tag)"
+                :class="{ 'tag-selected': selectedTags.includes(tag) }"
+              >
+                {{ tag }}
+                <i class="fas fa-filter" v-show="selectedTags.includes(tag)"></i>
+              </span>
+            </td>
+            <td><a :href="repo.url">{{ repo.url.split("/")[3]+ "/" + repo.url.split("/")[4].split(".")[0] }}</a></td>
+            <td>{{ repo.description }}</td>
+            <td>{{ repo.watchers }}</td>
+            <td>{{ repo.forks }}</td>
+            <td>{{ repo.stars }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
