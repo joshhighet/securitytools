@@ -17,11 +17,10 @@
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="securitytools: quality opensauce projects" />
         <meta name="twitter:image" content="stls.png" />
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ff0000">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     </head>
     <body>
-        <a id="github-icon" class="github-icon" href="https://github.com/joshhighet/securitytools" target="_blank" @mouseleave="showBanner">
-            <img src="https://octodex.github.com/images/bouncercat.png" width="50" height="50" alt="GitHub" />
-        </a>
         <div id="bottom-banner" class="credit-banner" @mouseleave="hideBanner">a project by <a href="https://joshhighet.com" target="_blank" style="color: white; text-decoration: underline;">joshhighet</a></div>
         <div id="app">
             <div class="search-wrapper">
@@ -129,17 +128,6 @@
                         return "#" + color;
                     },
                 },
-            });
-            document.addEventListener("scroll", function () {
-                const githubIcon = document.getElementById("github-icon");
-                const bottomBanner = document.getElementById("bottom-banner");
-                if (window.scrollY > 50) {
-                    githubIcon.style.display = "none";
-                    bottomBanner.style.display = "block";
-                } else {
-                    githubIcon.style.display = "block";
-                    bottomBanner.style.display = "none";
-                }
             });
         </script>
     </body>

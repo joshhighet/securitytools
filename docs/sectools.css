@@ -97,12 +97,6 @@ input[type="text"] {
     font-family: 'Comic Sans MS', sans-serif;
     display: none;
 }
-.github-icon {
-    position: fixed;
-    top: 10px;
-    right: 10px;
-    z-index: 1000;
-}
 @media screen and (max-width: 767px) {
     table {
     font-size: 0.8rem;
@@ -133,9 +127,5 @@ input[type="text"] {
     margin-right: 3px;
     margin-bottom: 3px;
     background-color: #0056b3;
-    }
-    .github-icon {
-    top: 5px;
-    right: 5px;
     }
     }
