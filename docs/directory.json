@@ -1829,7 +1829,7 @@
         "description": "Elegant Scraper and Crawler Framework for Golang",
         "watchers": 326,
         "forks": 1621,
-        "stars": 20066
+        "stars": 20067
     },
     {
         "path": "projects/recon/platforms/changedetection.io",
@@ -2094,5 +2094,13 @@
         "watchers": 73,
         "forks": 373,
         "stars": 5472
+    },
+    {
+        "path": "projects/scanning/secrets/keyhacks",
+        "url": "https://github.com/streaak/keyhacks.git",
+        "description": "Keyhacks is a repository which shows quick ways in which API keys leaked by a bug bounty program can be checked to see if they're valid.",
+        "watchers": 95,
+        "forks": 890,
+        "stars": 3934
     }
 ]
