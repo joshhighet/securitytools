@@ -763,3 +763,6 @@
 [submodule "projects/devsec/tools/diagrams"]
 	path = projects/devsec/tools/diagrams
 	url = https://github.com/mingrammer/diagrams.git
+[submodule "projects/platforms/honeypots/honeypots"]
+	path = projects/platforms/honeypots/honeypots
+	url = https://github.com/qeeqbox/honeypots.git
