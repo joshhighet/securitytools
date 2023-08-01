@@ -757,3 +757,6 @@
 [submodule "projects/recon/docs/MetaOSINT.github.io"]
 	path = projects/recon/docs/MetaOSINT.github.io
 	url = https://github.com/MetaOSINT/MetaOSINT.github.io.git
+[submodule "projects/phishing/detect/IOK"]
+	path = projects/phishing/detect/IOK
+	url = https://github.com/phish-report/IOK.git
