@@ -766,3 +766,6 @@
 [submodule "projects/platforms/honeypots/honeypots"]
 	path = projects/platforms/honeypots/honeypots
 	url = https://github.com/qeeqbox/honeypots.git
+[submodule "projects/devsec/tools/infisical"]
+	path = projects/devsec/tools/infisical
+	url = https://github.com/Infisical/infisical.git
