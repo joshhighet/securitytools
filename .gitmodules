@@ -769,3 +769,6 @@
 [submodule "projects/devsec/tools/infisical"]
 	path = projects/devsec/tools/infisical
 	url = https://github.com/Infisical/infisical.git
+[submodule "projects/recon/suites/maigret"]
+	path = projects/recon/suites/maigret
+	url = https://github.com/soxoj/maigret.git
