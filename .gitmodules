@@ -772,3 +772,6 @@
 [submodule "projects/recon/suites/maigret"]
 	path = projects/recon/suites/maigret
 	url = https://github.com/soxoj/maigret.git
+[submodule "projects/recon/images/exifLooter"]
+	path = projects/recon/images/exifLooter
+	url = https://github.com/aydinnyunus/exifLooter.git
