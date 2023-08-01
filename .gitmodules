@@ -784,3 +784,6 @@
 [submodule "projects/devsec/lab/certificates"]
 	path = projects/devsec/lab/certificates
 	url = https://github.com/smallstep/certificates.git
+[submodule "projects/scanning/secrets/keyhacks"]
+	path = projects/scanning/secrets/keyhacks
+	url = https://github.com/streaak/keyhacks.git
