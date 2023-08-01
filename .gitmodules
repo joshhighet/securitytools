@@ -760,3 +760,6 @@
 [submodule "projects/phishing/detect/IOK"]
 	path = projects/phishing/detect/IOK
 	url = https://github.com/phish-report/IOK.git
+[submodule "projects/devsec/tools/diagrams"]
+	path = projects/devsec/tools/diagrams
+	url = https://github.com/mingrammer/diagrams.git
