@@ -781,3 +781,6 @@
 [submodule "projects/platforms/honeypots/HASH"]
 	path = projects/platforms/honeypots/HASH
 	url = https://github.com/DataDog/HASH.git
+[submodule "projects/devsec/lab/certificates"]
+	path = projects/devsec/lab/certificates
+	url = https://github.com/smallstep/certificates.git
