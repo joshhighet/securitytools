@@ -778,3 +778,6 @@
 [submodule "projects/recon/images/sherloq"]
 	path = projects/recon/images/sherloq
 	url = https://github.com/GuidoBartoli/sherloq.git
+[submodule "projects/platforms/honeypots/HASH"]
+	path = projects/platforms/honeypots/HASH
+	url = https://github.com/DataDog/HASH.git
