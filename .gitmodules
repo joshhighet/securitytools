@@ -133,9 +133,6 @@
 [submodule "projects/devsec/networking/dnscrypt-proxy"]
 	path = projects/devsec/networking/dnscrypt-proxy
 	url = https://github.com/DNSCrypt/dnscrypt-proxy.git
-[submodule "projects/devsec/networking/clash"]
-	path = projects/devsec/networking/clash
-	url = https://github.com/Dreamacro/clash.git
 [submodule "projects/devsec/networking/teleport"]
 	path = projects/devsec/networking/teleport
 	url = https://github.com/gravitational/teleport.git
