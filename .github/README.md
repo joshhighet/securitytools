@@ -16,7 +16,7 @@
 
 This repo is a collection of open-source tools and resources for those in the realm of computer security.
 
-The [`projects/`](../projects) directory is organized as a set of folders, each containing submodules that link to individual tools and resources.
+The [`projects/`](../projects) directory is organized as a set of folders, each containing submodules that link to individual tools and resources. These folders are used as tags within the web explorer.
 
 The [securitytools](https://joshhighet.github.io/securitytools) site provides a centralized view of all of the projects and tools within.
 
