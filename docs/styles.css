@@ -141,15 +141,6 @@ input[type="text"]:focus {
 
 .search-clear:hover { color: var(--text-primary); }
 
-/* ── result count ─────────────────────────────────────────────── */
-.result-count {
-    text-align: center;
-    font-size: 0.78rem;
-    color: var(--text-muted);
-    margin-bottom: 0.85rem;
-    height: 1.2em;
-}
-
 /* ── active filters ───────────────────────────────────────────── */
 .active-filters {
     display: flex;
@@ -222,7 +213,6 @@ input[type="text"]:focus {
 .table-wrapper {
     border: 1px solid var(--border);
     border-radius: var(--radius);
-    overflow: hidden;
     overflow-x: auto;
 }
 
@@ -232,12 +222,6 @@ table {
     background: var(--bg-secondary);
     font-size: 0.87rem;
     margin: 0;
-}
-
-thead {
-    position: sticky;
-    top: 0;
-    z-index: 10;
 }
 
 th {
@@ -302,7 +286,7 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
 }
 
 /* ── tags ─────────────────────────────────────────────────────── */
-.tags-cell { min-width: 120px; }
+.tags-cell { min-width: 120px; user-select: none; }
 
 .tag-badge {
     display: inline-block;
@@ -324,9 +308,24 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
 }
 
 .tag-selected {
-    outline: 2px solid rgba(255,255,255,0.7);
-    outline-offset: 1px;
     opacity: 1;
+    filter: brightness(1.3) saturate(1.2);
+    outline: 2px solid #fff;
+    outline-offset: 1px;
+}
+
+/* ── empty state ──────────────────────────────────────────────── */
+.empty-state {
+    text-align: center;
+    padding: 3rem 1rem;
+    color: var(--text-muted);
+    font-size: 0.85rem;
+}
+
+.empty-clear {
+    color: var(--link);
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 /* ── description cell ─────────────────────────────────────────── */
@@ -374,10 +373,13 @@ a:hover { color: var(--link-hover); text-decoration: underline; }
     .site-header h1 { font-size: 1.4rem; }
     .stats-bar { gap: 1rem; }
 
-    .hide-mobile { display: none; }
+    .hide-mobile { display: none !important; }
 
-    td, th { padding: 0.5rem 0.6rem; font-size: 0.8rem; }
-    .tag-badge { font-size: 0.68rem; padding: 0.15rem 0.4rem; }
-    .desc-cell { max-width: 220px; font-size: 0.8rem; }
-    a { font-size: 0.78rem; }
+    .content-wrapper { padding: 1rem 0.5rem 2rem; }
+
+    td, th { padding: 0.45rem 0.5rem; font-size: 0.8rem; }
+    .tags-cell { min-width: 80px; }
+    .tag-badge { font-size: 0.65rem; padding: 0.12rem 0.35rem; }
+    .num-cell { min-width: 44px; }
+    a { font-size: 0.78rem; word-break: break-all; }
 }

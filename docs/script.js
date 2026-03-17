@@ -65,10 +65,11 @@ new Vue({
         const parts = repo.url.split("/");
         return parts[3] + "/" + parts[4].replace(/\.git$/, "");
       } catch {
-        return repo.url;
+        return repo.url || "";
       }
     },
     getTags(repo) {
+      if (!repo.path) return [];
       return repo.path.replace("projects/", "").split("/").slice(0, -1);
     },
     sortBy(key) {
