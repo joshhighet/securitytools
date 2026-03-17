@@ -11,7 +11,7 @@ jobs:
     timeout-minutes: 15
     steps:
       - name: checkout the repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         #with: 
           #submodules: true
       - name: run report generator
