@@ -73,7 +73,7 @@ body {
 
 /* ── main content wrapper ─────────────────────────────────────── */
 .content-wrapper {
-    max-width: 1400px;
+    max-width: 90vw;
     margin: 0 auto;
     padding: 1.25rem 1rem 3rem;
 }
