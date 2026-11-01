@@ -2,6 +2,10 @@ name: deploy static content to ghpages
 on:
   push:
     branches: ["main"]
+  # merges made by automerge-dependabot push with GITHUB_TOKEN, which does not
+  # trigger push events - deploy on a schedule so the site cannot go stale
+  schedule:
+    - cron: '30 0 * * *'
   workflow_dispatch:
 permissions:
   contents: read

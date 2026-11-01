@@ -5,13 +5,15 @@ on: pull_request
 permissions:
   pull-requests: write
 
-concurrency: 
+concurrency:
   group: automerge-dependabot-${{ github.event.pull_request.number }}
   cancel-in-progress: true
 
 jobs:
   dependabot:
-    permissions: write-all
+    permissions:
+      contents: write
+      pull-requests: write
     runs-on: ubuntu-latest
     if: ${{ github.actor == 'dependabot[bot]' }}
     steps:
@@ -25,8 +27,25 @@ jobs:
         env:
           PR_URL: ${{github.event.pull_request.html_url}}
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+      # a monthly submodule sweep opens ~25 PRs at once and a rebase merge is
+      # rejected whenever main moves underneath it ("Base branch was modified"),
+      # so retry with jitter rather than failing the run
       - name: merge PR
-        run: gh pr merge "$PR_URL" --rebase
+        run: |
+          for attempt in $(seq 1 10); do
+            if gh pr merge "$PR_URL" --rebase; then
+              exit 0
+            fi
+            if [ "$(gh pr view "$PR_URL" --json state --jq .state)" = "MERGED" ]; then
+              echo "already merged"
+              exit 0
+            fi
+            backoff=$(( (RANDOM % 20) + 10 ))
+            echo "attempt ${attempt} failed - base branch likely moved, retrying in ${backoff}s"
+            sleep "${backoff}"
+          done
+          echo "::error::could not rebase-merge $PR_URL after 10 attempts"
+          exit 1
         env:
           PR_URL: ${{github.event.pull_request.html_url}}
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}

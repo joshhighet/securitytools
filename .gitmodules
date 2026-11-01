@@ -22,9 +22,6 @@
 [submodule "projects/cloud/azure/MicroBurst"]
 	path = projects/cloud/azure/MicroBurst
 	url = https://github.com/NetSPI/MicroBurst.git
-[submodule "projects/cloud/azure/o365-attack-toolkit"]
-	path = projects/cloud/azure/o365-attack-toolkit
-	url = https://github.com/mdsecactivebreach/o365-attack-toolkit.git
 [submodule "projects/cloud/azure/TokenTactics"]
 	path = projects/cloud/azure/TokenTactics
 	url = https://github.com/rvrsh3ll/TokenTactics.git
@@ -598,9 +595,6 @@
 [submodule "projects/recon/CobaltSpam"]
 	path = projects/recon/CobaltSpam
 	url = https://github.com/hariomenkel/CobaltSpam.git
-[submodule "projects/recon/docs/web-recon"]
-	path = projects/recon/docs/web-recon
-	url = https://github.com/pr0xh4ck/web-recon.git
 [submodule "projects/phishing/detect/opensquat"]
 	path = projects/phishing/detect/opensquat
 	url = https://github.com/atenreiro/opensquat.git
@@ -730,9 +724,6 @@
 [submodule "projects/recon/images/ela-image-forensics"]
 	path = projects/recon/images/ela-image-forensics
 	url = https://github.com/luke-slytalker/ela-image-forensics.git
-[submodule "projects/platforms/vx_underground"]
-	path = projects/platforms/vx_underground
-	url = https://github.com/blackmassgroup/vx_underground.git
 [submodule "projects/recon/geography/gvision"]
 	path = projects/recon/geography/gvision
 	url = https://github.com/GONZOsint/gvision.git
